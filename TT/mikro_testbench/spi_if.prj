@@ -1,0 +1,3 @@
+verilog work "shr.v"
+verilog work "sckgen.v"
+verilog work "spi_if.v"

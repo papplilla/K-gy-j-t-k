@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/Programok/Work/FPGA/Work/MR_LCD_SPI/lcd_spi/spi_if.xst" -ofn "D:/Programok/Work/FPGA/Work/MR_LCD_SPI/lcd_spi/spi_if.syr" 

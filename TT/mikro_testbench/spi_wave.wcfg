@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/Programok/Work/FPGA/Work/MR_LCD_SPI/lcd_spi/spi_if_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="spi_if_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="7" />
+   <wvobject fp_name="/spi_if_tb/r_sysrst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">r_sysrst</obj_property>
+      <obj_property name="ObjectShortName">r_sysrst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_if_tb/r_sysclk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">r_sysclk</obj_property>
+      <obj_property name="ObjectShortName">r_sysclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="group15" type="group">
+      <obj_property name="label">cpu bus</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/spi_if_tb/r_spi_cmd" type="logic" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">r_spi_cmd</obj_property>
+         <obj_property name="ObjectShortName">r_spi_cmd</obj_property>
+         <obj_property name="label">cmd</obj_property>
+      </wvobject>
+      <wvobject fp_name="/spi_if_tb/r_spi_wr" type="logic" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">r_spi_wr</obj_property>
+         <obj_property name="ObjectShortName">r_spi_wr</obj_property>
+         <obj_property name="label">wr</obj_property>
+      </wvobject>
+      <wvobject fp_name="/spi_if_tb/r_spi_rd" type="logic" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">r_spi_rd</obj_property>
+         <obj_property name="ObjectShortName">r_spi_rd</obj_property>
+         <obj_property name="label">rd</obj_property>
+      </wvobject>
+      <wvobject fp_name="/spi_if_tb/r_spi_din" type="array" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">r_spi_din[31:0]</obj_property>
+         <obj_property name="ObjectShortName">r_spi_din[31:0]</obj_property>
+         <obj_property name="label">din</obj_property>
+      </wvobject>
+      <wvobject fp_name="/spi_if_tb/w_spi_dout" type="array" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">w_spi_dout[31:0]</obj_property>
+         <obj_property name="ObjectShortName">w_spi_dout[31:0]</obj_property>
+         <obj_property name="label">dout</obj_property>
+      </wvobject>
+      <wvobject fp_name="/spi_if_tb/w_spi_ack" type="logic" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">w_spi_ack</obj_property>
+         <obj_property name="ObjectShortName">w_spi_ack</obj_property>
+         <obj_property name="label">ack</obj_property>
+      </wvobject>
+      <wvobject fp_name="/spi_if_tb/w_spi_irq" type="logic" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">w_spi_irq</obj_property>
+         <obj_property name="ObjectShortName">w_spi_irq</obj_property>
+         <obj_property name="label">irq</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group18" type="group">
+      <obj_property name="label">Internal</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/spi_if_tb/uut/r_state" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">r_state[3:0]</obj_property>
+         <obj_property name="ObjectShortName">r_state[3:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/spi_if_tb/uut/r_SPICR" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">r_SPICR[11:0]</obj_property>
+         <obj_property name="ObjectShortName">r_SPICR[11:0]</obj_property>
+         <wvobject fp_name="/spi_if_tb/uut/r_SPICR[11]" type="logic" db_ref_id="1">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">[11]</obj_property>
+            <obj_property name="ObjectShortName">r_SPICR[11]</obj_property>
+            <obj_property name="label">ssn</obj_property>
+         </wvobject>
+         <wvobject fp_name="/spi_if_tb/uut/r_SPICR[10]" type="logic" db_ref_id="1">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">[10]</obj_property>
+            <obj_property name="ObjectShortName">r_SPICR[10]</obj_property>
+            <obj_property name="label">glob_en</obj_property>
+         </wvobject>
+         <wvobject fp_name="/spi_if_tb/uut/r_SPICR[9]" type="logic" db_ref_id="1">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">[9]</obj_property>
+            <obj_property name="ObjectShortName">r_SPICR[9]</obj_property>
+            <obj_property name="label">int_en</obj_property>
+         </wvobject>
+         <wvobject fp_name="/spi_if_tb/uut/r_SPICR[8]" type="logic" db_ref_id="1">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">[8]</obj_property>
+            <obj_property name="ObjectShortName">r_SPICR[8]</obj_property>
+            <obj_property name="label">int_clr</obj_property>
+         </wvobject>
+         <wvobject fp_name="/spi_if_tb/uut/r_SPICR[7]" type="logic" db_ref_id="1">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">[7]</obj_property>
+            <obj_property name="ObjectShortName">r_SPICR[7]</obj_property>
+            <obj_property name="label">rate[7]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/spi_if_tb/uut/r_SPICR[6]" type="logic" db_ref_id="1">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">[6]</obj_property>
+            <obj_property name="ObjectShortName">r_SPICR[6]</obj_property>
+            <obj_property name="label">rate[6]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/spi_if_tb/uut/r_SPICR[5]" type="logic" db_ref_id="1">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">[5]</obj_property>
+            <obj_property name="ObjectShortName">r_SPICR[5]</obj_property>
+            <obj_property name="label">rate[5]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/spi_if_tb/uut/r_SPICR[4]" type="logic" db_ref_id="1">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">[4]</obj_property>
+            <obj_property name="ObjectShortName">r_SPICR[4]</obj_property>
+            <obj_property name="label">rate[4]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/spi_if_tb/uut/r_SPICR[3]" type="logic" db_ref_id="1">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">[3]</obj_property>
+            <obj_property name="ObjectShortName">r_SPICR[3]</obj_property>
+            <obj_property name="label">rate[3]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/spi_if_tb/uut/r_SPICR[2]" type="logic" db_ref_id="1">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">[2]</obj_property>
+            <obj_property name="ObjectShortName">r_SPICR[2]</obj_property>
+            <obj_property name="label">rate[2]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/spi_if_tb/uut/r_SPICR[1]" type="logic" db_ref_id="1">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">[1]</obj_property>
+            <obj_property name="ObjectShortName">r_SPICR[1]</obj_property>
+            <obj_property name="label">rate[1]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/spi_if_tb/uut/r_SPICR[0]" type="logic" db_ref_id="1">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">[0]</obj_property>
+            <obj_property name="ObjectShortName">r_SPICR[0]</obj_property>
+            <obj_property name="label">rate[0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="/spi_if_tb/uut/r_SPISR" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">r_SPISR[11:0]</obj_property>
+         <obj_property name="ObjectShortName">r_SPISR[11:0]</obj_property>
+         <wvobject fp_name="/spi_if_tb/uut/r_SPISR[11]" type="logic" db_ref_id="1">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">[11]</obj_property>
+            <obj_property name="ObjectShortName">r_SPISR[11]</obj_property>
+            <obj_property name="label">NA</obj_property>
+         </wvobject>
+         <wvobject fp_name="/spi_if_tb/uut/r_SPISR[10]" type="logic" db_ref_id="1">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">[10]</obj_property>
+            <obj_property name="ObjectShortName">r_SPISR[10]</obj_property>
+            <obj_property name="label">NA</obj_property>
+         </wvobject>
+         <wvobject fp_name="/spi_if_tb/uut/r_SPISR[9]" type="logic" db_ref_id="1">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">[9]</obj_property>
+            <obj_property name="ObjectShortName">r_SPISR[9]</obj_property>
+            <obj_property name="label">irq_req</obj_property>
+         </wvobject>
+         <wvobject fp_name="/spi_if_tb/uut/r_SPISR[8]" type="logic" db_ref_id="1">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">[8]</obj_property>
+            <obj_property name="ObjectShortName">r_SPISR[8]</obj_property>
+            <obj_property name="label">busy</obj_property>
+         </wvobject>
+         <wvobject fp_name="/spi_if_tb/uut/r_SPISR[7]" type="logic" db_ref_id="1">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">[7]</obj_property>
+            <obj_property name="ObjectShortName">r_SPISR[7]</obj_property>
+            <obj_property name="label">data[7]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/spi_if_tb/uut/r_SPISR[6]" type="logic" db_ref_id="1">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">[6]</obj_property>
+            <obj_property name="ObjectShortName">r_SPISR[6]</obj_property>
+            <obj_property name="label">data[6]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/spi_if_tb/uut/r_SPISR[5]" type="logic" db_ref_id="1">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">[5]</obj_property>
+            <obj_property name="ObjectShortName">r_SPISR[5]</obj_property>
+            <obj_property name="label">data[5]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/spi_if_tb/uut/r_SPISR[4]" type="logic" db_ref_id="1">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">[4]</obj_property>
+            <obj_property name="ObjectShortName">r_SPISR[4]</obj_property>
+            <obj_property name="label">data[4]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/spi_if_tb/uut/r_SPISR[3]" type="logic" db_ref_id="1">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">[3]</obj_property>
+            <obj_property name="ObjectShortName">r_SPISR[3]</obj_property>
+            <obj_property name="label">data[3]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/spi_if_tb/uut/r_SPISR[2]" type="logic" db_ref_id="1">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">[2]</obj_property>
+            <obj_property name="ObjectShortName">r_SPISR[2]</obj_property>
+            <obj_property name="label">data[2]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/spi_if_tb/uut/r_SPISR[1]" type="logic" db_ref_id="1">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">[1]</obj_property>
+            <obj_property name="ObjectShortName">r_SPISR[1]</obj_property>
+            <obj_property name="label">data[1]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/spi_if_tb/uut/r_SPISR[0]" type="logic" db_ref_id="1">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">[0]</obj_property>
+            <obj_property name="ObjectShortName">r_SPISR[0]</obj_property>
+            <obj_property name="label">data[0]</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group14" type="group">
+      <obj_property name="label">spi_bus</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/spi_if_tb/w_spi_ss_n" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">w_spi_ss_n</obj_property>
+         <obj_property name="ObjectShortName">w_spi_ss_n</obj_property>
+      </wvobject>
+      <wvobject fp_name="/spi_if_tb/w_spi_sck" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">w_spi_sck</obj_property>
+         <obj_property name="ObjectShortName">w_spi_sck</obj_property>
+      </wvobject>
+      <wvobject fp_name="/spi_if_tb/w_spi_mosi" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">w_spi_mosi</obj_property>
+         <obj_property name="ObjectShortName">w_spi_mosi</obj_property>
+      </wvobject>
+      <wvobject fp_name="/spi_if_tb/uut/o_spi_miso" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">o_spi_miso</obj_property>
+         <obj_property name="ObjectShortName">o_spi_miso</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group52" type="group">
+      <obj_property name="label">shr</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/spi_if_tb/uut/w_shr_sh" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">w_shr_sh</obj_property>
+         <obj_property name="ObjectShortName">w_shr_sh</obj_property>
+      </wvobject>
+      <wvobject fp_name="/spi_if_tb/uut/w_shr_ld" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">w_shr_ld</obj_property>
+         <obj_property name="ObjectShortName">w_shr_ld</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group51" type="group">
+      <obj_property name="label">sck</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/spi_if_tb/uut/spi_sckgen/i_sysclk" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">i_sysclk</obj_property>
+         <obj_property name="ObjectShortName">i_sysclk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/spi_if_tb/uut/spi_sckgen/i_en" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">i_en</obj_property>
+         <obj_property name="ObjectShortName">i_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/spi_if_tb/uut/spi_sckgen/i_baudrate" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">i_baudrate[7:0]</obj_property>
+         <obj_property name="ObjectShortName">i_baudrate[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/spi_if_tb/uut/spi_sckgen/r_cntr" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">r_cntr[7:0]</obj_property>
+         <obj_property name="ObjectShortName">r_cntr[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/spi_if_tb/uut/spi_sckgen/o_sck" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">o_sck</obj_property>
+         <obj_property name="ObjectShortName">o_sck</obj_property>
+      </wvobject>
+      <wvobject fp_name="/spi_if_tb/uut/spi_sckgen/o_sck_rise" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">o_sck_rise</obj_property>
+         <obj_property name="ObjectShortName">o_sck_rise</obj_property>
+      </wvobject>
+      <wvobject fp_name="/spi_if_tb/uut/spi_sckgen/o_sck_fall" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">o_sck_fall</obj_property>
+         <obj_property name="ObjectShortName">o_sck_fall</obj_property>
+      </wvobject>
+      <wvobject fp_name="/spi_if_tb/uut/spi_sckgen/r_sck" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">r_sck</obj_property>
+         <obj_property name="ObjectShortName">r_sck</obj_property>
+      </wvobject>
+      <wvobject fp_name="/spi_if_tb/uut/r_sck_en" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">r_sck_en</obj_property>
+         <obj_property name="ObjectShortName">r_sck_en</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,491 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.19 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.19 secs
+ 
+--> Reading design: spi_if.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "spi_if.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "spi_if"
+Output Format                      : NGC
+Target Device                      : xc6slx4-3-tqg144
+
+---- Source Options
+Top Module Name                    : spi_if
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "D:\Programok\Work\FPGA\Work\MR_LCD_SPI\lcd_spi\shr.v" into library work
+Parsing module <shr>.
+Analyzing Verilog file "D:\Programok\Work\FPGA\Work\MR_LCD_SPI\lcd_spi\sckgen.v" into library work
+Parsing module <sckgen>.
+Analyzing Verilog file "D:\Programok\Work\FPGA\Work\MR_LCD_SPI\lcd_spi\spi_if.v" into library work
+Parsing module <spi_if>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <spi_if>.
+WARNING:HDLCompiler:413 - "D:\Programok\Work\FPGA\Work\MR_LCD_SPI\lcd_spi\spi_if.v" Line 186: Result of 5-bit expression is truncated to fit in 4-bit target.
+
+Elaborating module <sckgen>.
+WARNING:HDLCompiler:1127 - "D:\Programok\Work\FPGA\Work\MR_LCD_SPI\lcd_spi\spi_if.v" Line 230: Assignment to w_spi_sck_rise ignored, since the identifier is never used
+
+Elaborating module <shr>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <spi_if>.
+    Related source file is "D:\Programok\Work\FPGA\Work\MR_LCD_SPI\lcd_spi\spi_if.v".
+        C_NUM_REG = 2
+        C_SLV_DWIDTH = 32
+INFO:Xst:3210 - "D:\Programok\Work\FPGA\Work\MR_LCD_SPI\lcd_spi\spi_if.v" line 224: Output port <o_sck_rise> of the instance <spi_sckgen> is unconnected or connected to loadless signal.
+    Found 1-bit register for signal <r_SPICR<10>>.
+    Found 1-bit register for signal <r_SPICR<9>>.
+    Found 1-bit register for signal <r_SPICR<8>>.
+    Found 1-bit register for signal <r_SPICR<7>>.
+    Found 1-bit register for signal <r_SPICR<6>>.
+    Found 1-bit register for signal <r_SPICR<5>>.
+    Found 1-bit register for signal <r_SPICR<4>>.
+    Found 1-bit register for signal <r_SPICR<3>>.
+    Found 1-bit register for signal <r_SPICR<2>>.
+    Found 1-bit register for signal <r_SPICR<1>>.
+    Found 1-bit register for signal <r_SPICR<0>>.
+    Found 1-bit register for signal <r_ack_wr_c>.
+    Found 1-bit register for signal <r_ack_rd_c>.
+    Found 1-bit register for signal <r_ack_rd_d>.
+    Found 4-bit register for signal <r_state>.
+    Found 1-bit register for signal <r_ack_wr_d>.
+    Found 1-bit register for signal <r_sck_en>.
+    Found 1-bit register for signal <r_SPISR<11>>.
+    Found 1-bit register for signal <o_irq>.
+    Found 1-bit register for signal <r_SPISR<9>>.
+    Found 1-bit register for signal <o_spi_miso>.
+    Found 1-bit register for signal <r_SPISR<7>>.
+    Found 1-bit register for signal <r_SPISR<6>>.
+    Found 1-bit register for signal <r_SPISR<5>>.
+    Found 1-bit register for signal <r_SPISR<4>>.
+    Found 1-bit register for signal <r_SPISR<3>>.
+    Found 1-bit register for signal <r_SPISR<2>>.
+    Found 1-bit register for signal <r_SPISR<1>>.
+    Found 1-bit register for signal <r_SPISR<0>>.
+    Found 1-bit register for signal <r_SPICR<11>>.
+    Found 4-bit adder for signal <r_state[3]_GND_1_o_add_19_OUT> created at line 186.
+    Found 4-bit comparator lessequal for signal <n0064> created at line 183
+    Found 4-bit comparator lessequal for signal <n0148> created at line 217
+    Found 4-bit comparator lessequal for signal <n0150> created at line 217
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  33 D-type flip-flop(s).
+	inferred   3 Comparator(s).
+	inferred   4 Multiplexer(s).
+Unit <spi_if> synthesized.
+
+Synthesizing Unit <sckgen>.
+    Related source file is "D:\Programok\Work\FPGA\Work\MR_LCD_SPI\lcd_spi\sckgen.v".
+    Found 1-bit register for signal <r_sck>.
+    Found 8-bit register for signal <r_cntr>.
+    Found 8-bit adder for signal <r_cntr[7]_GND_2_o_add_2_OUT> created at line 42.
+    Found 8-bit comparator equal for signal <r_cntr[7]_i_baudrate[7]_equal_10_o> created at line 68
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   9 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+	inferred   1 Multiplexer(s).
+Unit <sckgen> synthesized.
+
+Synthesizing Unit <shr>.
+    Related source file is "D:\Programok\Work\FPGA\Work\MR_LCD_SPI\lcd_spi\shr.v".
+    Found 8-bit register for signal <r_shr>.
+    Summary:
+	inferred   8 D-type flip-flop(s).
+	inferred   1 Multiplexer(s).
+Unit <shr> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 2
+ 4-bit adder                                           : 1
+ 8-bit adder                                           : 1
+# Registers                                            : 19
+ 1-bit register                                        : 14
+ 4-bit register                                        : 1
+ 8-bit register                                        : 4
+# Comparators                                          : 4
+ 4-bit comparator lessequal                            : 3
+ 8-bit comparator equal                                : 1
+# Multiplexers                                         : 6
+ 1-bit 2-to-1 multiplexer                              : 3
+ 4-bit 2-to-1 multiplexer                              : 1
+ 8-bit 2-to-1 multiplexer                              : 2
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:1710 - FF/Latch <r_SPISR_11> (without init value) has a constant value of 0 in block <spi_if>. This FF/Latch will be trimmed during the optimization process.
+
+Synthesizing (advanced) Unit <sckgen>.
+The following registers are absorbed into counter <r_cntr>: 1 register on signal <r_cntr>.
+Unit <sckgen> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 1
+ 4-bit adder                                           : 1
+# Counters                                             : 1
+ 8-bit up counter                                      : 1
+# Registers                                            : 42
+ Flip-Flops                                            : 42
+# Comparators                                          : 4
+ 4-bit comparator lessequal                            : 3
+ 8-bit comparator equal                                : 1
+# Multiplexers                                         : 12
+ 1-bit 2-to-1 multiplexer                              : 11
+ 4-bit 2-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1710 - FF/Latch <r_SPISR_11> (without init value) has a constant value of 0 in block <spi_if>. This FF/Latch will be trimmed during the optimization process.
+
+Optimizing unit <spi_if> ...
+
+Optimizing unit <sckgen> ...
+
+Optimizing unit <shr> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block spi_if, actual ratio is 4.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 49
+ Flip-Flops                                            : 49
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : spi_if.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 112
+#      GND                         : 1
+#      INV                         : 2
+#      LUT2                        : 8
+#      LUT3                        : 6
+#      LUT4                        : 22
+#      LUT5                        : 22
+#      LUT6                        : 35
+#      MUXCY                       : 7
+#      MUXF7                       : 1
+#      XORCY                       : 8
+# FlipFlops/Latches                : 49
+#      FD                          : 2
+#      FDR                         : 36
+#      FDRE                        : 11
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 61
+#      IBUF                        : 21
+#      OBUF                        : 40
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx4tqg144-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:              49  out of   4800     1%  
+ Number of Slice LUTs:                   95  out of   2400     3%  
+    Number used as Logic:                95  out of   2400     3%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:     98
+   Number with an unused Flip Flop:      49  out of     98    50%  
+   Number with an unused LUT:             3  out of     98     3%  
+   Number of fully used LUT-FF pairs:    46  out of     98    46%  
+   Number of unique control sets:         6
+
+IO Utilization: 
+ Number of IOs:                          82
+ Number of bonded IOBs:                  62  out of    102    60%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+Bus2IP_Clk                         | BUFGP                  | 49    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 4.037ns (Maximum Frequency: 247.687MHz)
+   Minimum input arrival time before clock: 4.836ns
+   Maximum output required time after clock: 4.988ns
+   Maximum combinational path delay: 5.804ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Bus2IP_Clk'
+  Clock period: 4.037ns (frequency: 247.687MHz)
+  Total number of paths / destination ports: 1271 / 47
+-------------------------------------------------------------------------
+Delay:               4.037ns (Levels of Logic = 3)
+  Source:            r_SPICR_4 (FF)
+  Destination:       r_state_0 (FF)
+  Source Clock:      Bus2IP_Clk rising
+  Destination Clock: Bus2IP_Clk rising
+
+  Data Path: r_SPICR_4 to r_state_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q             2   0.447   0.981  r_SPICR_4 (r_SPICR_4)
+     LUT6:I0->O           11   0.203   0.987  spi_sckgen/r_cntr[7]_i_baudrate[7]_equal_10_o92 (spi_sckgen/r_cntr[7]_i_baudrate[7]_equal_10_o91)
+     LUT6:I4->O           12   0.203   0.909  spi_sckgen/r_cntr[7]_i_baudrate[7]_equal_10_o93 (spi_sckgen/r_cntr[7]_i_baudrate[7]_equal_10_o)
+     LUT6:I5->O            1   0.205   0.000  spi_shr/r_shr_7_rstpot (spi_shr/r_shr_7_rstpot)
+     FDR:D                     0.102          spi_shr/r_shr_7
+    ----------------------------------------
+    Total                      4.037ns (1.160ns logic, 2.877ns route)
+                                       (28.7% logic, 71.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'Bus2IP_Clk'
+  Total number of paths / destination ports: 215 / 86
+-------------------------------------------------------------------------
+Offset:              4.836ns (Levels of Logic = 4)
+  Source:            Bus2IP_BE<3> (PAD)
+  Destination:       r_SPISR_0 (FF)
+  Destination Clock: Bus2IP_Clk rising
+
+  Data Path: Bus2IP_BE<3> to r_SPISR_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             7   1.222   1.118  Bus2IP_BE_3_IBUF (Bus2IP_BE_3_IBUF)
+     LUT5:I0->O            2   0.203   0.981  _n0324_inv1_SW0 (N52)
+     LUT6:I0->O            8   0.203   0.803  _n0324_inv1 (_n0324_inv)
+     LUT5:I4->O            1   0.205   0.000  r_SPISR_0_rstpot (r_SPISR_0_rstpot)
+     FDR:D                     0.102          r_SPISR_0
+    ----------------------------------------
+    Total                      4.836ns (1.935ns logic, 2.901ns route)
+                                       (40.0% logic, 60.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Bus2IP_Clk'
+  Total number of paths / destination ports: 34 / 19
+-------------------------------------------------------------------------
+Offset:              4.988ns (Levels of Logic = 2)
+  Source:            r_SPICR_11 (FF)
+  Destination:       IP2Bus_Data<11> (PAD)
+  Source Clock:      Bus2IP_Clk rising
+
+  Data Path: r_SPICR_11 to IP2Bus_Data<11>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q            14   0.447   1.186  r_SPICR_11 (r_SPICR_11)
+     LUT3:I0->O            1   0.205   0.579  _n0550<11>1 (IP2Bus_Data_11_OBUF)
+     OBUF:I->O                 2.571          IP2Bus_Data_11_OBUF (IP2Bus_Data<11>)
+    ----------------------------------------
+    Total                      4.988ns (3.223ns logic, 1.765ns route)
+                                       (64.6% logic, 35.4% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 24 / 12
+-------------------------------------------------------------------------
+Delay:               5.804ns (Levels of Logic = 3)
+  Source:            Bus2IP_RdCE<0> (PAD)
+  Destination:       IP2Bus_Data<10> (PAD)
+
+  Data Path: Bus2IP_RdCE<0> to IP2Bus_Data<10>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            15   1.222   1.229  Bus2IP_RdCE_0_IBUF (Bus2IP_RdCE_0_IBUF)
+     LUT4:I0->O            1   0.203   0.579  _n05801 (IP2Bus_Data_10_OBUF)
+     OBUF:I->O                 2.571          IP2Bus_Data_10_OBUF (IP2Bus_Data<10>)
+    ----------------------------------------
+    Total                      5.804ns (3.996ns logic, 1.808ns route)
+                                       (68.9% logic, 31.1% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock Bus2IP_Clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+Bus2IP_Clk     |    4.037|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 9.00 secs
+Total CPU time to Xst completion: 9.30 secs
+ 
+--> 
+
+Total memory usage is 261732 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    4 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+
