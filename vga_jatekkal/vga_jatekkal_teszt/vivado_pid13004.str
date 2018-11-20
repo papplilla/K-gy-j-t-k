@@ -1,0 +1,228 @@
+/*
+
+Xilinx Vivado v2018.2 (64-bit) [Major: 2018, Minor: 2]
+SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+
+Process ID: 13004
+License: Customer
+
+Current time: 	Tue Nov 20 14:30:01 CET 2018
+Time zone: 	Central European Time (Europe/Prague)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1366x768
+Screen resolution (DPI): 96
+Available screens: 2
+Available disk space: 63 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	G:/Programok/Vivado2018.2/Vivado/2018.2/tps/win64/jre
+Java executable location: 	G:/Programok/Vivado2018.2/Vivado/2018.2/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	Strabi
+User home directory: C:/Users/Strabi
+User working directory: D:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/vga_jatekkal/vga_jatekkal_teszt
+User country: 	HU
+User language: 	hu
+User locale: 	hu_HU
+
+RDI_BASEROOT: G:/Programok/Vivado2018.2/Vivado
+HDI_APPROOT: G:/Programok/Vivado2018.2/Vivado/2018.2
+RDI_DATADIR: G:/Programok/Vivado2018.2/Vivado/2018.2/data
+RDI_BINDIR: G:/Programok/Vivado2018.2/Vivado/2018.2/bin
+
+Vivado preferences file location: C:/Users/Strabi/AppData/Roaming/Xilinx/Vivado/2018.2/vivado.xml
+Vivado preferences directory: C:/Users/Strabi/AppData/Roaming/Xilinx/Vivado/2018.2/
+Vivado layouts directory: C:/Users/Strabi/AppData/Roaming/Xilinx/Vivado/2018.2/layouts
+PlanAhead jar file location: 	G:/Programok/Vivado2018.2/Vivado/2018.2/lib/classes/planAhead.jar
+Vivado log file location: 	D:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/vga_jatekkal/vga_jatekkal_teszt/vivado.log
+Vivado journal file location: 	D:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/vga_jatekkal/vga_jatekkal_teszt/vivado.jou
+Engine tmp dir: 	D:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/vga_jatekkal/vga_jatekkal_teszt/.Xil/Vivado-13004-DESKTOP-02M2VBV
+
+Xilinx Environment Variables
+----------------------------
+NO_XILINX_DATA_LICENSE: HIDDEN
+XILINX: G:/Programok/Vivado2018.2/Vivado/2018.2/ids_lite/ISE
+XILINXD_LICENSE_FILE: C:\.Xilinx
+XILINX_DSP: G:/Programok/Vivado2018.2/Vivado/2018.2/ids_lite/ISE
+XILINX_PLANAHEAD: G:/Programok/Vivado2018.2/Vivado/2018.2
+XILINX_SDK: G:/Programok/Vivado2018.2/SDK/2018.2
+XILINX_VIVADO: G:/Programok/Vivado2018.2/Vivado/2018.2
+XILINX_VIVADO_HLS: G:/Programok/Vivado2018.2/Vivado/2018.2
+
+
+GUI allocated memory:	206 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 480 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// [GUI Memory]: 56 MB (+56673kb) [00:00:22]
+// [Engine Memory]: 480 MB (+351644kb) [00:00:22]
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// aL (ck): Older Project Version: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 480 MB. GUI used memory: 32 MB. Current time: 11/20/18 2:30:03 PM CET
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aL)
+// Opening Vivado Project: D:\D_Strabi\D Dokumentumai\BME\MikrorendszerekTevezese\HF\K-gy-j-t-k\vga_jatekkal\vga_jatekkal_teszt\vga_jatekkal_teszt.xpr. Version: Vivado v2017.4 
+// bx (ck):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+dismissDialog("Older Project Version"); // aL (ck)
+// Tcl Message: open_project {D:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/vga_jatekkal/vga_jatekkal_teszt/vga_jatekkal_teszt.xpr} 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'D:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/vga_jatekkal/vga_jatekkal_teszt' 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project {D:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/vga_jatekkal/vga_jatekkal_teszt/vga_jatekkal_teszt.xpr} 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'D:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/vga_jatekkal/vga_jatekkal_teszt' 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [Project 1-230] Project 'vga_jatekkal_teszt.xpr' upgraded for this version of Vivado. INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// HMemoryUtils.trashcanNow. Engine heap size: 502 MB. GUI used memory: 32 MB. Current time: 11/20/18 2:30:18 PM CET
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'G:/Programok/Vivado2018.2/Vivado/2018.2/data/ip'. 
+// [Engine Memory]: 508 MB (+4534kb) [00:00:44]
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 552 MB (+19080kb) [00:00:47]
+// [Engine Memory]: 585 MB (+6122kb) [00:00:52]
+// Tcl Message: open_project: Time (s): cpu = 00:00:38 ; elapsed = 00:00:22 . Memory (MB): peak = 825.133 ; gain = 85.340 
+// HMemoryUtils.trashcanNow. Engine heap size: 609 MB. GUI used memory: 40 MB. Current time: 11/20/18 2:30:33 PM CET
+// Project name: vga_jatekkal_teszt; location: D:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/vga_jatekkal/vga_jatekkal_teszt; part: xc7k70tfbg676-1
+// Elapsed time: 24 seconds
+dismissDialog("Open Project"); // bx (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// a (ck): Critical Messages: addNotify
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+selectList(PAResourceAtoD.CmdMsgDialog_MESSAGES, "[Project 1-564] A project save was requested while parsing the project. To prevent a partially loaded project from being committed to disk, this save will not occur.", 0); // b (D, a)
+// [GUI Memory]: 61 MB (+1762kb) [00:01:11]
+// Elapsed time: 19 seconds
+selectList(PAResourceAtoD.CmdMsgDialog_MESSAGES, "[Project 1-564] A project save was requested while parsing the project. To prevent a partially loaded project from being committed to disk, this save will not occur.", 0, false, false, false, true, false); // b (D, a) - Popup Trigger
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (a)
+dismissDialog("Critical Messages"); // a (ck)
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 239ms to process. Increasing delay to 2000 ms.
+// [GUI Memory]: 66 MB (+2111kb) [00:01:28]
+// [GUI Memory]: 72 MB (+2671kb) [00:01:43]
+// Elapsed time: 18 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // V (q, ck)
+dismissMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // V (q, ck)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // V (q, ck)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // V (q, ck)
+selectMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // V (q, ck)
+dismissMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // V (q, ck)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // V (q, ck)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // V (q, ck)
+selectMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // V (q, ck)
+dismissMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // V (q, ck)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // V (q, ck)
+dismissMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // V (q, ck)
+selectMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // V (q, ck)
+dismissMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // V (q, ck)
+selectMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // V (q, ck)
+// [Engine Memory]: 620 MB (+5568kb) [00:02:03]
+selectMenu(PAResourceItoN.MainMenuMgr_SETTINGS, "Settings"); // aa (ck)
+selectMenu(PAResourceCommand.PACommandNames_SIMULATION_RUN, "Run Simulation"); // V (ck)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN, "Open Implemented Design"); // aa (ck)
+selectMenuItem(PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER, "Open Hardware Manager"); // ad (ck)
+dismissMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // V (q, ck)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Tcl Command: 'load_features labtools'
+// TclEventType: LOAD_FEATURE
+// bx (ck):  Open Hardware Manager : addNotify
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw 
+// HMemoryUtils.trashcanNow. Engine heap size: 631 MB. GUI used memory: 39 MB. Current time: 11/20/18 2:31:49 PM CET
+// 'Q' command handler elapsed time: 3 seconds
+dismissDialog("Open Hardware Manager"); // bx (ck)
+// Elapsed time: 33 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h (cM, ck)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// bx (ck):  Auto Connect : addNotify
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2018.2   **** Build date : Jun 14 2018-20:42:52     ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.   
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server: Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 850.750 ; gain = 0.000 
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210319754849A 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,262 MB. GUI used memory: 40 MB. Current time: 11/20/18 2:32:44 PM CET
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 639ms to process. Increasing delay to 3000 ms.
+// Tcl Message: open_hw_target: Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1498.262 ; gain = 647.512 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {D:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/vga_jatekkal/vga_jatekkal_teszt/vga_jatekkal_teszt.runs/impl_1/vga_top.bit} [get_hw_devices xc7k70t_0] 
+// Tcl Message: current_hw_device [get_hw_devices xc7k70t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7k70t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1435] Device xc7k70t (JTAG device index = 0) is not programmed (DONE status = 0). 
+// [Engine Memory]: 1,262 MB (+641006kb) [00:03:07]
+// Elapsed time: 19 seconds
+dismissDialog("Auto Connect"); // bx (ck)
+// PAPropertyPanels.initPanels (localhost:3121/xilinx_tcf/Digilent/210319754849A) elapsed time: 0.3s
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xilinx_tcf/Digilent/210319754849A (1) ; Open", 1, "xilinx_tcf/Digilent/210319754849A (1)", 0, true); // t (O, ck) - Node
+// Elapsed time: 13 seconds
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xilinx_tcf/Digilent/210319754849A (1) ; Open", 1, "xilinx_tcf/Digilent/210319754849A (1)", 0, true); // t (O, ck) - Node
+collapseTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xilinx_tcf/Digilent/210319754849A (1) ; Open", 1); // t (O, ck)
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xilinx_tcf/Digilent/210319754849A (1) ; Open", 1, "xilinx_tcf/Digilent/210319754849A (1)", 0, true, false, false, false, false, true); // t (O, ck) - Double Click - Node
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xilinx_tcf/Digilent/210319754849A (1) ; Open", 1, "xilinx_tcf/Digilent/210319754849A (1)", 0, true); // t (O, ck) - Node
+expandTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xilinx_tcf/Digilent/210319754849A (1) ; Open", 1); // t (O, ck)
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xilinx_tcf/Digilent/210319754849A (1) ; Open", 1, "xilinx_tcf/Digilent/210319754849A (1)", 0, true, false, false, false, false, true); // t (O, ck) - Double Click - Node
+// [GUI Memory]: 76 MB (+323kb) [00:03:29]
+selectButton(PAResourceItoN.MainToolbarMgr_RUN, (String) null); // ax (f, ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Program Device]", 23, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7k70t_0"); // ad (aj, ck)
+// PAPropertyPanels.initPanels (xc7k70t_0) elapsed time: 0.2s
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bB (ck): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bB)
+// bx (ck):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bB (ck)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7k70t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7k70t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {D:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/vga_jatekkal/vga_jatekkal_teszt/vga_jatekkal_teszt.runs/impl_1/vga_top.bit} [get_hw_devices xc7k70t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7k70t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7k70t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7k70t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 7 seconds
+dismissDialog("Program Device"); // bx (ck)
+// [GUI Memory]: 81 MB (+1532kb) [00:03:51]
