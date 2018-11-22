@@ -14,8 +14,8 @@ module vgaSync (
    output reg hs,
    output reg vs,
 
-   output wire [12:0] hc,
-   output wire [10:0] vc
+   output wire [11:0] hc,
+   output wire [9:0] vc
    );
 
    // VGA 640x480@60Hz, 100MHz
@@ -34,11 +34,11 @@ module vgaSync (
    
    parameter hsyncpolarity = 0;	
    parameter vsyncpolarity = 0;
-   reg [12:0] hcont = 0;
-   reg [12:0] vcont = 0;
+   reg [11:0] hcont = 0;
+   reg [9:0] vcont = 0;
    reg active_area;
 
-    assign hc = hcont;
+    assign hc = (hcont/4);
     assign vc = vcont;
 
     // x => Horizontal
