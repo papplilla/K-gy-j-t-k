@@ -1,7 +1,6 @@
 
 
-///////////////////////////////////////////////////////////////////////////////
-module videosyncs (
+module vgaSync (
    input wire clk,
 
    input wire [2:0] rin,
@@ -15,28 +14,28 @@ module videosyncs (
    output reg hs,
    output reg vs,
 
-   output wire [10:0] hc,
+   output wire [12:0] hc,
    output wire [10:0] vc
    );
 
-   // VGA 640x480@60Hz,25MHz
-   parameter htotal = 800;			// total counts on x direction
-   parameter vtotal = 521;			// total counts on y direction
-   parameter hactive = 640;		// active area on x direction
-   parameter vactive = 480;		// active area on y direction
+   // VGA 640x480@60Hz, 100MHz
+   parameter htotal = 3200;                 // 4*800			
+   parameter vtotal = 521;			
+   parameter hactive = 2560;                // 4*640		  
+   parameter vactive = 480;		  
    
-   parameter hfrontporch = 16;	// front porch on x direction
-   parameter hsyncpulse = 96;		// sync pulse on x direction
-   parameter hbackporch = 48;	// back porch on x direction
+   parameter hfrontporch = 64;              // 4*16	  
+   parameter hsyncpulse = 384;	            // 4*96
+   parameter hbackporch = 192;	             //4*48
    
-   parameter vfrontporch = 10;	// front porch on y direction
-   parameter vsyncpulse = 2;		// sync pulse on y direction
-   parameter vbackporch = 29;	// back porch on y direction
+   parameter vfrontporch = 10;	
+   parameter vsyncpulse = 2;		
+   parameter vbackporch = 29;	
    
-   parameter hsyncpolarity = 0;	// polarity of pulse on x direction
-   parameter vsyncpolarity = 0;	// polarity of pulse on y direction
-   reg [9:0] hcont = 0;
-   reg [9:0] vcont = 0;
+   parameter hsyncpolarity = 0;	
+   parameter vsyncpolarity = 0;
+   reg [12:0] hcont = 0;
+   reg [12:0] vcont = 0;
    reg active_area;
 
     assign hc = hcont;
@@ -47,38 +46,36 @@ module videosyncs (
 
    always @(posedge clk)
 	begin
-      if (hcont == htotal-1)  // checks if the x direction has reached the bound
+      if (hcont >= htotal-1)  
 		begin
-         hcont = 0; // Need to loop around aka count again
-         if (vcont == vtotal-1) // checks if the y direction has reached the nound
+         hcont = 0; 
+         if (vcont == vtotal-1) 
 			begin
-            vcont = 0; //Need to loop around aka count again
+            vcont = 0; 
          end
          else
 			begin
-            vcont = vcont + 1; // y Counting
+            vcont = vcont + 1; 
          end
       end
       else
 		begin
-         hcont = hcont + 1; // x Counting
+         hcont = hcont + 1; 
       end
    end
 
    always @*
 	begin
-      if (hcont <= hactive && vcont <= vactive) // Maintainig bounds of 640p x 480p
+      if (hcont <= hactive && vcont <= vactive)
          active_area = 1'b1;
       else
          active_area = 1'b0;
-      // X Axis
-      // Bounds for display area aka the active area
+      
       if (hcont >= (hactive + hfrontporch) && hcont <= (hactive + hfrontporch + hsyncpulse))
          hs = hsyncpolarity;
       else
          hs = ~hsyncpolarity;
-      // Y Axis
-      // Bounds for display area aka the active area
+    
       if (vcont >= (vactive + vfrontporch) && vcont <= (vactive + vfrontporch + vsyncpulse))
          vs = vsyncpolarity;
       else
@@ -104,22 +101,18 @@ endmodule
 
 
 /////////////////////////////////////////////////////////////////////////////
-module game(xpos, ypos, red, green, blue);
-input [9:0] xpos;
-input [9:0] ypos;
-output [2:0] red;
-output [2:0] green;
-output [1:0] blue;
-wire [4:0] temp;
-
-assign green[0] = 0;
-
-assign temp[0] = ((ypos>203 && ypos <=206) && (xpos>=105&&xpos<=145 || xpos>=150&&xpos<=190 || xpos>=195&&xpos<=235));
-assign temp[1] = ((ypos>207 && ypos <=221) && (xpos>=105&&xpos<=108 || xpos>=150&&xpos<=153 || xpos>=195&&xpos<=198));
-assign temp[2] = ((ypos>222 && ypos <=225) && (xpos>=105&&xpos<=142 || xpos>=150&&xpos<=153 || xpos>=195&&xpos<=235));
-assign temp[3] = ((ypos>226 && ypos <=241) && (xpos>=105&&xpos<=108 || xpos>=150&&xpos<=153 || xpos>=195&&xpos<=198));
-assign temp[4] = ((ypos>242 && ypos <=245) && (xpos>=105&&xpos<=145 || xpos>=150&&xpos<=190 || xpos>=195&&xpos<=235));
-
-assign red[1] = temp[0]|temp[1]|temp[2]|temp[3]|temp[4];
-assign blue[0] = red[1]?0:1;
+module test(xpos, ypos, red, green, blue);
+    input [11:0] xpos;
+    input [9:0] ypos;
+    output [2:0] red;
+    output [2:0] green;
+    output [1:0] blue;
+    
+    wire [4:0] temp;
+    
+    assign blue[0] = 0;
+    assign temp[0] = ((ypos>200 && ypos <=400) && (xpos>=200&&xpos<=400));
+    
+    assign red[1] = temp[0];
+    assign green[0] = red[1] ? 0:1;
 endmodule

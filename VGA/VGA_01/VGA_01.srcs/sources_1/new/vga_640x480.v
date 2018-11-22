@@ -34,7 +34,6 @@ module vga_640x480(
     output wire [8:0] o_y
     );
     
-    // VGA timings https://timetoexplore.net/blog/video-timings-vga-720p-1080p
     localparam HS_STA = 16;              // horizontal sync start
     localparam HS_END = 16 + 96;         // horizontal sync end
     localparam HA_STA = 16 + 96 + 48;    // horizontal active pixel start

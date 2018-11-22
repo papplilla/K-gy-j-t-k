@@ -3,7 +3,7 @@
 # 
 # Vivado(TM)
 # runme.sh: a Vivado-generated Runs Script for UNIX
-# Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+# Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 # 
 
 echo "This script was generated under a different operating system."
@@ -11,9 +11,9 @@ echo "Please update the PATH and LD_LIBRARY_PATH variables below, before executi
 exit
 
 if [ -z "$PATH" ]; then
-  PATH=G:/Programok/XilinxVivaldo2017/SDK/2017.4/bin;G:/Programok/XilinxVivaldo2017/Vivado/2017.4/ids_lite/ISE/bin/nt64;G:/Programok/XilinxVivaldo2017/Vivado/2017.4/ids_lite/ISE/lib/nt64:G:/Programok/XilinxVivaldo2017/Vivado/2017.4/bin
+  PATH=G:/Programok/Vivado2018.2/SDK/2018.2/bin;G:/Programok/Vivado2018.2/Vivado/2018.2/ids_lite/ISE/bin/nt64;G:/Programok/Vivado2018.2/Vivado/2018.2/ids_lite/ISE/lib/nt64:G:/Programok/Vivado2018.2/Vivado/2018.2/bin
 else
-  PATH=G:/Programok/XilinxVivaldo2017/SDK/2017.4/bin;G:/Programok/XilinxVivaldo2017/Vivado/2017.4/ids_lite/ISE/bin/nt64;G:/Programok/XilinxVivaldo2017/Vivado/2017.4/ids_lite/ISE/lib/nt64:G:/Programok/XilinxVivaldo2017/Vivado/2017.4/bin:$PATH
+  PATH=G:/Programok/Vivado2018.2/SDK/2018.2/bin;G:/Programok/Vivado2018.2/Vivado/2018.2/ids_lite/ISE/bin/nt64;G:/Programok/Vivado2018.2/Vivado/2018.2/ids_lite/ISE/lib/nt64:G:/Programok/Vivado2018.2/Vivado/2018.2/bin:$PATH
 fi
 export PATH
 
@@ -41,7 +41,7 @@ EAStep()
 }
 
 # pre-commands:
-/bin/touch .write_bitstream.begin.rst
+/bin/touch .init_design.begin.rst
 EAStep vivado -log vga_top.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source vga_top.tcl -notrace
 
 

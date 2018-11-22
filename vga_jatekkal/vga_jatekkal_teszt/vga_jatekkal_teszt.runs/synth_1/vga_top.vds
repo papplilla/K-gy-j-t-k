@@ -1,9 +1,9 @@
 #-----------------------------------------------------------
-# Vivado v2017.4 (64-bit)
-# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
-# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
-# Start of session at: Tue Nov 20 13:02:52 2018
-# Process ID: 10064
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Thu Nov 22 14:10:08 2018
+# Process ID: 7664
 # Current directory: D:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/vga_jatekkal/vga_jatekkal_teszt/vga_jatekkal_teszt.runs/synth_1
 # Command line: vivado.exe -log vga_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source vga_top.tcl
 # Log file: D:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/vga_jatekkal/vga_jatekkal_teszt/vga_jatekkal_teszt.runs/synth_1/vga_top.vds
@@ -15,41 +15,39 @@ Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7k70t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k70t'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 12512 
+INFO: Helper process launched with PID 7780 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 330.371 ; gain = 92.379
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 364.645 ; gain = 99.066
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'vga_top' [D:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/vga_jatekkal/vga_jatekkal_teszt/vga_jatekkal_teszt.srcs/sources_1/new/vga_top.v:23]
-INFO: [Synth 8-638] synthesizing module 'BUFG' [G:/Programok/XilinxVivaldo2017/Vivado/2017.4/scripts/rt/data/unisim_comp.v:607]
-INFO: [Synth 8-256] done synthesizing module 'BUFG' (1#1) [G:/Programok/XilinxVivaldo2017/Vivado/2017.4/scripts/rt/data/unisim_comp.v:607]
-INFO: [Synth 8-638] synthesizing module 'videosyncs' [D:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/vga_jatekkal/vga_jatekkal_teszt/VGA_Control.v:4]
-	Parameter htotal bound to: 800 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'vga_top' [D:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/vga_jatekkal/vga_jatekkal_teszt/vga_jatekkal_teszt.srcs/sources_1/new/vga_top.v:23]
+INFO: [Synth 8-6157] synthesizing module 'vgaSync' [D:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/vga_jatekkal/vga_jatekkal_teszt/VGA_Control.v:3]
+	Parameter htotal bound to: 3200 - type: integer 
 	Parameter vtotal bound to: 521 - type: integer 
-	Parameter hactive bound to: 640 - type: integer 
+	Parameter hactive bound to: 2560 - type: integer 
 	Parameter vactive bound to: 480 - type: integer 
-	Parameter hfrontporch bound to: 16 - type: integer 
-	Parameter hsyncpulse bound to: 96 - type: integer 
-	Parameter hbackporch bound to: 48 - type: integer 
+	Parameter hfrontporch bound to: 64 - type: integer 
+	Parameter hsyncpulse bound to: 384 - type: integer 
+	Parameter hbackporch bound to: 192 - type: integer 
 	Parameter vfrontporch bound to: 10 - type: integer 
 	Parameter vsyncpulse bound to: 2 - type: integer 
 	Parameter vbackporch bound to: 29 - type: integer 
 	Parameter hsyncpolarity bound to: 0 - type: integer 
 	Parameter vsyncpolarity bound to: 0 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'videosyncs' (2#1) [D:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/vga_jatekkal/vga_jatekkal_teszt/VGA_Control.v:4]
-WARNING: [Synth 8-689] width (2) of port connection 'rout' does not match port width (3) of module 'videosyncs' [D:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/vga_jatekkal/vga_jatekkal_teszt/vga_jatekkal_teszt.srcs/sources_1/new/vga_top.v:49]
-WARNING: [Synth 8-689] width (2) of port connection 'gout' does not match port width (3) of module 'videosyncs' [D:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/vga_jatekkal/vga_jatekkal_teszt/vga_jatekkal_teszt.srcs/sources_1/new/vga_top.v:49]
-WARNING: [Synth 8-689] width (10) of port connection 'hc' does not match port width (11) of module 'videosyncs' [D:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/vga_jatekkal/vga_jatekkal_teszt/vga_jatekkal_teszt.srcs/sources_1/new/vga_top.v:49]
-WARNING: [Synth 8-689] width (10) of port connection 'vc' does not match port width (11) of module 'videosyncs' [D:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/vga_jatekkal/vga_jatekkal_teszt/vga_jatekkal_teszt.srcs/sources_1/new/vga_top.v:49]
-INFO: [Synth 8-638] synthesizing module 'game' [D:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/vga_jatekkal/vga_jatekkal_teszt/VGA_Control.v:107]
-INFO: [Synth 8-256] done synthesizing module 'game' (3#1) [D:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/vga_jatekkal/vga_jatekkal_teszt/VGA_Control.v:107]
-INFO: [Synth 8-256] done synthesizing module 'vga_top' (4#1) [D:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/vga_jatekkal/vga_jatekkal_teszt/vga_jatekkal_teszt.srcs/sources_1/new/vga_top.v:23]
-WARNING: [Synth 8-3331] design game has unconnected port red[2]
-WARNING: [Synth 8-3331] design game has unconnected port red[0]
-WARNING: [Synth 8-3331] design game has unconnected port green[2]
-WARNING: [Synth 8-3331] design game has unconnected port green[1]
-WARNING: [Synth 8-3331] design game has unconnected port blue[1]
+INFO: [Synth 8-6155] done synthesizing module 'vgaSync' (1#1) [D:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/vga_jatekkal/vga_jatekkal_teszt/VGA_Control.v:3]
+WARNING: [Synth 8-689] width (2) of port connection 'rout' does not match port width (3) of module 'vgaSync' [D:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/vga_jatekkal/vga_jatekkal_teszt/vga_jatekkal_teszt.srcs/sources_1/new/vga_top.v:48]
+WARNING: [Synth 8-689] width (2) of port connection 'gout' does not match port width (3) of module 'vgaSync' [D:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/vga_jatekkal/vga_jatekkal_teszt/vga_jatekkal_teszt.srcs/sources_1/new/vga_top.v:48]
+WARNING: [Synth 8-689] width (12) of port connection 'hc' does not match port width (13) of module 'vgaSync' [D:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/vga_jatekkal/vga_jatekkal_teszt/vga_jatekkal_teszt.srcs/sources_1/new/vga_top.v:48]
+WARNING: [Synth 8-689] width (10) of port connection 'vc' does not match port width (11) of module 'vgaSync' [D:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/vga_jatekkal/vga_jatekkal_teszt/vga_jatekkal_teszt.srcs/sources_1/new/vga_top.v:48]
+INFO: [Synth 8-6157] synthesizing module 'test' [D:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/vga_jatekkal/vga_jatekkal_teszt/VGA_Control.v:104]
+INFO: [Synth 8-6155] done synthesizing module 'test' (2#1) [D:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/vga_jatekkal/vga_jatekkal_teszt/VGA_Control.v:104]
+INFO: [Synth 8-6155] done synthesizing module 'vga_top' (3#1) [D:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/vga_jatekkal/vga_jatekkal_teszt/vga_jatekkal_teszt.srcs/sources_1/new/vga_top.v:23]
+WARNING: [Synth 8-3331] design test has unconnected port red[2]
+WARNING: [Synth 8-3331] design test has unconnected port red[0]
+WARNING: [Synth 8-3331] design test has unconnected port green[2]
+WARNING: [Synth 8-3331] design test has unconnected port green[1]
+WARNING: [Synth 8-3331] design test has unconnected port blue[1]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 371.449 ; gain = 133.457
+Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 419.707 ; gain = 154.129
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -59,7 +57,13 @@ Report Check Netlist:
 |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
 +------+------------------+-------+---------+-------+------------------+
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 371.449 ; gain = 133.457
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 419.707 ; gain = 154.129
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 419.707 ; gain = 154.129
 ---------------------------------------------------------------------------------
 INFO: [Device 21-403] Loading part xc7k70tfbg676-1
 INFO: [Project 1-570] Preparing netlist for logic optimization
@@ -75,26 +79,25 @@ Completed Processing XDC Constraints
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 672.883 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 727.133 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:59 ; elapsed = 00:01:04 . Memory (MB): peak = 672.883 ; gain = 434.891
+Finished Constraint Validation : Time (s): cpu = 00:00:38 ; elapsed = 00:00:47 . Memory (MB): peak = 727.133 ; gain = 461.555
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7k70tfbg676-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:59 ; elapsed = 00:01:04 . Memory (MB): peak = 672.883 ; gain = 434.891
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:38 ; elapsed = 00:00:47 . Memory (MB): peak = 727.133 ; gain = 461.555
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:59 ; elapsed = 00:01:04 . Memory (MB): peak = 672.883 ; gain = 434.891
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:38 ; elapsed = 00:00:47 . Memory (MB): peak = 727.133 ; gain = 461.555
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-5546] ROM "vcont" won't be mapped to RAM because it is too sparse
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:01:00 ; elapsed = 00:01:05 . Memory (MB): peak = 672.883 ; gain = 434.891
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:38 ; elapsed = 00:00:47 . Memory (MB): peak = 727.133 ; gain = 461.555
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -107,15 +110,13 @@ Start RTL Component Statistics
 ---------------------------------------------------------------------------------
 Detailed RTL Component Info : 
 +---Adders : 
-	   2 Input     10 Bit       Adders := 2     
-	   2 Input      2 Bit       Adders := 1     
+	   2 Input     13 Bit       Adders := 1     
 +---Registers : 
-	               10 Bit    Registers := 2     
-	                2 Bit    Registers := 1     
+	               13 Bit    Registers := 1     
 +---Muxes : 
+	   2 Input     13 Bit        Muxes := 1     
 	   2 Input      3 Bit        Muxes := 2     
 	   2 Input      2 Bit        Muxes := 2     
-	   2 Input      1 Bit        Muxes := 1     
 ---------------------------------------------------------------------------------
 Finished RTL Component Statistics 
 ---------------------------------------------------------------------------------
@@ -123,23 +124,17 @@ Finished RTL Component Statistics
 Start RTL Hierarchical Component Statistics 
 ---------------------------------------------------------------------------------
 Hierarchical RTL Component report 
-Module vga_top 
+Module vgaSync 
 Detailed RTL Component Info : 
 +---Adders : 
-	   2 Input      2 Bit       Adders := 1     
+	   2 Input     13 Bit       Adders := 1     
 +---Registers : 
-	                2 Bit    Registers := 1     
-Module videosyncs 
-Detailed RTL Component Info : 
-+---Adders : 
-	   2 Input     10 Bit       Adders := 2     
-+---Registers : 
-	               10 Bit    Registers := 2     
+	               13 Bit    Registers := 1     
 +---Muxes : 
+	   2 Input     13 Bit        Muxes := 1     
 	   2 Input      3 Bit        Muxes := 2     
 	   2 Input      2 Bit        Muxes := 1     
-	   2 Input      1 Bit        Muxes := 1     
-Module game 
+Module test 
 Detailed RTL Component Info : 
 +---Muxes : 
 	   2 Input      2 Bit        Muxes := 1     
@@ -158,9 +153,9 @@ Finished Part Resource Summary
 ---------------------------------------------------------------------------------
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-5546] ROM "videosyncs_inst/vcont" won't be mapped to RAM because it is too sparse
+Warning: Parallel synthesis criteria is not met 
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:03 ; elapsed = 00:01:08 . Memory (MB): peak = 672.883 ; gain = 434.891
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:41 ; elapsed = 00:00:50 . Memory (MB): peak = 727.133 ; gain = 461.555
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -172,13 +167,13 @@ Report RTL Partitions:
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:35 ; elapsed = 00:01:40 . Memory (MB): peak = 672.883 ; gain = 434.891
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:07 ; elapsed = 00:01:19 . Memory (MB): peak = 744.285 ; gain = 478.707
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:01:35 ; elapsed = 00:01:40 . Memory (MB): peak = 672.883 ; gain = 434.891
+Finished Timing Optimization : Time (s): cpu = 00:01:07 ; elapsed = 00:01:19 . Memory (MB): peak = 744.285 ; gain = 478.707
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -190,7 +185,7 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:01:35 ; elapsed = 00:01:41 . Memory (MB): peak = 672.883 ; gain = 434.891
+Finished Technology Mapping : Time (s): cpu = 00:01:08 ; elapsed = 00:01:19 . Memory (MB): peak = 754.395 ; gain = 488.816
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -214,7 +209,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:01:38 ; elapsed = 00:01:44 . Memory (MB): peak = 672.883 ; gain = 434.891
+Finished IO Insertion : Time (s): cpu = 00:01:11 ; elapsed = 00:01:22 . Memory (MB): peak = 754.395 ; gain = 488.816
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -227,7 +222,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:01:38 ; elapsed = 00:01:44 . Memory (MB): peak = 672.883 ; gain = 434.891
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:11 ; elapsed = 00:01:22 . Memory (MB): peak = 754.395 ; gain = 488.816
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -239,25 +234,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:38 ; elapsed = 00:01:44 . Memory (MB): peak = 672.883 ; gain = 434.891
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:11 ; elapsed = 00:01:22 . Memory (MB): peak = 754.395 ; gain = 488.816
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:01:38 ; elapsed = 00:01:44 . Memory (MB): peak = 672.883 ; gain = 434.891
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:11 ; elapsed = 00:01:22 . Memory (MB): peak = 754.395 ; gain = 488.816
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:01:38 ; elapsed = 00:01:44 . Memory (MB): peak = 672.883 ; gain = 434.891
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:11 ; elapsed = 00:01:22 . Memory (MB): peak = 754.395 ; gain = 488.816
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:01:38 ; elapsed = 00:01:44 . Memory (MB): peak = 672.883 ; gain = 434.891
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:11 ; elapsed = 00:01:22 . Memory (MB): peak = 754.395 ; gain = 488.816
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -270,37 +265,37 @@ Report BlackBoxes:
 +-+--------------+----------+
 
 Report Cell Usage: 
-+------+------+------+
-|      |Cell  |Count |
-+------+------+------+
-|1     |BUFG  |     2|
-|2     |LUT1  |     2|
-|3     |LUT2  |     8|
-|4     |LUT3  |    11|
-|5     |LUT4  |     7|
-|6     |LUT5  |    17|
-|7     |LUT6  |    40|
-|8     |MUXF7 |     1|
-|9     |FDRE  |    22|
-|10    |IBUF  |     1|
-|11    |OBUF  |     8|
-+------+------+------+
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |     7|
+|3     |LUT1   |     2|
+|4     |LUT2   |     6|
+|5     |LUT3   |     3|
+|6     |LUT4   |     6|
+|7     |LUT5   |     4|
+|8     |LUT6   |    16|
+|9     |FDRE   |    26|
+|10    |IBUF   |     1|
+|11    |OBUF   |     8|
++------+-------+------+
 
 Report Instance Areas: 
-+------+------------------+-----------+------+
-|      |Instance          |Module     |Cells |
-+------+------------------+-----------+------+
-|1     |top               |           |   119|
-|2     |  videosyncs_inst |videosyncs |   104|
-+------+------------------+-----------+------+
++------+------------+--------+------+
+|      |Instance    |Module  |Cells |
++------+------------+--------+------+
+|1     |top         |        |    80|
+|2     |  myVgaSync |vgaSync |    70|
++------+------------+--------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:01:38 ; elapsed = 00:01:44 . Memory (MB): peak = 672.883 ; gain = 434.891
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:11 ; elapsed = 00:01:22 . Memory (MB): peak = 754.395 ; gain = 488.816
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:59 ; elapsed = 00:01:25 . Memory (MB): peak = 672.883 ; gain = 133.457
-Synthesis Optimization Complete : Time (s): cpu = 00:01:39 ; elapsed = 00:01:44 . Memory (MB): peak = 672.883 ; gain = 434.891
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:43 ; elapsed = 00:00:57 . Memory (MB): peak = 754.395 ; gain = 181.391
+Synthesis Optimization Complete : Time (s): cpu = 00:01:11 ; elapsed = 00:01:23 . Memory (MB): peak = 754.395 ; gain = 488.816
 INFO: [Project 1-571] Translating synthesized netlist
-INFO: [Netlist 29-17] Analyzing 2 Unisim elements for replacement
+INFO: [Netlist 29-17] Analyzing 8 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
@@ -308,10 +303,11 @@ INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
 INFO: [Common 17-83] Releasing license: Synthesis
-22 Infos, 9 Warnings, 0 Critical Warnings and 0 Errors encountered.
+18 Infos, 9 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:01:42 ; elapsed = 00:01:50 . Memory (MB): peak = 672.883 ; gain = 435.066
+synth_design: Time (s): cpu = 00:01:15 ; elapsed = 00:01:28 . Memory (MB): peak = 766.563 ; gain = 513.996
+WARNING: [Constraints 18-5210] No constraint will be written out.
 INFO: [Common 17-1381] The checkpoint 'D:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/vga_jatekkal/vga_jatekkal_teszt/vga_jatekkal_teszt.runs/synth_1/vga_top.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file vga_top_utilization_synth.rpt -pb vga_top_utilization_synth.pb
-report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.143 . Memory (MB): peak = 672.883 ; gain = 0.000
-INFO: [Common 17-206] Exiting Vivado at Tue Nov 20 13:05:00 2018...
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.147 . Memory (MB): peak = 766.563 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Thu Nov 22 14:11:55 2018...

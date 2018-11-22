@@ -30,23 +30,22 @@ module vga_top(
 	);
 
 
-	reg [1:0] clk25_arr;
+/*	reg [1:0] clk25_arr;
 	always@(posedge clk)
 	begin
 		clk25_arr <= clk25_arr + 1;
 	end
 	wire clk25;
-	BUFG bufg_inst(clk25, clk25_arr[1]);
-	// assign clk25 = clk25_arr[1];
-//http://www.xilinx.com/support/documentation/sw_manuals/xilinx11/sse_p_instantiating_clock_buffer.htm
+	//BUFG bufg_inst(clk25, clk25_arr[1]);         // 100 MHz-en nem kell
 
-	wire [9:0] xpos;
+*/
+	wire [11:0] xpos;
 	wire [9:0] ypos;
 	wire [2:0] red;
 	wire [2:0] green;
 	wire [1:0] blue;
 
-	videosyncs videosyncs_inst(clk25, red, green, blue, rout, gout, bout, hsync, vsync, xpos, ypos);
-	game game_inst(xpos, ypos, red, green, blue);
+	vgaSync myVgaSync(clk, red, green, blue, rout, gout, bout, hsync, vsync, xpos, ypos);
+	test myTest(xpos, ypos, red, green, blue);
 
 endmodule
