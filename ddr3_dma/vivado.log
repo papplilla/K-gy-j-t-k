@@ -19,3 +19,9 @@ INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'G:/Programok/Vivado2018.2/Vivado/2018.2/data/ip'.
 open_project: Time (s): cpu = 00:01:57 ; elapsed = 00:01:23 . Memory (MB): peak = 1043.277 ; gain = 314.703
 update_compile_order -fileset sources_1
+CRITICAL WARNING: [HDL 9-806] Syntax error near ")". [D:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/imports/vga_jatekkal_teszt/VGA_Control.v:19]
+CRITICAL WARNING: [HDL 9-806] Syntax error near ")". [D:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/imports/vga_jatekkal_teszt/VGA_Control.v:19]
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Nov 27 16:29:03 2018...

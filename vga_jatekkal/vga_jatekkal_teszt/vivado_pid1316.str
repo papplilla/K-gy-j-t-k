@@ -261,3 +261,4 @@ closeMainWindow("vga_jatekkal_teszt - [D:/D_Strabi/D Dokumentumai/BME/Mikrorends
 // A (ck): Exit Vivado: addNotify
 dismissDialog("Exit Vivado"); // A (ck)
 // [GUI Memory]: 95 MB (+813kb) [00:14:00]
+// HMemoryUtils.trashcanNow. Engine heap size: 650 MB. GUI used memory: 44 MB. Current time: 11/27/18 4:00:35 PM CET
