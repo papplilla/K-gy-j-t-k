@@ -1,0 +1,263 @@
+/*
+
+Xilinx Vivado v2018.2 (64-bit) [Major: 2018, Minor: 2]
+SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+
+Process ID: 1316
+License: Customer
+
+Current time: 	Tue Nov 27 15:24:11 CET 2018
+Time zone: 	Central European Time (Europe/Prague)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1366x768
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 61 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	G:/Programok/Vivado2018.2/Vivado/2018.2/tps/win64/jre
+Java executable location: 	G:/Programok/Vivado2018.2/Vivado/2018.2/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	Strabi
+User home directory: C:/Users/Strabi
+User working directory: D:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/vga_jatekkal/vga_jatekkal_teszt
+User country: 	HU
+User language: 	hu
+User locale: 	hu_HU
+
+RDI_BASEROOT: G:/Programok/Vivado2018.2/Vivado
+HDI_APPROOT: G:/Programok/Vivado2018.2/Vivado/2018.2
+RDI_DATADIR: G:/Programok/Vivado2018.2/Vivado/2018.2/data
+RDI_BINDIR: G:/Programok/Vivado2018.2/Vivado/2018.2/bin
+
+Vivado preferences file location: C:/Users/Strabi/AppData/Roaming/Xilinx/Vivado/2018.2/vivado.xml
+Vivado preferences directory: C:/Users/Strabi/AppData/Roaming/Xilinx/Vivado/2018.2/
+Vivado layouts directory: C:/Users/Strabi/AppData/Roaming/Xilinx/Vivado/2018.2/layouts
+PlanAhead jar file location: 	G:/Programok/Vivado2018.2/Vivado/2018.2/lib/classes/planAhead.jar
+Vivado log file location: 	D:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/vga_jatekkal/vga_jatekkal_teszt/vivado.log
+Vivado journal file location: 	D:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/vga_jatekkal/vga_jatekkal_teszt/vivado.jou
+Engine tmp dir: 	D:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/vga_jatekkal/vga_jatekkal_teszt/.Xil/Vivado-1316-DESKTOP-02M2VBV
+
+Xilinx Environment Variables
+----------------------------
+NO_XILINX_DATA_LICENSE: HIDDEN
+XILINX: G:/Programok/Vivado2018.2/Vivado/2018.2/ids_lite/ISE
+XILINXD_LICENSE_FILE: C:\.Xilinx
+XILINX_DSP: G:/Programok/Vivado2018.2/Vivado/2018.2/ids_lite/ISE
+XILINX_PLANAHEAD: G:/Programok/Vivado2018.2/Vivado/2018.2
+XILINX_SDK: G:/Programok/Vivado2018.2/SDK/2018.2
+XILINX_VIVADO: G:/Programok/Vivado2018.2/Vivado/2018.2
+XILINX_VIVADO_HLS: G:/Programok/Vivado2018.2/Vivado/2018.2
+
+
+GUI allocated memory:	139 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 489 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// [GUI Memory]: 48 MB (+47829kb) [00:00:16]
+// [Engine Memory]: 453 MB (+323865kb) [00:00:16]
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bx (ck):  Open Project : addNotify
+// Opening Vivado Project: D:\D_Strabi\D Dokumentumai\BME\MikrorendszerekTevezese\HF\K-gy-j-t-k\vga_jatekkal\vga_jatekkal_teszt\vga_jatekkal_teszt.xpr. Version: Vivado v2018.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project {D:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/vga_jatekkal/vga_jatekkal_teszt/vga_jatekkal_teszt.xpr} 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'D:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/vga_jatekkal/vga_jatekkal_teszt' 
+// [GUI Memory]: 66 MB (+16254kb) [00:00:18]
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project {D:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/vga_jatekkal/vga_jatekkal_teszt/vga_jatekkal_teszt.xpr} 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'D:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/vga_jatekkal/vga_jatekkal_teszt' 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// HMemoryUtils.trashcanNow. Engine heap size: 517 MB. GUI used memory: 50 MB. Current time: 11/27/18 3:24:13 PM CET
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// [Engine Memory]: 518 MB (+43831kb) [00:00:23]
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'G:/Programok/Vivado2018.2/Vivado/2018.2/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 73 MB (+4083kb) [00:00:34]
+// [Engine Memory]: 569 MB (+26671kb) [00:00:34]
+// [Engine Memory]: 599 MB (+1615kb) [00:00:40]
+// [GUI Memory]: 79 MB (+2212kb) [00:00:40]
+// HMemoryUtils.trashcanNow. Engine heap size: 599 MB. GUI used memory: 38 MB. Current time: 11/27/18 3:24:36 PM CET
+// Tcl Message: open_project: Time (s): cpu = 00:00:48 ; elapsed = 00:00:25 . Memory (MB): peak = 785.402 ; gain = 119.902 
+// Project name: vga_jatekkal_teszt; location: D:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/vga_jatekkal/vga_jatekkal_teszt; part: xc7k70tfbg676-1
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking 520ms to process. Increasing delay to 3000 ms.
+dismissDialog("Open Project"); // bx (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 236ms to process. Increasing delay to 2000 ms.
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 52 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vga_top (vga_top.v)]", 1); // B (D, ck)
+// PAPropertyPanels.initPanels (vga_top.v) elapsed time: 0.5s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vga_top (vga_top.v)]", 1, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vga_top (vga_top.v)]", 1, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 2, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1]", 3, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vga_top (vga_top.v)]", 1); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vga_top (vga_top.v), myVgaSync : vgaSync (VGA_Control.v)]", 2, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vga_top (vga_top.v), myVgaSync : vgaSync (VGA_Control.v)]", 2, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "VGA_Control.v", 2); // k (j, ck)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "VGA_Control.v", 2, false, true); // k (j, ck) - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ck)
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "vga_top.v", 1); // k (j, ck)
+// Elapsed time: 19 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "VGA_Control.v", 2); // k (j, ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 619 MB. GUI used memory: 40 MB. Current time: 11/27/18 3:26:19 PM CET
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "vga_top.v", 1); // k (j, ck)
+// WARNING: HTimer (StateMonitor Timer) is taking 1412ms to process. Increasing delay to 4000 ms.
+// Elapsed time: 71 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "VGA_Control.v", 2); // k (j, ck)
+// Elapsed time: 22 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "vga_top.v", 1); // k (j, ck)
+// Elapsed time: 43 seconds
+selectCodeEditor("vga_top.v", 116, 83); // ce (w, ck)
+// Elapsed time: 49 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "vga_top.v", 1); // k (j, ck)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "vga_top.v", 1, false, true); // k (j, ck) - Double Click
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ck)
+// Elapsed time: 11 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true, false, false, false, true, false); // B (D, ck) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // aa (aj, ck)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // aa (aj, ck)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // aa (aj, ck)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // aa (aj, ck)
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (ck): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (C, c)
+// F (c): Create Source File: addNotify
+// [Engine Memory]: 631 MB (+1523kb) [00:06:08]
+// Elapsed time: 23 seconds
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "vga_axi"); // X (Q, F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+// [GUI Memory]: 84 MB (+1196kb) [00:06:33]
+dismissDialog("Create Source File"); // F (c)
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 37 seconds
+dismissDialog("Add Sources"); // c (ck)
+// Tcl Message: close [ open {D:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/vga_jatekkal/vga_jatekkal_teszt/vga_jatekkal_teszt.srcs/sources_1/new/vga_axi.v} w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// bx (ck):  Add Sources  : addNotify
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files {{D:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/vga_jatekkal/vga_jatekkal_teszt/vga_jatekkal_teszt.srcs/sources_1/new/vga_axi.v}} 
+// I (ck): Define Module: addNotify
+dismissDialog("Add Sources"); // bx (ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 648 MB. GUI used memory: 43 MB. Current time: 11/27/18 3:30:34 PM CET
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (I)
+// TclEventType: FILE_SET_CHANGE
+selectButton("PAResourceAtoD.DefineModulesDialog_YOU_HAVE_MADE_CHANGES_TO_MODULE_Yes", "Yes"); // JButton (A, H)
+dismissDialog("Define Module"); // I (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vga_axi (vga_axi.v)]", 4, false); // B (D, ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("vga_top.v", 32, 228); // ce (w, ck)
+selectCodeEditor("vga_top.v", 29, 227); // ce (w, ck)
+typeControlKey(null, null, 'z');
+typeControlKey((HResource) null, "vga_top.v", 'c'); // ce (w, ck)
+selectCodeEditor("vga_top.v", 28, 142); // ce (w, ck)
+selectCodeEditor("vga_top.v", 324, 245); // ce (w, ck)
+typeControlKey((HResource) null, "vga_top.v", 'c'); // ce (w, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vga_axi (vga_axi.v)]", 4, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vga_axi (vga_axi.v)]", 4, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "vga_axi.v", 3); // k (j, ck)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "vga_axi.v", 3, false, true); // k (j, ck) - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ck)
+selectCodeEditor("vga_axi.v", 45, 384); // ce (w, ck)
+typeControlKey((HResource) null, "vga_axi.v", 'v'); // ce (w, ck)
+selectCodeEditor("vga_axi.v", 39, 298); // ce (w, ck)
+selectCodeEditor("vga_axi.v", 52, 396); // ce (w, ck)
+selectCodeEditor("vga_axi.v", 50, 393); // ce (w, ck)
+selectCodeEditor("vga_axi.v", 1, 125); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "VGA_Control.v", 2); // k (j, ck)
+// [GUI Memory]: 90 MB (+1896kb) [00:07:52]
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "vga_top.v", 1); // k (j, ck)
+selectCodeEditor("vga_top.v", 327, 124); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "vga_axi.v", 3); // k (j, ck)
+selectCodeEditor("vga_axi.v", 39, 116); // ce (w, ck)
+selectCodeEditor("vga_axi.v", 337, 380); // ce (w, ck)
+selectCodeEditor("vga_axi.v", 330, 366); // ce (w, ck)
+// Elapsed time: 10 seconds
+selectCodeEditor("vga_axi.v", 131, 78); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 85 seconds
+selectCodeEditor("vga_axi.v", 665, 371); // ce (w, ck)
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 314ms to process. Increasing delay to 2000 ms.
+// Elapsed time: 74 seconds
+closeMainWindow("vga_jatekkal_teszt - [D:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/vga_jatekkal/vga_jatekkal_teszt/vga_jatekkal_teszt.xpr] - Vivado 2018.2"); // ck
+// A (ck): Exit Vivado: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (A)
+dismissDialog("Exit Vivado"); // A (ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "vga_top.v", 1); // k (j, ck)
+selectCodeEditor("vga_top.v", 282, 242); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "vga_axi.v", 3); // k (j, ck)
+selectCodeEditor("vga_axi.v", 139, 177); // ce (w, ck)
+selectCodeEditor("vga_axi.v", 67, 197); // ce (w, ck)
+typeControlKey((HResource) null, "vga_axi.v", 'c'); // ce (w, ck)
+selectCodeEditor("vga_axi.v", 713, 244); // ce (w, ck)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "VGA_Control.v", 2); // k (j, ck)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "VGA_Control.v", 2, false, true); // k (j, ck) - Double Click
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vga_axi (vga_axi.v)]", 4, true, false, false, false, true, false); // B (D, ck) - Popup Trigger - Node
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // ad (aj, Popup.HeavyWeightWindow)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aE (ck): Remove Sources: addNotify
+selectCheckBox(PAResourceQtoS.RemoveSourcesDialog_ALSO_DELETE, "Also delete the project local file/directory from disk", true); // g (Q, aE): TRUE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aE)
+dismissDialog("Remove Sources"); // aE (ck)
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{D:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/vga_jatekkal/vga_jatekkal_teszt/vga_jatekkal_teszt.srcs/sources_1/new/vga_axi.v}}] -no_script -reset -force -quiet 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files  {{D:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/vga_jatekkal/vga_jatekkal_teszt/vga_jatekkal_teszt.srcs/sources_1/new/vga_axi.v}} 
+// aE (ck): Remove Sources: addNotify
+// bx (aE):  Remove Sources : addNotify
+// Tcl Message: file delete -force {D:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/vga_jatekkal/vga_jatekkal_teszt/vga_jatekkal_teszt.srcs/sources_1/new/vga_axi.v} 
+dismissDialog("Remove Sources"); // bx (aE)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 12 seconds
+closeMainWindow("vga_jatekkal_teszt - [D:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/vga_jatekkal/vga_jatekkal_teszt/vga_jatekkal_teszt.xpr] - Vivado 2018.2"); // ck
+// A (ck): Exit Vivado: addNotify
+dismissDialog("Exit Vivado"); // A (ck)
+// [GUI Memory]: 95 MB (+813kb) [00:14:00]
