@@ -115,4 +115,11 @@ module test(xpos, ypos, red, green, blue);
     
     assign red[1] = temp[0];
     assign green[0] = red[1] ? 0:1;
+    
+    // Bullshit
+
+/*    red <= tomb[ypos*640+xpos] [1:0] ;
+    green <= tomb[ypos*640+xpos] [3:2] ;
+    blue <= tomb[ypos*640+xpos] [5:4] ;*/
+    
 endmodule
