@@ -1,16 +1,17 @@
 {
    ExpandedHierarchyInLayout: "",
+   PinnedPorts: "",
    guistr: "# # String gsaved with Nlview 6.8.5  2018-01-30 bk=1.4354 VDI=40 GEI=35 GUI=JA:1.6 non-TLS
 #  -string -flagsOSRD
 preplace port rst_in -pg 1 -y 630 -defaultsOSRD
 preplace port UART -pg 1 -y 670 -defaultsOSRD
 preplace port DDR3_0 -pg 1 -y 420 -defaultsOSRD
-preplace port hs_0 -pg 1 -y 60 -defaultsOSRD
-preplace port vs_0 -pg 1 -y 80 -defaultsOSRD
+preplace port vs -pg 1 -y 80 -defaultsOSRD
 preplace port clk100M_in -pg 1 -y 610 -defaultsOSRD
-preplace portBus gout_0 -pg 1 -y 20 -defaultsOSRD
-preplace portBus bout_0 -pg 1 -y 40 -defaultsOSRD
-preplace portBus rout_0 -pg 1 -y 0 -defaultsOSRD
+preplace port hs -pg 1 -y 60 -defaultsOSRD
+preplace portBus gout -pg 1 -y 20 -defaultsOSRD
+preplace portBus bout -pg 1 -y 40 -defaultsOSRD
+preplace portBus rout -pg 1 -y 0 -defaultsOSRD
 preplace inst axi_dma_0 -pg 1 -lvl 4 -y 480 -defaultsOSRD
 preplace inst rst_mig_7series_0_100M -pg 1 -lvl 1 -y 750 -defaultsOSRD
 preplace inst mig_7series_0 -pg 1 -lvl 6 -y 470 -defaultsOSRD
@@ -19,44 +20,44 @@ preplace inst microblaze_0_axi_periph -pg 1 -lvl 3 -y 660 -defaultsOSRD
 preplace inst vgaSync_0 -pg 1 -lvl 4 -y 30 -defaultsOSRD
 preplace inst mdm_1 -pg 1 -lvl 1 -y 380 -defaultsOSRD
 preplace inst system_ila_0 -pg 1 -lvl 5 -y 180 -defaultsOSRD
-preplace inst axi_uartlite_0 -pg 1 -lvl 6 -y 680 -defaultsOSRD
+preplace inst axi_uartlite_0 -pg 1 -lvl 6 -y 690 -defaultsOSRD
 preplace inst microblaze_0 -pg 1 -lvl 2 -y 380 -defaultsOSRD
 preplace inst fifo_generator_0 -pg 1 -lvl 3 -y 190 -defaultsOSRD
 preplace inst microblaze_0_local_memory -pg 1 -lvl 3 -y 440 -defaultsOSRD
-preplace netloc axi_dma_0_M_AXI 1 4 1 1810
-preplace netloc mig_7series_0_mmcm_locked 1 0 7 -40 850 NJ 850 NJ 850 NJ 850 NJ 850 NJ 850 2440
+preplace netloc axi_dma_0_M_AXI 1 4 1 1800
+preplace netloc mig_7series_0_mmcm_locked 1 0 7 -50 640 NJ 640 860J 800 NJ 800 NJ 800 NJ 800 2430
 preplace netloc mig_7series_0_DDR3 1 6 1 NJ
-preplace netloc mig_7series_0_ui_addn_clk_0 1 5 2 2170 580 2430
-preplace netloc vgaSync_0_rout 1 4 3 NJ 0 NJ 0 NJ
-preplace netloc microblaze_0_Clk 1 0 7 -40 490 330 490 910 40 1370 210 1860 510 2150 590 2450
-preplace netloc axi_smc_M00_AXI 1 5 1 2170
-preplace netloc vgaSync_0_vs 1 4 3 NJ 80 NJ 80 NJ
-preplace netloc vgaSync_0_bout 1 4 3 NJ 40 NJ 40 NJ
-preplace netloc fifo_generator_0_m_axis_tlast 1 3 1 1350
-preplace netloc fifo_generator_0_m_axis_tdata 1 3 1 1320
-preplace netloc microblaze_0_axi_periph_M00_AXI 1 3 3 1360 660 NJ 660 NJ
+preplace netloc mig_7series_0_ui_addn_clk_0 1 5 2 2160 580 2420
+preplace netloc vgaSync_0_rout 1 4 3 N 0 NJ 0 NJ
+preplace netloc microblaze_0_Clk 1 0 7 -40 300 330 280 910 50 1310 150 1820 70 2130 590 2440
+preplace netloc axi_smc_M00_AXI 1 5 1 2120
+preplace netloc vgaSync_0_vs 1 4 3 N 80 NJ 80 NJ
+preplace netloc vgaSync_0_bout 1 4 3 N 40 NJ 40 NJ
+preplace netloc fifo_generator_0_m_axis_tlast 1 3 1 1330
+preplace netloc fifo_generator_0_m_axis_tdata 1 3 1 1300
+preplace netloc microblaze_0_axi_periph_M00_AXI 1 3 3 1370 670 NJ 670 NJ
 preplace netloc microblaze_0_M_AXI_DP 1 2 1 880
-preplace netloc microblaze_0_M_AXI_DC 1 2 3 840 320 NJ 320 NJ
+preplace netloc microblaze_0_M_AXI_DC 1 2 3 850 330 1360J 310 1810J
 preplace netloc microblaze_0_ilmb_1 1 2 1 900
-preplace netloc vgaSync_0_gout 1 4 3 NJ 20 NJ 20 NJ
-preplace netloc rst_mig_7series_0_100M_interconnect_aresetn 1 1 2 NJ 770 920
-preplace netloc rst_mig_7series_0_100M_peripheral_aresetn 1 1 5 NJ 790 890 50 1330 220 1840 500 2160
-preplace netloc rst_mig_7series_0_100M_bus_struct_reset 1 1 2 330J 600 870
-preplace netloc sys_clk_i_0_1 1 0 6 NJ 610 NJ 610 920J 520 1380J 300 1830J 490 NJ
-preplace netloc microblaze_0_axi_periph_M01_AXI 1 3 1 1390
-preplace netloc microblaze_0_M_AXI_IC 1 2 3 870J 350 1390J 310 1820
-preplace netloc vgaSync_0_wready 1 3 2 N 200 1780
-preplace netloc axi_uartlite_0_UART 1 6 1 NJ
-preplace netloc vgaSync_0_hs 1 4 3 NJ 60 NJ 60 NJ
+preplace netloc vgaSync_0_gout 1 4 3 N 20 NJ 20 NJ
+preplace netloc rst_mig_7series_0_100M_interconnect_aresetn 1 1 2 330J 620 N
+preplace netloc rst_mig_7series_0_100M_peripheral_aresetn 1 1 5 NJ 790 870 40 1350 140 1790 30 2140
+preplace netloc rst_mig_7series_0_100M_bus_struct_reset 1 1 2 320J 600 890
+preplace netloc sys_clk_i_0_1 1 0 6 NJ 610 NJ 610 900J 520 1320J 640 NJ 640 2150J
+preplace netloc microblaze_0_axi_periph_M01_AXI 1 3 1 1360
+preplace netloc microblaze_0_M_AXI_IC 1 2 3 840J 320 NJ 320 1780
+preplace netloc vgaSync_0_wready 1 3 2 N 200 1760
+preplace netloc axi_uartlite_0_UART 1 6 1 2460J
+preplace netloc vgaSync_0_hs 1 4 3 N 60 NJ 60 NJ
 preplace netloc rst_mig_7series_0_100M_mb_reset 1 1 1 310
-preplace netloc mig_7series_0_ui_clk_sync_rst 1 0 7 -50 480 NJ 480 860J 340 1350J 290 1800J 600 NJ 600 2460
-preplace netloc sys_rst_0_1 1 0 6 NJ 630 320J 780 860J 800 NJ 800 1850J 480 2150J
-preplace netloc microblaze_0_dlmb_1 1 2 1 850
-preplace netloc axi_dma_0_M_AXIS_MM2S 1 2 3 920 60 1360J 140 1790
+preplace netloc mig_7series_0_ui_clk_sync_rst 1 0 7 -30 650 NJ 650 840J 810 NJ 810 NJ 810 NJ 810 2450
+preplace netloc sys_rst_0_1 1 0 6 NJ 630 NJ 630 850J 820 NJ 820 1780J 630 2120J
+preplace netloc microblaze_0_dlmb_1 1 2 1 920
+preplace netloc axi_dma_0_M_AXIS_MM2S 1 2 3 920 60 1340J 160 1770
 preplace netloc microblaze_0_debug 1 1 1 N
 preplace netloc mdm_1_debug_sys_rst 1 0 2 -60 310 310
-preplace netloc fifo_generator_0_m_axis_tvalid 1 3 1 1340
-levelinfo -pg 1 -80 140 600 1130 1600 2010 2300 2480 -top -390 -bot 960
+preplace netloc fifo_generator_0_m_axis_tvalid 1 3 1 1320
+levelinfo -pg 1 -80 140 600 1110 1580 1980 2290 2480 -top -390 -bot 1240
 ",
 }
 {

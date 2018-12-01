@@ -4882,7 +4882,7 @@ Note: This value must be greater than or equal to the largest expected packet to
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>8:497dc6c1</spirit:value>
+            <spirit:value>8:2b0d192b</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -4898,11 +4898,11 @@ Note: This value must be greater than or equal to the largest expected packet to
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Thu Nov 08 22:05:34 UTC 2018</spirit:value>
+            <spirit:value>Sat Dec 01 08:53:00 UTC 2018</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>8:497dc6c1</spirit:value>
+            <spirit:value>8:2b0d192b</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -4943,7 +4943,7 @@ Note: This value must be greater than or equal to the largest expected packet to
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>8:a3a7bf02</spirit:value>
+            <spirit:value>8:97419140</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -4959,11 +4959,11 @@ Note: This value must be greater than or equal to the largest expected packet to
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Thu Nov 08 22:05:34 UTC 2018</spirit:value>
+            <spirit:value>Sat Dec 01 08:53:00 UTC 2018</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>8:a3a7bf02</spirit:value>
+            <spirit:value>8:97419140</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -4977,11 +4977,11 @@ Note: This value must be greater than or equal to the largest expected packet to
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Thu Nov 08 22:08:47 UTC 2018</spirit:value>
+            <spirit:value>Sat Dec 01 09:04:43 UTC 2018</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>8:497dc6c1</spirit:value>
+            <spirit:value>8:2b0d192b</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>

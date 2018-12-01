@@ -11,9 +11,9 @@ echo "Please update the PATH and LD_LIBRARY_PATH variables below, before executi
 exit
 
 if [ -z "$PATH" ]; then
-  PATH=E:/Xilinx/SDK/2018.2/bin;E:/Xilinx/Vivado/2018.2/ids_lite/ISE/bin/nt64;E:/Xilinx/Vivado/2018.2/ids_lite/ISE/lib/nt64:E:/Xilinx/Vivado/2018.2/bin
+  PATH=G:/Programok/Vivado2018.2/SDK/2018.2/bin;G:/Programok/Vivado2018.2/Vivado/2018.2/ids_lite/ISE/bin/nt64;G:/Programok/Vivado2018.2/Vivado/2018.2/ids_lite/ISE/lib/nt64:G:/Programok/Vivado2018.2/Vivado/2018.2/bin
 else
-  PATH=E:/Xilinx/SDK/2018.2/bin;E:/Xilinx/Vivado/2018.2/ids_lite/ISE/bin/nt64;E:/Xilinx/Vivado/2018.2/ids_lite/ISE/lib/nt64:E:/Xilinx/Vivado/2018.2/bin:$PATH
+  PATH=G:/Programok/Vivado2018.2/SDK/2018.2/bin;G:/Programok/Vivado2018.2/Vivado/2018.2/ids_lite/ISE/bin/nt64;G:/Programok/Vivado2018.2/Vivado/2018.2/ids_lite/ISE/lib/nt64:G:/Programok/Vivado2018.2/Vivado/2018.2/bin:$PATH
 fi
 export PATH
 
@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='F:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.runs/cpu_system_fifo_generator_0_0_synth_1'
+HD_PWD='D:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/cpu_system_fifo_generator_0_0_synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

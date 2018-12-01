@@ -2,12 +2,12 @@
 # Vivado v2018.2 (64-bit)
 # SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
 # IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
-# Start of session at: Thu Nov  8 23:05:50 2018
-# Process ID: 7972
-# Current directory: F:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.runs/cpu_system_system_ila_0_0_synth_1
+# Start of session at: Sat Dec  1 09:54:17 2018
+# Process ID: 13476
+# Current directory: D:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/cpu_system_system_ila_0_0_synth_1
 # Command line: vivado.exe -log cpu_system_system_ila_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source cpu_system_system_ila_0_0.tcl
-# Log file: F:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.runs/cpu_system_system_ila_0_0_synth_1/cpu_system_system_ila_0_0.vds
-# Journal file: F:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.runs/cpu_system_system_ila_0_0_synth_1\vivado.jou
+# Log file: D:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/cpu_system_system_ila_0_0_synth_1/cpu_system_system_ila_0_0.vds
+# Journal file: D:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/cpu_system_system_ila_0_0_synth_1\vivado.jou
 #-----------------------------------------------------------
 source cpu_system_system_ila_0_0.tcl -notrace
 Command: synth_design -top cpu_system_system_ila_0_0 -part xc7k70tfbg676-1 -mode out_of_context
@@ -15,15 +15,15 @@ Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7k70t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k70t'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 3924 
+INFO: Helper process launched with PID 14368 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 484.375 ; gain = 125.277
+Starting RTL Elaboration : Time (s): cpu = 00:00:16 ; elapsed = 00:00:19 . Memory (MB): peak = 487.871 ; gain = 125.699
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-6157] synthesizing module 'cpu_system_system_ila_0_0' [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/synth/cpu_system_system_ila_0_0.v:216]
-WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/synth/cpu_system_system_ila_0_0.v:349]
-INFO: [Synth 8-6157] synthesizing module 'bd_38aa' [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/synth/bd_38aa.v:10]
-INFO: [Synth 8-6157] synthesizing module 'bd_38aa_g_inst_0' [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/synth/bd_38aa_g_inst_0.v:116]
-INFO: [Synth 8-6157] synthesizing module 'bd_38aa_g_inst_0_gigantic_mux' [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:63]
+INFO: [Synth 8-6157] synthesizing module 'cpu_system_system_ila_0_0' [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/synth/cpu_system_system_ila_0_0.v:216]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/synth/cpu_system_system_ila_0_0.v:349]
+INFO: [Synth 8-6157] synthesizing module 'bd_38aa' [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/synth/bd_38aa.v:10]
+INFO: [Synth 8-6157] synthesizing module 'bd_38aa_g_inst_0' [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/synth/bd_38aa_g_inst_0.v:116]
+INFO: [Synth 8-6157] synthesizing module 'bd_38aa_g_inst_0_gigantic_mux' [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:63]
 	Parameter C_NUM_MONITOR_SLOTS bound to: 3 - type: integer 
 	Parameter C_MUX_LEVEL bound to: 1 - type: integer 
 	Parameter C_AXI_CH_SEL bound to: ALL - type: string 
@@ -1366,127 +1366,127 @@ INFO: [Synth 8-6157] synthesizing module 'bd_38aa_g_inst_0_gigantic_mux' [f:/Egy
 	Parameter C_SLOT_15_AXIS_TDEST_WIDTH bound to: 1 - type: integer 
 	Parameter C_SLOT_15_AXIS_TUSER_WIDTH bound to: 1 - type: integer 
 	Parameter C_EN_GIGAMUX bound to: 1'b0 
-WARNING: [Synth 8-3848] Net probe_out0 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:1985]
-WARNING: [Synth 8-3848] Net probe_out1 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:1986]
-WARNING: [Synth 8-3848] Net probe_out2 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:1987]
-WARNING: [Synth 8-3848] Net probe_out3 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:1988]
-WARNING: [Synth 8-3848] Net probe_out4 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:1989]
-WARNING: [Synth 8-3848] Net probe_out5 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:1990]
-WARNING: [Synth 8-3848] Net probe_out6 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:1991]
-WARNING: [Synth 8-3848] Net probe_out7 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:1992]
-WARNING: [Synth 8-3848] Net probe_out8 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:1993]
-WARNING: [Synth 8-3848] Net probe_out9 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:1994]
-WARNING: [Synth 8-3848] Net probe_out10 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:1995]
-WARNING: [Synth 8-3848] Net probe_out11 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:1996]
-WARNING: [Synth 8-3848] Net probe_out12 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:1997]
-WARNING: [Synth 8-3848] Net probe_out13 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:1998]
-WARNING: [Synth 8-3848] Net probe_out14 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:1999]
-WARNING: [Synth 8-3848] Net probe_out15 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2000]
-WARNING: [Synth 8-3848] Net probe_out16 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2001]
-WARNING: [Synth 8-3848] Net probe_out17 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2002]
-WARNING: [Synth 8-3848] Net probe_out18 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2003]
-WARNING: [Synth 8-3848] Net probe_out19 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2004]
-WARNING: [Synth 8-3848] Net probe_out20 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2005]
-WARNING: [Synth 8-3848] Net probe_out21 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2006]
-WARNING: [Synth 8-3848] Net probe_out22 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2007]
-WARNING: [Synth 8-3848] Net probe_out23 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2008]
-WARNING: [Synth 8-3848] Net probe_out24 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2009]
-WARNING: [Synth 8-3848] Net probe_out25 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2010]
-WARNING: [Synth 8-3848] Net probe_out26 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2011]
-WARNING: [Synth 8-3848] Net probe_out27 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2012]
-WARNING: [Synth 8-3848] Net probe_out28 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2013]
-WARNING: [Synth 8-3848] Net probe_out29 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2014]
-WARNING: [Synth 8-3848] Net probe_out30 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2015]
-WARNING: [Synth 8-3848] Net probe_out31 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2016]
-WARNING: [Synth 8-3848] Net probe_out32 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2017]
-WARNING: [Synth 8-3848] Net probe_out33 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2018]
-WARNING: [Synth 8-3848] Net probe_out34 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2019]
-WARNING: [Synth 8-3848] Net probe_out35 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2020]
-WARNING: [Synth 8-3848] Net probe_out36 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2021]
-WARNING: [Synth 8-3848] Net probe_out37 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2022]
-WARNING: [Synth 8-3848] Net probe_out38 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2023]
-WARNING: [Synth 8-3848] Net probe_out39 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2024]
-WARNING: [Synth 8-3848] Net probe_out40 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2025]
-WARNING: [Synth 8-3848] Net probe_out41 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2026]
-WARNING: [Synth 8-3848] Net probe_out42 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2027]
-WARNING: [Synth 8-3848] Net probe_out43 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2028]
-WARNING: [Synth 8-3848] Net probe_out44 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2029]
-WARNING: [Synth 8-3848] Net probe_out45 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2030]
-WARNING: [Synth 8-3848] Net probe_out46 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2031]
-WARNING: [Synth 8-3848] Net probe_out47 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2032]
-WARNING: [Synth 8-3848] Net probe_out48 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2033]
-WARNING: [Synth 8-3848] Net probe_out49 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2034]
-WARNING: [Synth 8-3848] Net probe_out50 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2035]
-WARNING: [Synth 8-3848] Net probe_out51 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2036]
-WARNING: [Synth 8-3848] Net probe_out52 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2037]
-WARNING: [Synth 8-3848] Net probe_out53 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2038]
-WARNING: [Synth 8-3848] Net probe_out54 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2039]
-WARNING: [Synth 8-3848] Net probe_out55 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2040]
-WARNING: [Synth 8-3848] Net probe_out56 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2041]
-WARNING: [Synth 8-3848] Net probe_out57 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2042]
-WARNING: [Synth 8-3848] Net probe_out58 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2043]
-WARNING: [Synth 8-3848] Net probe_out59 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2044]
-WARNING: [Synth 8-3848] Net probe_out60 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2045]
-WARNING: [Synth 8-3848] Net probe_out61 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2046]
-WARNING: [Synth 8-3848] Net probe_out62 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2047]
-WARNING: [Synth 8-3848] Net probe_out63 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2048]
-WARNING: [Synth 8-3848] Net probe_out64 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2049]
-WARNING: [Synth 8-3848] Net probe_out65 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2050]
-WARNING: [Synth 8-3848] Net probe_out66 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2051]
-WARNING: [Synth 8-3848] Net probe_out67 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2052]
-WARNING: [Synth 8-3848] Net probe_out68 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2053]
-WARNING: [Synth 8-3848] Net probe_out69 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2054]
-WARNING: [Synth 8-3848] Net probe_out70 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2055]
-WARNING: [Synth 8-3848] Net probe_out71 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2056]
-WARNING: [Synth 8-3848] Net probe_out72 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2057]
-WARNING: [Synth 8-3848] Net probe_out73 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2058]
-WARNING: [Synth 8-3848] Net probe_out74 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2059]
-WARNING: [Synth 8-3848] Net probe_out75 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2060]
-WARNING: [Synth 8-3848] Net probe_out76 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2061]
-WARNING: [Synth 8-3848] Net probe_out77 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2062]
-WARNING: [Synth 8-3848] Net probe_out78 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2063]
-WARNING: [Synth 8-3848] Net probe_out79 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2064]
-WARNING: [Synth 8-3848] Net probe_out80 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2065]
-WARNING: [Synth 8-3848] Net probe_out81 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2066]
-WARNING: [Synth 8-3848] Net probe_out82 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2067]
-WARNING: [Synth 8-3848] Net probe_out83 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2068]
-WARNING: [Synth 8-3848] Net probe_out84 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2069]
-WARNING: [Synth 8-3848] Net probe_out85 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2070]
-WARNING: [Synth 8-3848] Net probe_out86 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2071]
-WARNING: [Synth 8-3848] Net probe_out87 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2072]
-WARNING: [Synth 8-3848] Net probe_out88 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2073]
-WARNING: [Synth 8-3848] Net probe_out89 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2074]
-WARNING: [Synth 8-3848] Net probe_out90 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2075]
-WARNING: [Synth 8-3848] Net probe_out91 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2076]
-WARNING: [Synth 8-3848] Net probe_out92 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2077]
-WARNING: [Synth 8-3848] Net probe_out93 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2078]
-WARNING: [Synth 8-3848] Net probe_out94 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2079]
-WARNING: [Synth 8-3848] Net probe_out95 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2080]
-WARNING: [Synth 8-3848] Net probe_out96 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2081]
-WARNING: [Synth 8-3848] Net probe_out97 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2082]
-WARNING: [Synth 8-3848] Net probe_out98 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2083]
-WARNING: [Synth 8-3848] Net probe_out99 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2084]
+WARNING: [Synth 8-3848] Net probe_out0 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:1985]
+WARNING: [Synth 8-3848] Net probe_out1 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:1986]
+WARNING: [Synth 8-3848] Net probe_out2 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:1987]
+WARNING: [Synth 8-3848] Net probe_out3 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:1988]
+WARNING: [Synth 8-3848] Net probe_out4 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:1989]
+WARNING: [Synth 8-3848] Net probe_out5 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:1990]
+WARNING: [Synth 8-3848] Net probe_out6 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:1991]
+WARNING: [Synth 8-3848] Net probe_out7 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:1992]
+WARNING: [Synth 8-3848] Net probe_out8 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:1993]
+WARNING: [Synth 8-3848] Net probe_out9 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:1994]
+WARNING: [Synth 8-3848] Net probe_out10 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:1995]
+WARNING: [Synth 8-3848] Net probe_out11 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:1996]
+WARNING: [Synth 8-3848] Net probe_out12 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:1997]
+WARNING: [Synth 8-3848] Net probe_out13 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:1998]
+WARNING: [Synth 8-3848] Net probe_out14 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:1999]
+WARNING: [Synth 8-3848] Net probe_out15 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2000]
+WARNING: [Synth 8-3848] Net probe_out16 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2001]
+WARNING: [Synth 8-3848] Net probe_out17 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2002]
+WARNING: [Synth 8-3848] Net probe_out18 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2003]
+WARNING: [Synth 8-3848] Net probe_out19 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2004]
+WARNING: [Synth 8-3848] Net probe_out20 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2005]
+WARNING: [Synth 8-3848] Net probe_out21 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2006]
+WARNING: [Synth 8-3848] Net probe_out22 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2007]
+WARNING: [Synth 8-3848] Net probe_out23 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2008]
+WARNING: [Synth 8-3848] Net probe_out24 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2009]
+WARNING: [Synth 8-3848] Net probe_out25 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2010]
+WARNING: [Synth 8-3848] Net probe_out26 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2011]
+WARNING: [Synth 8-3848] Net probe_out27 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2012]
+WARNING: [Synth 8-3848] Net probe_out28 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2013]
+WARNING: [Synth 8-3848] Net probe_out29 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2014]
+WARNING: [Synth 8-3848] Net probe_out30 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2015]
+WARNING: [Synth 8-3848] Net probe_out31 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2016]
+WARNING: [Synth 8-3848] Net probe_out32 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2017]
+WARNING: [Synth 8-3848] Net probe_out33 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2018]
+WARNING: [Synth 8-3848] Net probe_out34 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2019]
+WARNING: [Synth 8-3848] Net probe_out35 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2020]
+WARNING: [Synth 8-3848] Net probe_out36 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2021]
+WARNING: [Synth 8-3848] Net probe_out37 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2022]
+WARNING: [Synth 8-3848] Net probe_out38 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2023]
+WARNING: [Synth 8-3848] Net probe_out39 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2024]
+WARNING: [Synth 8-3848] Net probe_out40 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2025]
+WARNING: [Synth 8-3848] Net probe_out41 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2026]
+WARNING: [Synth 8-3848] Net probe_out42 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2027]
+WARNING: [Synth 8-3848] Net probe_out43 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2028]
+WARNING: [Synth 8-3848] Net probe_out44 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2029]
+WARNING: [Synth 8-3848] Net probe_out45 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2030]
+WARNING: [Synth 8-3848] Net probe_out46 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2031]
+WARNING: [Synth 8-3848] Net probe_out47 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2032]
+WARNING: [Synth 8-3848] Net probe_out48 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2033]
+WARNING: [Synth 8-3848] Net probe_out49 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2034]
+WARNING: [Synth 8-3848] Net probe_out50 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2035]
+WARNING: [Synth 8-3848] Net probe_out51 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2036]
+WARNING: [Synth 8-3848] Net probe_out52 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2037]
+WARNING: [Synth 8-3848] Net probe_out53 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2038]
+WARNING: [Synth 8-3848] Net probe_out54 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2039]
+WARNING: [Synth 8-3848] Net probe_out55 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2040]
+WARNING: [Synth 8-3848] Net probe_out56 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2041]
+WARNING: [Synth 8-3848] Net probe_out57 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2042]
+WARNING: [Synth 8-3848] Net probe_out58 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2043]
+WARNING: [Synth 8-3848] Net probe_out59 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2044]
+WARNING: [Synth 8-3848] Net probe_out60 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2045]
+WARNING: [Synth 8-3848] Net probe_out61 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2046]
+WARNING: [Synth 8-3848] Net probe_out62 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2047]
+WARNING: [Synth 8-3848] Net probe_out63 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2048]
+WARNING: [Synth 8-3848] Net probe_out64 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2049]
+WARNING: [Synth 8-3848] Net probe_out65 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2050]
+WARNING: [Synth 8-3848] Net probe_out66 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2051]
+WARNING: [Synth 8-3848] Net probe_out67 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2052]
+WARNING: [Synth 8-3848] Net probe_out68 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2053]
+WARNING: [Synth 8-3848] Net probe_out69 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2054]
+WARNING: [Synth 8-3848] Net probe_out70 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2055]
+WARNING: [Synth 8-3848] Net probe_out71 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2056]
+WARNING: [Synth 8-3848] Net probe_out72 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2057]
+WARNING: [Synth 8-3848] Net probe_out73 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2058]
+WARNING: [Synth 8-3848] Net probe_out74 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2059]
+WARNING: [Synth 8-3848] Net probe_out75 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2060]
+WARNING: [Synth 8-3848] Net probe_out76 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2061]
+WARNING: [Synth 8-3848] Net probe_out77 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2062]
+WARNING: [Synth 8-3848] Net probe_out78 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2063]
+WARNING: [Synth 8-3848] Net probe_out79 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2064]
+WARNING: [Synth 8-3848] Net probe_out80 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2065]
+WARNING: [Synth 8-3848] Net probe_out81 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2066]
+WARNING: [Synth 8-3848] Net probe_out82 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2067]
+WARNING: [Synth 8-3848] Net probe_out83 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2068]
+WARNING: [Synth 8-3848] Net probe_out84 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2069]
+WARNING: [Synth 8-3848] Net probe_out85 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2070]
+WARNING: [Synth 8-3848] Net probe_out86 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2071]
+WARNING: [Synth 8-3848] Net probe_out87 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2072]
+WARNING: [Synth 8-3848] Net probe_out88 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2073]
+WARNING: [Synth 8-3848] Net probe_out89 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2074]
+WARNING: [Synth 8-3848] Net probe_out90 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2075]
+WARNING: [Synth 8-3848] Net probe_out91 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2076]
+WARNING: [Synth 8-3848] Net probe_out92 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2077]
+WARNING: [Synth 8-3848] Net probe_out93 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2078]
+WARNING: [Synth 8-3848] Net probe_out94 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2079]
+WARNING: [Synth 8-3848] Net probe_out95 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2080]
+WARNING: [Synth 8-3848] Net probe_out96 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2081]
+WARNING: [Synth 8-3848] Net probe_out97 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2082]
+WARNING: [Synth 8-3848] Net probe_out98 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2083]
+WARNING: [Synth 8-3848] Net probe_out99 in module/entity bd_38aa_g_inst_0_gigantic_mux does not have driver. [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:2084]
 INFO: [Common 17-14] Message 'Synth 8-3848' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
-INFO: [Synth 8-6155] done synthesizing module 'bd_38aa_g_inst_0_gigantic_mux' (2#1) [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:63]
-INFO: [Synth 8-6155] done synthesizing module 'bd_38aa_g_inst_0' (3#1) [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/synth/bd_38aa_g_inst_0.v:116]
-WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/synth/bd_38aa.v:310]
-INFO: [Synth 8-6157] synthesizing module 'bd_38aa_ila_lib_0' [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_0/synth/bd_38aa_ila_lib_0.v:84]
-INFO: [Synth 8-6157] synthesizing module 'CFGLUT5' [E:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:1000]
-INFO: [Synth 8-6155] done synthesizing module 'CFGLUT5' (15#1) [E:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:1000]
-INFO: [Synth 8-6157] synthesizing module 'CARRY4' [E:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:963]
-INFO: [Synth 8-6155] done synthesizing module 'CARRY4' (16#1) [E:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:963]
-INFO: [Synth 8-6157] synthesizing module 'SRLC32E' [E:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:50861]
-INFO: [Synth 8-6155] done synthesizing module 'SRLC32E' (26#1) [E:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:50861]
-INFO: [Synth 8-6157] synthesizing module 'SRL16E' [E:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:50711]
-INFO: [Synth 8-6155] done synthesizing module 'SRL16E' (28#1) [E:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:50711]
-INFO: [Synth 8-6157] synthesizing module 'SRLC16E' [E:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:50800]
-INFO: [Synth 8-6155] done synthesizing module 'SRLC16E' (30#1) [E:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:50800]
-INFO: [Synth 8-6157] synthesizing module 'FDRE' [E:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:3966]
-INFO: [Synth 8-6155] done synthesizing module 'FDRE' (35#1) [E:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:3966]
-WARNING: [Synth 8-350] instance 'inst' of module 'ila_v6_2_7_ila' requires 1033 connections, but only 1027 given [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_0/synth/bd_38aa_ila_lib_0.v:3279]
-INFO: [Synth 8-6155] done synthesizing module 'bd_38aa_ila_lib_0' (53#1) [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_0/synth/bd_38aa_ila_lib_0.v:84]
-INFO: [Synth 8-6157] synthesizing module 'bd_38aa_slot_0_ar_0' [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_5/synth/bd_38aa_slot_0_ar_0.v:58]
-INFO: [Synth 8-6157] synthesizing module 'xlconcat_v2_1_1_xlconcat' [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ipshared/2f66/hdl/xlconcat_v2_1_vl_rfs.v:14]
+INFO: [Synth 8-6155] done synthesizing module 'bd_38aa_g_inst_0_gigantic_mux' (2#1) [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/bd_38aa_g_inst_0_gigantic_mux.v:63]
+INFO: [Synth 8-6155] done synthesizing module 'bd_38aa_g_inst_0' (3#1) [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_1/synth/bd_38aa_g_inst_0.v:116]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/synth/bd_38aa.v:310]
+INFO: [Synth 8-6157] synthesizing module 'bd_38aa_ila_lib_0' [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_0/synth/bd_38aa_ila_lib_0.v:84]
+INFO: [Synth 8-6157] synthesizing module 'CFGLUT5' [G:/Programok/Vivado2018.2/Vivado/2018.2/scripts/rt/data/unisim_comp.v:1000]
+INFO: [Synth 8-6155] done synthesizing module 'CFGLUT5' (15#1) [G:/Programok/Vivado2018.2/Vivado/2018.2/scripts/rt/data/unisim_comp.v:1000]
+INFO: [Synth 8-6157] synthesizing module 'CARRY4' [G:/Programok/Vivado2018.2/Vivado/2018.2/scripts/rt/data/unisim_comp.v:963]
+INFO: [Synth 8-6155] done synthesizing module 'CARRY4' (16#1) [G:/Programok/Vivado2018.2/Vivado/2018.2/scripts/rt/data/unisim_comp.v:963]
+INFO: [Synth 8-6157] synthesizing module 'SRLC32E' [G:/Programok/Vivado2018.2/Vivado/2018.2/scripts/rt/data/unisim_comp.v:50861]
+INFO: [Synth 8-6155] done synthesizing module 'SRLC32E' (26#1) [G:/Programok/Vivado2018.2/Vivado/2018.2/scripts/rt/data/unisim_comp.v:50861]
+INFO: [Synth 8-6157] synthesizing module 'SRL16E' [G:/Programok/Vivado2018.2/Vivado/2018.2/scripts/rt/data/unisim_comp.v:50711]
+INFO: [Synth 8-6155] done synthesizing module 'SRL16E' (28#1) [G:/Programok/Vivado2018.2/Vivado/2018.2/scripts/rt/data/unisim_comp.v:50711]
+INFO: [Synth 8-6157] synthesizing module 'SRLC16E' [G:/Programok/Vivado2018.2/Vivado/2018.2/scripts/rt/data/unisim_comp.v:50800]
+INFO: [Synth 8-6155] done synthesizing module 'SRLC16E' (30#1) [G:/Programok/Vivado2018.2/Vivado/2018.2/scripts/rt/data/unisim_comp.v:50800]
+INFO: [Synth 8-6157] synthesizing module 'FDRE' [G:/Programok/Vivado2018.2/Vivado/2018.2/scripts/rt/data/unisim_comp.v:3966]
+INFO: [Synth 8-6155] done synthesizing module 'FDRE' (35#1) [G:/Programok/Vivado2018.2/Vivado/2018.2/scripts/rt/data/unisim_comp.v:3966]
+WARNING: [Synth 8-350] instance 'inst' of module 'ila_v6_2_7_ila' requires 1033 connections, but only 1027 given [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_0/synth/bd_38aa_ila_lib_0.v:3279]
+INFO: [Synth 8-6155] done synthesizing module 'bd_38aa_ila_lib_0' (53#1) [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_0/synth/bd_38aa_ila_lib_0.v:84]
+INFO: [Synth 8-6157] synthesizing module 'bd_38aa_slot_0_ar_0' [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_5/synth/bd_38aa_slot_0_ar_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'xlconcat_v2_1_1_xlconcat' [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ipshared/2f66/hdl/xlconcat_v2_1_vl_rfs.v:14]
 	Parameter IN0_WIDTH bound to: 1 - type: integer 
 	Parameter IN1_WIDTH bound to: 1 - type: integer 
 	Parameter IN2_WIDTH bound to: 1 - type: integer 
@@ -1521,14 +1521,14 @@ INFO: [Synth 8-6157] synthesizing module 'xlconcat_v2_1_1_xlconcat' [f:/Egyetem/
 	Parameter IN31_WIDTH bound to: 1 - type: integer 
 	Parameter dout_width bound to: 2 - type: integer 
 	Parameter NUM_PORTS bound to: 2 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'xlconcat_v2_1_1_xlconcat' (54#1) [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ipshared/2f66/hdl/xlconcat_v2_1_vl_rfs.v:14]
-INFO: [Synth 8-6155] done synthesizing module 'bd_38aa_slot_0_ar_0' (55#1) [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_5/synth/bd_38aa_slot_0_ar_0.v:58]
-INFO: [Synth 8-6157] synthesizing module 'bd_38aa_slot_0_aw_0' [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_2/synth/bd_38aa_slot_0_aw_0.v:58]
-INFO: [Synth 8-6155] done synthesizing module 'bd_38aa_slot_0_aw_0' (56#1) [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_2/synth/bd_38aa_slot_0_aw_0.v:58]
-INFO: [Synth 8-6157] synthesizing module 'bd_38aa_slot_0_b_0' [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_4/synth/bd_38aa_slot_0_b_0.v:58]
-INFO: [Synth 8-6155] done synthesizing module 'bd_38aa_slot_0_b_0' (57#1) [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_4/synth/bd_38aa_slot_0_b_0.v:58]
-INFO: [Synth 8-6157] synthesizing module 'bd_38aa_slot_0_r_0' [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_6/synth/bd_38aa_slot_0_r_0.v:58]
-INFO: [Synth 8-6157] synthesizing module 'xlconcat_v2_1_1_xlconcat__parameterized0' [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ipshared/2f66/hdl/xlconcat_v2_1_vl_rfs.v:14]
+INFO: [Synth 8-6155] done synthesizing module 'xlconcat_v2_1_1_xlconcat' (54#1) [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ipshared/2f66/hdl/xlconcat_v2_1_vl_rfs.v:14]
+INFO: [Synth 8-6155] done synthesizing module 'bd_38aa_slot_0_ar_0' (55#1) [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_5/synth/bd_38aa_slot_0_ar_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'bd_38aa_slot_0_aw_0' [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_2/synth/bd_38aa_slot_0_aw_0.v:58]
+INFO: [Synth 8-6155] done synthesizing module 'bd_38aa_slot_0_aw_0' (56#1) [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_2/synth/bd_38aa_slot_0_aw_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'bd_38aa_slot_0_b_0' [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_4/synth/bd_38aa_slot_0_b_0.v:58]
+INFO: [Synth 8-6155] done synthesizing module 'bd_38aa_slot_0_b_0' (57#1) [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_4/synth/bd_38aa_slot_0_b_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'bd_38aa_slot_0_r_0' [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_6/synth/bd_38aa_slot_0_r_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'xlconcat_v2_1_1_xlconcat__parameterized0' [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ipshared/2f66/hdl/xlconcat_v2_1_vl_rfs.v:14]
 	Parameter IN0_WIDTH bound to: 1 - type: integer 
 	Parameter IN1_WIDTH bound to: 1 - type: integer 
 	Parameter IN2_WIDTH bound to: 1 - type: integer 
@@ -1563,19 +1563,19 @@ INFO: [Synth 8-6157] synthesizing module 'xlconcat_v2_1_1_xlconcat__parameterize
 	Parameter IN31_WIDTH bound to: 1 - type: integer 
 	Parameter dout_width bound to: 3 - type: integer 
 	Parameter NUM_PORTS bound to: 3 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'xlconcat_v2_1_1_xlconcat__parameterized0' (57#1) [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ipshared/2f66/hdl/xlconcat_v2_1_vl_rfs.v:14]
-INFO: [Synth 8-6155] done synthesizing module 'bd_38aa_slot_0_r_0' (58#1) [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_6/synth/bd_38aa_slot_0_r_0.v:58]
-INFO: [Synth 8-6157] synthesizing module 'bd_38aa_slot_0_w_0' [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_3/synth/bd_38aa_slot_0_w_0.v:58]
-INFO: [Synth 8-6155] done synthesizing module 'bd_38aa_slot_0_w_0' (59#1) [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_3/synth/bd_38aa_slot_0_w_0.v:58]
-INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'g_inst'. This will prevent further optimization [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/synth/bd_38aa.v:225]
-INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'ila_lib'. This will prevent further optimization [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/synth/bd_38aa.v:310]
-INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'slot_0_aw'. This will prevent further optimization [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/synth/bd_38aa.v:352]
-INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'slot_0_w'. This will prevent further optimization [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/synth/bd_38aa.v:365]
-INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'slot_0_b'. This will prevent further optimization [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/synth/bd_38aa.v:356]
-INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'slot_0_ar'. This will prevent further optimization [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/synth/bd_38aa.v:348]
-INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'slot_0_r'. This will prevent further optimization [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/synth/bd_38aa.v:360]
-INFO: [Synth 8-6155] done synthesizing module 'bd_38aa' (60#1) [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/synth/bd_38aa.v:10]
-INFO: [Synth 8-6155] done synthesizing module 'cpu_system_system_ila_0_0' (61#1) [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/synth/cpu_system_system_ila_0_0.v:216]
+INFO: [Synth 8-6155] done synthesizing module 'xlconcat_v2_1_1_xlconcat__parameterized0' (57#1) [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ipshared/2f66/hdl/xlconcat_v2_1_vl_rfs.v:14]
+INFO: [Synth 8-6155] done synthesizing module 'bd_38aa_slot_0_r_0' (58#1) [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_6/synth/bd_38aa_slot_0_r_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'bd_38aa_slot_0_w_0' [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_3/synth/bd_38aa_slot_0_w_0.v:58]
+INFO: [Synth 8-6155] done synthesizing module 'bd_38aa_slot_0_w_0' (59#1) [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_3/synth/bd_38aa_slot_0_w_0.v:58]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'g_inst'. This will prevent further optimization [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/synth/bd_38aa.v:225]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'ila_lib'. This will prevent further optimization [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/synth/bd_38aa.v:310]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'slot_0_aw'. This will prevent further optimization [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/synth/bd_38aa.v:352]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'slot_0_w'. This will prevent further optimization [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/synth/bd_38aa.v:365]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'slot_0_b'. This will prevent further optimization [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/synth/bd_38aa.v:356]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'slot_0_ar'. This will prevent further optimization [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/synth/bd_38aa.v:348]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'slot_0_r'. This will prevent further optimization [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/synth/bd_38aa.v:360]
+INFO: [Synth 8-6155] done synthesizing module 'bd_38aa' (60#1) [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/synth/bd_38aa.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'cpu_system_system_ila_0_0' (61#1) [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/synth/cpu_system_system_ila_0_0.v:216]
 WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized0 has unconnected port In3[0]
 WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized0 has unconnected port In4[0]
 WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized0 has unconnected port In5[0]
@@ -1678,7 +1678,7 @@ WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper__parameterized13 has unc
 WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper__parameterized13 has unconnected port DINB[7]
 INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:01:35 ; elapsed = 00:01:37 . Memory (MB): peak = 1058.660 ; gain = 699.563
+Finished RTL Elaboration : Time (s): cpu = 00:04:37 ; elapsed = 00:04:51 . Memory (MB): peak = 1064.078 ; gain = 701.906
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -1687,68 +1687,68 @@ Report Check Netlist:
 +------+------------------+-------+---------+-------+------------------+
 |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
 +------+------------------+-------+---------+-------+------------------+
-INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[36] to constant 0 [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_0/synth/bd_38aa_ila_lib_0.v:3279]
-INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[35] to constant 0 [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_0/synth/bd_38aa_ila_lib_0.v:3279]
-INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[34] to constant 0 [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_0/synth/bd_38aa_ila_lib_0.v:3279]
-INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[33] to constant 0 [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_0/synth/bd_38aa_ila_lib_0.v:3279]
-INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[32] to constant 0 [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_0/synth/bd_38aa_ila_lib_0.v:3279]
-INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[31] to constant 0 [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_0/synth/bd_38aa_ila_lib_0.v:3279]
-INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[30] to constant 0 [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_0/synth/bd_38aa_ila_lib_0.v:3279]
-INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[29] to constant 0 [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_0/synth/bd_38aa_ila_lib_0.v:3279]
-INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[28] to constant 0 [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_0/synth/bd_38aa_ila_lib_0.v:3279]
-INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[27] to constant 0 [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_0/synth/bd_38aa_ila_lib_0.v:3279]
-INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[26] to constant 0 [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_0/synth/bd_38aa_ila_lib_0.v:3279]
-INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[25] to constant 0 [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_0/synth/bd_38aa_ila_lib_0.v:3279]
-INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[24] to constant 0 [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_0/synth/bd_38aa_ila_lib_0.v:3279]
-INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[23] to constant 0 [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_0/synth/bd_38aa_ila_lib_0.v:3279]
-INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[22] to constant 0 [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_0/synth/bd_38aa_ila_lib_0.v:3279]
-INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[21] to constant 0 [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_0/synth/bd_38aa_ila_lib_0.v:3279]
-INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[20] to constant 0 [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_0/synth/bd_38aa_ila_lib_0.v:3279]
-INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[19] to constant 0 [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_0/synth/bd_38aa_ila_lib_0.v:3279]
-INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[18] to constant 0 [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_0/synth/bd_38aa_ila_lib_0.v:3279]
-INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[17] to constant 0 [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_0/synth/bd_38aa_ila_lib_0.v:3279]
-INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[16] to constant 0 [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_0/synth/bd_38aa_ila_lib_0.v:3279]
-INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[15] to constant 0 [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_0/synth/bd_38aa_ila_lib_0.v:3279]
-INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[14] to constant 0 [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_0/synth/bd_38aa_ila_lib_0.v:3279]
-INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[13] to constant 0 [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_0/synth/bd_38aa_ila_lib_0.v:3279]
-INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[12] to constant 0 [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_0/synth/bd_38aa_ila_lib_0.v:3279]
-INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[11] to constant 0 [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_0/synth/bd_38aa_ila_lib_0.v:3279]
-INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[10] to constant 0 [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_0/synth/bd_38aa_ila_lib_0.v:3279]
-INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[9] to constant 0 [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_0/synth/bd_38aa_ila_lib_0.v:3279]
-INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[8] to constant 0 [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_0/synth/bd_38aa_ila_lib_0.v:3279]
-INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[7] to constant 0 [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_0/synth/bd_38aa_ila_lib_0.v:3279]
-INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[6] to constant 0 [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_0/synth/bd_38aa_ila_lib_0.v:3279]
-INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[5] to constant 0 [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_0/synth/bd_38aa_ila_lib_0.v:3279]
-INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[4] to constant 0 [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_0/synth/bd_38aa_ila_lib_0.v:3279]
-INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[3] to constant 0 [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_0/synth/bd_38aa_ila_lib_0.v:3279]
-INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[2] to constant 0 [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_0/synth/bd_38aa_ila_lib_0.v:3279]
-INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[1] to constant 0 [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_0/synth/bd_38aa_ila_lib_0.v:3279]
-INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[0] to constant 0 [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_0/synth/bd_38aa_ila_lib_0.v:3279]
-INFO: [Synth 8-3295] tying undriven pin inst:trig_in to constant 0 [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_0/synth/bd_38aa_ila_lib_0.v:3279]
-INFO: [Synth 8-3295] tying undriven pin inst:trig_out_ack to constant 0 [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_0/synth/bd_38aa_ila_lib_0.v:3279]
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[36] to constant 0 [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_0/synth/bd_38aa_ila_lib_0.v:3279]
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[35] to constant 0 [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_0/synth/bd_38aa_ila_lib_0.v:3279]
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[34] to constant 0 [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_0/synth/bd_38aa_ila_lib_0.v:3279]
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[33] to constant 0 [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_0/synth/bd_38aa_ila_lib_0.v:3279]
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[32] to constant 0 [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_0/synth/bd_38aa_ila_lib_0.v:3279]
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[31] to constant 0 [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_0/synth/bd_38aa_ila_lib_0.v:3279]
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[30] to constant 0 [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_0/synth/bd_38aa_ila_lib_0.v:3279]
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[29] to constant 0 [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_0/synth/bd_38aa_ila_lib_0.v:3279]
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[28] to constant 0 [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_0/synth/bd_38aa_ila_lib_0.v:3279]
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[27] to constant 0 [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_0/synth/bd_38aa_ila_lib_0.v:3279]
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[26] to constant 0 [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_0/synth/bd_38aa_ila_lib_0.v:3279]
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[25] to constant 0 [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_0/synth/bd_38aa_ila_lib_0.v:3279]
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[24] to constant 0 [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_0/synth/bd_38aa_ila_lib_0.v:3279]
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[23] to constant 0 [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_0/synth/bd_38aa_ila_lib_0.v:3279]
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[22] to constant 0 [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_0/synth/bd_38aa_ila_lib_0.v:3279]
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[21] to constant 0 [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_0/synth/bd_38aa_ila_lib_0.v:3279]
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[20] to constant 0 [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_0/synth/bd_38aa_ila_lib_0.v:3279]
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[19] to constant 0 [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_0/synth/bd_38aa_ila_lib_0.v:3279]
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[18] to constant 0 [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_0/synth/bd_38aa_ila_lib_0.v:3279]
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[17] to constant 0 [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_0/synth/bd_38aa_ila_lib_0.v:3279]
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[16] to constant 0 [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_0/synth/bd_38aa_ila_lib_0.v:3279]
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[15] to constant 0 [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_0/synth/bd_38aa_ila_lib_0.v:3279]
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[14] to constant 0 [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_0/synth/bd_38aa_ila_lib_0.v:3279]
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[13] to constant 0 [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_0/synth/bd_38aa_ila_lib_0.v:3279]
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[12] to constant 0 [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_0/synth/bd_38aa_ila_lib_0.v:3279]
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[11] to constant 0 [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_0/synth/bd_38aa_ila_lib_0.v:3279]
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[10] to constant 0 [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_0/synth/bd_38aa_ila_lib_0.v:3279]
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[9] to constant 0 [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_0/synth/bd_38aa_ila_lib_0.v:3279]
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[8] to constant 0 [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_0/synth/bd_38aa_ila_lib_0.v:3279]
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[7] to constant 0 [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_0/synth/bd_38aa_ila_lib_0.v:3279]
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[6] to constant 0 [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_0/synth/bd_38aa_ila_lib_0.v:3279]
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[5] to constant 0 [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_0/synth/bd_38aa_ila_lib_0.v:3279]
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[4] to constant 0 [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_0/synth/bd_38aa_ila_lib_0.v:3279]
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[3] to constant 0 [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_0/synth/bd_38aa_ila_lib_0.v:3279]
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[2] to constant 0 [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_0/synth/bd_38aa_ila_lib_0.v:3279]
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[1] to constant 0 [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_0/synth/bd_38aa_ila_lib_0.v:3279]
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[0] to constant 0 [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_0/synth/bd_38aa_ila_lib_0.v:3279]
+INFO: [Synth 8-3295] tying undriven pin inst:trig_in to constant 0 [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_0/synth/bd_38aa_ila_lib_0.v:3279]
+INFO: [Synth 8-3295] tying undriven pin inst:trig_out_ack to constant 0 [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_0/synth/bd_38aa_ila_lib_0.v:3279]
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:01:37 ; elapsed = 00:01:39 . Memory (MB): peak = 1058.660 ; gain = 699.563
+Finished Handling Custom Attributes : Time (s): cpu = 00:04:43 ; elapsed = 00:04:57 . Memory (MB): peak = 1064.078 ; gain = 701.906
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:01:37 ; elapsed = 00:01:39 . Memory (MB): peak = 1058.660 ; gain = 699.563
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:04:43 ; elapsed = 00:04:57 . Memory (MB): peak = 1064.078 ; gain = 701.906
 ---------------------------------------------------------------------------------
 INFO: [Netlist 29-17] Analyzing 4456 Unisim elements for replacement
-INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Netlist 29-28] Unisim Transformation completed in 6 CPU seconds
 INFO: [Device 21-403] Loading part xc7k70tfbg676-1
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/cpu_system_system_ila_0_0_ooc.xdc] for cell 'inst'
-Finished Parsing XDC File [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/cpu_system_system_ila_0_0_ooc.xdc] for cell 'inst'
-Parsing XDC File [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_0/ila_v6_2/constraints/ila.xdc] for cell 'inst/ila_lib/inst'
-Finished Parsing XDC File [f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_0/ila_v6_2/constraints/ila.xdc] for cell 'inst/ila_lib/inst'
-Parsing XDC File [F:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.runs/cpu_system_system_ila_0_0_synth_1/dont_touch.xdc]
-Finished Parsing XDC File [F:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.runs/cpu_system_system_ila_0_0_synth_1/dont_touch.xdc]
-INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [F:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.runs/cpu_system_system_ila_0_0_synth_1/dont_touch.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/cpu_system_system_ila_0_0_propImpl.xdc].
+Parsing XDC File [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/cpu_system_system_ila_0_0_ooc.xdc] for cell 'inst'
+Finished Parsing XDC File [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/cpu_system_system_ila_0_0_ooc.xdc] for cell 'inst'
+Parsing XDC File [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_0/ila_v6_2/constraints/ila.xdc] for cell 'inst/ila_lib/inst'
+Finished Parsing XDC File [d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/bd_0/ip/ip_0/ila_v6_2/constraints/ila.xdc] for cell 'inst/ila_lib/inst'
+Parsing XDC File [D:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/cpu_system_system_ila_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [D:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/cpu_system_system_ila_0_0_synth_1/dont_touch.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/cpu_system_system_ila_0_0_synth_1/dont_touch.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/cpu_system_system_ila_0_0_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/cpu_system_system_ila_0_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 WARNING: [Constraints 18-5210] No constraint will be written out.
 Completed Processing XDC Constraints
@@ -1758,21 +1758,21 @@ INFO: [Project 1-111] Unisim Transformation Summary:
   CFGLUT5 => CFGLUT5 (SRLC32E, SRL16E): 3264 instances
   CFGLUT5 => SRLC32E: 180 instances
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.202 . Memory (MB): peak = 1149.457 ; gain = 0.563
+Constraint Validation Runtime : Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.952 . Memory (MB): peak = 1153.840 ; gain = 0.250
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:02:09 ; elapsed = 00:02:12 . Memory (MB): peak = 1149.457 ; gain = 790.359
+Finished Constraint Validation : Time (s): cpu = 00:07:00 ; elapsed = 00:07:23 . Memory (MB): peak = 1153.840 ; gain = 791.668
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7k70tfbg676-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:02:09 ; elapsed = 00:02:12 . Memory (MB): peak = 1149.457 ; gain = 790.359
+Finished Loading Part and Timing Information : Time (s): cpu = 00:07:00 ; elapsed = 00:07:23 . Memory (MB): peak = 1153.840 ; gain = 791.668
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
-Applied set_property DONT_TOUCH = true for inst/ila_lib/inst. (constraint file  F:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.runs/cpu_system_system_ila_0_0_synth_1/dont_touch.xdc, line 32).
+Applied set_property DONT_TOUCH = true for inst/ila_lib/inst. (constraint file  {D:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/cpu_system_system_ila_0_0_synth_1/dont_touch.xdc}, line 32).
 Applied set_property DONT_TOUCH = true for inst. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for inst/ila_lib. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for inst/g_inst. (constraint file  auto generated constraint, line ).
@@ -1782,7 +1782,7 @@ Applied set_property DONT_TOUCH = true for inst/slot_0_b. (constraint file  auto
 Applied set_property DONT_TOUCH = true for inst/slot_0_ar. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for inst/slot_0_r. (constraint file  auto generated constraint, line ).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:02:09 ; elapsed = 00:02:12 . Memory (MB): peak = 1149.457 ; gain = 790.359
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:07:00 ; elapsed = 00:07:23 . Memory (MB): peak = 1153.840 ; gain = 791.668
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized179'
 INFO: [Synth 8-5544] ROM "data_out_sel" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
@@ -1991,109 +1991,109 @@ INFO: [Synth 8-5546] ROM "adv_drdy" won't be mapped to RAM because it is too spa
 INFO: [Synth 8-5546] ROM "read_addr" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "curr_read_block" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "read_en" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm551BA44BA00'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm55254510000'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm552545F5A00'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm552545B6600'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm5525458B100'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm5525455DB00'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm55369F33900'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm55369F02C00'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm55369ED6C00'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm55369EB0400'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm5536A295200'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm5536A293C00'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm5536A265000'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm5536A220F00'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm5536A1E5200'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm5536A1D4A00'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm5536A1A3200'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm5536A167500'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm5536A15F100'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm5536A112C00'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm5536A0DE800'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm5536A0C9300'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm5536A097000'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm5536A064D00'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm5536A033500'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm5536A00B700'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm55369FE3900'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm55369FCFA00'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm55369F8CF00'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm55369F77A00'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm55192E4F900'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm55192E0EF00'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm55192DE9D00'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm55192DC3500'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm55192DA0400'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm5519318AA00'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm5519316FD00'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm55193140600'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm55193103300'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm551930C6000'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm551930BD100'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm55193095300'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm5519306B400'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm5519303BD00'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm55192FECC00'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm55192FCB100'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm55192F9F100'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm55192F68C00'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm55192F3B600'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm55192F2AE00'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm55192EEE600'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm55192EDD300'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm55192E92F00'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm55192E75600'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm55191D13A00'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm55191CE4300'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm55192098F00'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm5519206A300'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm55192054E00'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm5519200D600'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm55192016500'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm55191FFCE00'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm55191FB6100'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm55191F8B700'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm55191F72B00'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm55191F32100'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm55191F10600'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm55191EE9300'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm55191EB7000'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm55191E9AD00'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm55191E6C100'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm55191E27500'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm55191E15700'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm55191DDC600'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm55191DA7700'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm55191D7B700'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm55191D4AA00'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm55191D43C00'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm551A5305D00'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm551A52EFD00'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm551A52BAE00'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm551A5292500'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm551A525E100'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm551A523F200'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm551A5206100'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm551A51E2500'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm551A51AC000'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm551A5599200'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm551A555F600'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm551A554F900'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm551A5518900'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm551A54D6900'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm551A54CA300'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm551A5498B00'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm551A5479C00'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm551A5436600'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm551A5421100'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm551A53D4100'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm551A53C5A00'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm551A537ED00'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BD9A280300'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BD9A1AE800'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BEA8032700'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BEA8014300'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BEA7FDBD00'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BEA7FC1B00'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BEA7F83200'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BEA7F70900'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BEA7F21800'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BE5208AD00'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BE52051C00'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BE52020400'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BE51FFBD00'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BE521E6B00'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BE521BCC00'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BE521A3500'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BE52156500'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BE52124D00'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BE52104800'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BE520ED200'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BE520C7500'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BEA58D4400'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BEA58A6E00'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BEA589A800'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BEA5877700'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BEA5A00000'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BEA59CC700'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BEA5931C00'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BEB25B5C00'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BEB2552C00'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BEB252A300'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BEB24F5400'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BEB24BFA00'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BEB2490E00'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BEB2474B00'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BD7A763D00'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BD7A8C4800'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BD7A8ADD00'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BD7A867B00'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BD7A81E200'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BD7A7E7200'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BD7A7CA400'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BD7A788400'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BDF098B100'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BDF094B200'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BDF08FB600'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BDF08C8800'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BDF08A4100'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BDF085D400'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BDF0836C00'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BDF0A0BA00'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BDF09DFA00'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BDF09D0800'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BEA0E3EA00'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BEA0E0E800'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BEA0DF7D00'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BEA0DD6D00'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BEA0D92100'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BEA0D7E200'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BEA0D45100'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BEA1129F00'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BEA110A500'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BEA10DA300'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BEA10C9000'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BEA1079400'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BEA104D400'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BEA103E200'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BEA1012200'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BEA0FDF400'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BEA0FAF200'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BEA0F18900'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BEA0EC9800'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BBDEBF4200'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BBDEBB2D00'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BBDEF5A800'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BBDEF49500'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BBDEF20C00'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BBDEEE6500'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BBDEECA200'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BBDEECD900'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BBDEEA6600'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BBDEE55400'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BBDEE3C800'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BBDEE02100'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BBDEDE7400'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BBDEDB1A00'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BBDECC7300'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BBDEC9DF00'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BBDECB9700'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BBDEC85300'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BBC3996E00'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BBC3964000'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BBC3940F00'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BBC38F9700'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BBC38CD700'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BBC38BE500'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BBC387BA00'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BBC386B200'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BBC382B300'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm28BBC3805600'
 INFO: [Common 17-14] Message 'Synth 8-3898' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:02:22 ; elapsed = 00:02:25 . Memory (MB): peak = 1149.457 ; gain = 790.359
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:07:38 ; elapsed = 00:08:09 . Memory (MB): peak = 1153.840 ; gain = 791.668
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -8933,7 +8933,7 @@ WARNING: [Synth 8-3332] Sequential element (AXI4_WIDTH_ID.r_active_id_reg[0][0])
 WARNING: [Synth 8-3332] Sequential element (AXI4_WIDTH_ID.r_active_id_reg[1][0]) is unused and will be removed from module gigantic_mux_v1_0_1_cntr__parameterized0.
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (inst/ila_lib/inst/u_ila_regsi_3/\reg_9/I_EN_STAT_EQ1.U_STAT/xsdb_reg_reg[15] )
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:02:59 ; elapsed = 00:03:05 . Memory (MB): peak = 1149.457 ; gain = 790.359
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:09:38 ; elapsed = 00:10:22 . Memory (MB): peak = 1153.840 ; gain = 791.668
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP and Shift Register Reporting
@@ -8966,13 +8966,13 @@ Report RTL Partitions:
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:04:58 ; elapsed = 00:05:03 . Memory (MB): peak = 1149.457 ; gain = 790.359
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:17:00 ; elapsed = 00:17:51 . Memory (MB): peak = 1153.840 ; gain = 791.668
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:05:01 ; elapsed = 00:05:07 . Memory (MB): peak = 1149.457 ; gain = 790.359
+Finished Timing Optimization : Time (s): cpu = 00:17:15 ; elapsed = 00:18:06 . Memory (MB): peak = 1153.840 ; gain = 791.668
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP and Shift Register Reporting
@@ -9004,7 +9004,7 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:05:12 ; elapsed = 00:05:18 . Memory (MB): peak = 1149.457 ; gain = 790.359
+Finished Technology Mapping : Time (s): cpu = 00:17:54 ; elapsed = 00:18:46 . Memory (MB): peak = 1153.840 ; gain = 791.668
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -9068,7 +9068,7 @@ INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[0] to constant 0
 INFO: [Synth 8-3295] tying undriven pin inst:trig_in to constant 0
 INFO: [Synth 8-3295] tying undriven pin inst:trig_out_ack to constant 0
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:05:14 ; elapsed = 00:05:20 . Memory (MB): peak = 1149.457 ; gain = 790.359
+Finished IO Insertion : Time (s): cpu = 00:18:01 ; elapsed = 00:18:53 . Memory (MB): peak = 1153.840 ; gain = 791.668
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -9081,7 +9081,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:05:14 ; elapsed = 00:05:20 . Memory (MB): peak = 1149.457 ; gain = 790.359
+Finished Renaming Generated Instances : Time (s): cpu = 00:18:02 ; elapsed = 00:18:54 . Memory (MB): peak = 1153.840 ; gain = 791.668
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -9093,25 +9093,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:05:18 ; elapsed = 00:05:24 . Memory (MB): peak = 1149.457 ; gain = 790.359
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:18:16 ; elapsed = 00:19:09 . Memory (MB): peak = 1153.840 ; gain = 791.668
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:05:18 ; elapsed = 00:05:24 . Memory (MB): peak = 1149.457 ; gain = 790.359
+Finished Renaming Generated Ports : Time (s): cpu = 00:18:17 ; elapsed = 00:19:09 . Memory (MB): peak = 1153.840 ; gain = 791.668
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:05:19 ; elapsed = 00:05:25 . Memory (MB): peak = 1149.457 ; gain = 790.359
+Finished Handling Custom Attributes : Time (s): cpu = 00:18:20 ; elapsed = 00:19:13 . Memory (MB): peak = 1153.840 ; gain = 791.668
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:05:19 ; elapsed = 00:05:25 . Memory (MB): peak = 1149.457 ; gain = 790.359
+Finished Renaming Generated Nets : Time (s): cpu = 00:18:21 ; elapsed = 00:19:13 . Memory (MB): peak = 1153.840 ; gain = 791.668
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP and Shift Register Reporting
@@ -10842,14 +10842,14 @@ Report Instance Areas:
 |1671  |    slot_0_w                                                                |bd_38aa_slot_0_w_0                                |     0|
 +------+----------------------------------------------------------------------------+--------------------------------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:05:20 ; elapsed = 00:05:25 . Memory (MB): peak = 1149.457 ; gain = 790.359
+Finished Writing Synthesis Report : Time (s): cpu = 00:18:21 ; elapsed = 00:19:14 . Memory (MB): peak = 1153.840 ; gain = 791.668
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 1057 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:03:14 ; elapsed = 00:04:56 . Memory (MB): peak = 1149.457 ; gain = 699.563
-Synthesis Optimization Complete : Time (s): cpu = 00:05:20 ; elapsed = 00:05:26 . Memory (MB): peak = 1149.457 ; gain = 790.359
+Synthesis Optimization Runtime : Time (s): cpu = 00:11:35 ; elapsed = 00:17:03 . Memory (MB): peak = 1153.840 ; gain = 701.906
+Synthesis Optimization Complete : Time (s): cpu = 00:18:22 ; elapsed = 00:19:14 . Memory (MB): peak = 1153.840 ; gain = 791.668
 INFO: [Project 1-571] Translating synthesized netlist
 INFO: [Netlist 29-17] Analyzing 5088 Unisim elements for replacement
-INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Netlist 29-28] Unisim Transformation completed in 7 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
 INFO: [Project 1-111] Unisim Transformation Summary:
@@ -10861,15 +10861,19 @@ INFO: [Project 1-111] Unisim Transformation Summary:
 INFO: [Common 17-83] Releasing license: Synthesis
 593 Infos, 272 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:05:50 ; elapsed = 00:05:56 . Memory (MB): peak = 1149.457 ; gain = 790.359
+synth_design: Time (s): cpu = 00:20:17 ; elapsed = 00:21:11 . Memory (MB): peak = 1153.840 ; gain = 791.668
 WARNING: [Constraints 18-5210] No constraint will be written out.
-INFO: [Common 17-1381] The checkpoint 'F:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.runs/cpu_system_system_ila_0_0_synth_1/cpu_system_system_ila_0_0.dcp' has been generated.
-write_checkpoint: Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 1149.457 ; gain = 0.000
-INFO: [Coretcl 2-1482] Added synthesis output to IP cache for IP f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/cpu_system_system_ila_0_0.xci
+INFO: [Common 17-1381] The checkpoint 'D:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/cpu_system_system_ila_0_0_synth_1/cpu_system_system_ila_0_0.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:29 ; elapsed = 00:00:21 . Memory (MB): peak = 1153.840 ; gain = 0.000
+write_verilog: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1153.840 ; gain = 0.000
+write_vhdl: Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1153.840 ; gain = 0.000
+INFO: [Coretcl 2-1482] Added synthesis output to IP cache for IP d:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_system_ila_0_0/cpu_system_system_ila_0_0.xci
 INFO: [Coretcl 2-1174] Renamed 1670 cell refs.
 WARNING: [Constraints 18-5210] No constraint will be written out.
-INFO: [Common 17-1381] The checkpoint 'F:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.runs/cpu_system_system_ila_0_0_synth_1/cpu_system_system_ila_0_0.dcp' has been generated.
-write_checkpoint: Time (s): cpu = 00:00:08 ; elapsed = 00:00:05 . Memory (MB): peak = 1149.457 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'D:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/cpu_system_system_ila_0_0_synth_1/cpu_system_system_ila_0_0.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:29 ; elapsed = 00:00:20 . Memory (MB): peak = 1153.840 ; gain = 0.000
 INFO: [runtcl-4] Executing : report_utilization -file cpu_system_system_ila_0_0_utilization_synth.rpt -pb cpu_system_system_ila_0_0_utilization_synth.pb
-report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.282 . Memory (MB): peak = 1149.457 ; gain = 0.000
-INFO: [Common 17-206] Exiting Vivado at Thu Nov  8 23:12:17 2018...
+report_utilization: Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1153.840 ; gain = 0.000
+write_verilog: Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1153.840 ; gain = 0.000
+write_vhdl: Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 1153.840 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Sat Dec  1 10:17:21 2018...

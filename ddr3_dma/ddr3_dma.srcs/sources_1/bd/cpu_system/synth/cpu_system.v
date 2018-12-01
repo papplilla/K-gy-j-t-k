@@ -1,15 +1,15 @@
 //Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
 //Tool Version: Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
-//Date        : Fri Nov  9 19:53:43 2018
-//Host        : rtpc running 64-bit major release  (build 9200)
+//Date        : Sat Dec  1 11:01:13 2018
+//Host        : DESKTOP-02M2VBV running 64-bit major release  (build 9200)
 //Command     : generate_target cpu_system.bd
 //Design      : cpu_system
 //Purpose     : IP block netlist
 //--------------------------------------------------------------------------------
 `timescale 1 ps / 1 ps
 
-(* CORE_GENERATION_INFO = "cpu_system,IP_Integrator,{x_ipVendor=xilinx.com,x_ipLibrary=BlockDiagram,x_ipName=cpu_system,x_ipVersion=1.00.a,x_ipLanguage=VERILOG,numBlks=20,numReposBlks=15,numNonXlnxBlks=0,numHierBlks=5,maxHierDepth=1,numSysgenBlks=0,numHlsBlks=0,numHdlrefBlks=0,numPkgbdBlks=0,bdsource=USER,da_axi4_cnt=4,da_clkrst_cnt=2,da_mb_cnt=1,synth_mode=OOC_per_IP}" *) (* HW_HANDOFF = "cpu_system.hwdef" *) 
+(* CORE_GENERATION_INFO = "cpu_system,IP_Integrator,{x_ipVendor=xilinx.com,x_ipLibrary=BlockDiagram,x_ipName=cpu_system,x_ipVersion=1.00.a,x_ipLanguage=VERILOG,numBlks=21,numReposBlks=16,numNonXlnxBlks=0,numHierBlks=5,maxHierDepth=1,numSysgenBlks=0,numHlsBlks=0,numHdlrefBlks=1,numPkgbdBlks=0,bdsource=USER,da_axi4_cnt=4,da_clkrst_cnt=2,da_mb_cnt=1,synth_mode=OOC_per_IP}" *) (* HW_HANDOFF = "cpu_system.hwdef" *) 
 module cpu_system
    (DDR3_0_addr,
     DDR3_0_ba,
@@ -28,8 +28,13 @@ module cpu_system
     DDR3_0_we_n,
     UART_rxd,
     UART_txd,
+    bout,
     clk100M_in,
-    rst_in);
+    gout,
+    hs,
+    rout,
+    rst_in,
+    vs);
   (* X_INTERFACE_INFO = "xilinx.com:interface:ddrx:1.0 DDR3_0 ADDR" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME DDR3_0, AXI_ARBITRATION_SCHEME TDM, BURST_LENGTH 8, CAN_DEBUG false, CAS_LATENCY 11, CAS_WRITE_LATENCY 11, CS_ENABLED true, DATA_MASK_ENABLED true, DATA_WIDTH 8, MEMORY_TYPE COMPONENTS, MEM_ADDR_MAP ROW_COLUMN_BANK, SLOT Single, TIMEPERIOD_PS 1250" *) output [14:0]DDR3_0_addr;
   (* X_INTERFACE_INFO = "xilinx.com:interface:ddrx:1.0 DDR3_0 BA" *) output [2:0]DDR3_0_ba;
   (* X_INTERFACE_INFO = "xilinx.com:interface:ddrx:1.0 DDR3_0 CAS_N" *) output DDR3_0_cas_n;
@@ -47,11 +52,16 @@ module cpu_system
   (* X_INTERFACE_INFO = "xilinx.com:interface:ddrx:1.0 DDR3_0 WE_N" *) output DDR3_0_we_n;
   (* X_INTERFACE_INFO = "xilinx.com:interface:uart:1.0 UART RxD" *) input UART_rxd;
   (* X_INTERFACE_INFO = "xilinx.com:interface:uart:1.0 UART TxD" *) output UART_txd;
-  (* X_INTERFACE_INFO = "xilinx.com:signal:clock:1.0 CLK.CLK100M_IN CLK" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME CLK.CLK100M_IN, CLK_DOMAIN cpu_system_sys_clk_i_0, FREQ_HZ 100000000, PHASE 0.000" *) input clk100M_in;
+  output [1:0]bout;
+  (* X_INTERFACE_INFO = "xilinx.com:signal:clock:1.0 CLK.CLK100M_IN CLK" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME CLK.CLK100M_IN, CLK_DOMAIN cpu_system_clk100M_in, FREQ_HZ 100000000, PHASE 0.000" *) input clk100M_in;
+  output [1:0]gout;
+  output hs;
+  output [1:0]rout;
   (* X_INTERFACE_INFO = "xilinx.com:signal:reset:1.0 RST.RST_IN RST" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME RST.RST_IN, POLARITY ACTIVE_HIGH" *) input rst_in;
+  output vs;
 
-  (* CONN_BUS_INFO = "axi_dma_0_M_AXIS_MM2S xilinx.com:interface:axis:1.0 None TDATA" *) (* DONT_TOUCH *) wire [31:0]axi_dma_0_M_AXIS_MM2S_TDATA;
-  (* CONN_BUS_INFO = "axi_dma_0_M_AXIS_MM2S xilinx.com:interface:axis:1.0 None TKEEP" *) (* DONT_TOUCH *) wire [3:0]axi_dma_0_M_AXIS_MM2S_TKEEP;
+  (* CONN_BUS_INFO = "axi_dma_0_M_AXIS_MM2S xilinx.com:interface:axis:1.0 None TDATA" *) (* DONT_TOUCH *) wire [7:0]axi_dma_0_M_AXIS_MM2S_TDATA;
+  (* CONN_BUS_INFO = "axi_dma_0_M_AXIS_MM2S xilinx.com:interface:axis:1.0 None TKEEP" *) (* DONT_TOUCH *) wire [0:0]axi_dma_0_M_AXIS_MM2S_TKEEP;
   (* CONN_BUS_INFO = "axi_dma_0_M_AXIS_MM2S xilinx.com:interface:axis:1.0 None TLAST" *) (* DONT_TOUCH *) wire axi_dma_0_M_AXIS_MM2S_TLAST;
   (* CONN_BUS_INFO = "axi_dma_0_M_AXIS_MM2S xilinx.com:interface:axis:1.0 None TREADY" *) (* DONT_TOUCH *) wire axi_dma_0_M_AXIS_MM2S_TREADY;
   (* CONN_BUS_INFO = "axi_dma_0_M_AXIS_MM2S xilinx.com:interface:axis:1.0 None TVALID" *) (* DONT_TOUCH *) wire axi_dma_0_M_AXIS_MM2S_TVALID;
@@ -119,11 +129,9 @@ module cpu_system
   wire axi_smc_M00_AXI_WVALID;
   wire axi_uartlite_0_UART_RxD;
   wire axi_uartlite_0_UART_TxD;
-  (* CONN_BUS_INFO = "axis_data_fifo_0_M_AXIS xilinx.com:interface:axis:1.0 None TDATA" *) (* DONT_TOUCH *) wire [31:0]axis_data_fifo_0_M_AXIS_TDATA;
-  (* CONN_BUS_INFO = "axis_data_fifo_0_M_AXIS xilinx.com:interface:axis:1.0 None TKEEP" *) (* DONT_TOUCH *) wire [3:0]axis_data_fifo_0_M_AXIS_TKEEP;
-  (* CONN_BUS_INFO = "axis_data_fifo_0_M_AXIS xilinx.com:interface:axis:1.0 None TLAST" *) (* DONT_TOUCH *) wire axis_data_fifo_0_M_AXIS_TLAST;
-  (* CONN_BUS_INFO = "axis_data_fifo_0_M_AXIS xilinx.com:interface:axis:1.0 None TREADY" *) (* DONT_TOUCH *) wire axis_data_fifo_0_M_AXIS_TREADY;
-  (* CONN_BUS_INFO = "axis_data_fifo_0_M_AXIS xilinx.com:interface:axis:1.0 None TVALID" *) (* DONT_TOUCH *) wire axis_data_fifo_0_M_AXIS_TVALID;
+  wire [7:0]fifo_generator_0_m_axis_tdata;
+  wire fifo_generator_0_m_axis_tlast;
+  wire fifo_generator_0_m_axis_tvalid;
   wire mdm_1_debug_sys_rst;
   wire microblaze_0_Clk;
   wire [31:0]microblaze_0_M_AXI_DC_ARADDR;
@@ -278,6 +286,12 @@ module cpu_system
   wire [0:0]rst_mig_7series_0_100M_peripheral_aresetn;
   wire sys_clk_i_0_1;
   wire sys_rst_0_1;
+  wire [1:0]vgaSync_0_bout;
+  wire [1:0]vgaSync_0_gout;
+  wire vgaSync_0_hs;
+  wire [1:0]vgaSync_0_rout;
+  wire vgaSync_0_vs;
+  wire vgaSync_0_wready;
 
   assign DDR3_0_addr[14:0] = mig_7series_0_DDR3_ADDR;
   assign DDR3_0_ba[2:0] = mig_7series_0_DDR3_BA;
@@ -293,8 +307,13 @@ module cpu_system
   assign DDR3_0_we_n = mig_7series_0_DDR3_WE_N;
   assign UART_txd = axi_uartlite_0_UART_TxD;
   assign axi_uartlite_0_UART_RxD = UART_rxd;
+  assign bout[1:0] = vgaSync_0_bout;
+  assign gout[1:0] = vgaSync_0_gout;
+  assign hs = vgaSync_0_hs;
+  assign rout[1:0] = vgaSync_0_rout;
   assign sys_clk_i_0_1 = clk100M_in;
   assign sys_rst_0_1 = rst_in;
+  assign vs = vgaSync_0_vs;
   cpu_system_axi_dma_0_0 axi_dma_0
        (.axi_resetn(rst_mig_7series_0_100M_peripheral_aresetn),
         .m_axi_mm2s_aclk(microblaze_0_Clk),
@@ -350,11 +369,10 @@ module cpu_system
         .s_axi_lite_wdata(microblaze_0_axi_periph_M01_AXI_WDATA),
         .s_axi_lite_wready(microblaze_0_axi_periph_M01_AXI_WREADY),
         .s_axi_lite_wvalid(microblaze_0_axi_periph_M01_AXI_WVALID),
-        .s_axis_s2mm_tdata(axis_data_fifo_0_M_AXIS_TDATA),
-        .s_axis_s2mm_tkeep(axis_data_fifo_0_M_AXIS_TKEEP),
-        .s_axis_s2mm_tlast(axis_data_fifo_0_M_AXIS_TLAST),
-        .s_axis_s2mm_tready(axis_data_fifo_0_M_AXIS_TREADY),
-        .s_axis_s2mm_tvalid(axis_data_fifo_0_M_AXIS_TVALID));
+        .s_axis_s2mm_tdata({1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0}),
+        .s_axis_s2mm_tkeep({1'b1,1'b1,1'b1,1'b1}),
+        .s_axis_s2mm_tlast(1'b0),
+        .s_axis_s2mm_tvalid(1'b0));
   cpu_system_axi_smc_0 axi_smc
        (.M00_AXI_araddr(axi_smc_M00_AXI_ARADDR),
         .M00_AXI_arburst(axi_smc_M00_AXI_ARBURST),
@@ -495,11 +513,10 @@ module cpu_system
         .s_axi_wvalid(microblaze_0_axi_periph_M00_AXI_WVALID),
         .tx(axi_uartlite_0_UART_TxD));
   cpu_system_fifo_generator_0_0 fifo_generator_0
-       (.m_axis_tdata(axis_data_fifo_0_M_AXIS_TDATA),
-        .m_axis_tkeep(axis_data_fifo_0_M_AXIS_TKEEP),
-        .m_axis_tlast(axis_data_fifo_0_M_AXIS_TLAST),
-        .m_axis_tready(axis_data_fifo_0_M_AXIS_TREADY),
-        .m_axis_tvalid(axis_data_fifo_0_M_AXIS_TVALID),
+       (.m_axis_tdata(fifo_generator_0_m_axis_tdata),
+        .m_axis_tlast(fifo_generator_0_m_axis_tlast),
+        .m_axis_tready(vgaSync_0_wready),
+        .m_axis_tvalid(fifo_generator_0_m_axis_tvalid),
         .s_aclk(microblaze_0_Clk),
         .s_aresetn(rst_mig_7series_0_100M_peripheral_aresetn),
         .s_axis_tdata(axi_dma_0_M_AXIS_MM2S_TDATA),
@@ -810,18 +827,30 @@ module cpu_system
         .SLOT_0_AXI_wready(axi_dma_0_M_AXI_WREADY),
         .SLOT_0_AXI_wstrb(axi_dma_0_M_AXI_WSTRB),
         .SLOT_0_AXI_wvalid(axi_dma_0_M_AXI_WVALID),
-        .SLOT_1_AXIS_tdata(axi_dma_0_M_AXIS_MM2S_TDATA),
-        .SLOT_1_AXIS_tkeep(axi_dma_0_M_AXIS_MM2S_TKEEP),
+        .SLOT_1_AXIS_tdata({1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,axi_dma_0_M_AXIS_MM2S_TDATA}),
+        .SLOT_1_AXIS_tkeep({1'b1,1'b1,1'b1,axi_dma_0_M_AXIS_MM2S_TKEEP}),
         .SLOT_1_AXIS_tlast(axi_dma_0_M_AXIS_MM2S_TLAST),
         .SLOT_1_AXIS_tready(axi_dma_0_M_AXIS_MM2S_TREADY),
         .SLOT_1_AXIS_tvalid(axi_dma_0_M_AXIS_MM2S_TVALID),
-        .SLOT_2_AXIS_tdata(axis_data_fifo_0_M_AXIS_TDATA),
-        .SLOT_2_AXIS_tkeep(axis_data_fifo_0_M_AXIS_TKEEP),
-        .SLOT_2_AXIS_tlast(axis_data_fifo_0_M_AXIS_TLAST),
-        .SLOT_2_AXIS_tready(axis_data_fifo_0_M_AXIS_TREADY),
-        .SLOT_2_AXIS_tvalid(axis_data_fifo_0_M_AXIS_TVALID),
+        .SLOT_2_AXIS_tdata({1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0}),
+        .SLOT_2_AXIS_tkeep({1'b1,1'b1,1'b1,1'b1}),
+        .SLOT_2_AXIS_tlast(1'b0),
+        .SLOT_2_AXIS_tready(1'b1),
+        .SLOT_2_AXIS_tvalid(1'b0),
         .clk(microblaze_0_Clk),
         .resetn(rst_mig_7series_0_100M_peripheral_aresetn));
+  cpu_system_vgaSync_0_4 vgaSync_0
+       (.bout(vgaSync_0_bout),
+        .clk(microblaze_0_Clk),
+        .gout(vgaSync_0_gout),
+        .hs(vgaSync_0_hs),
+        .rout(vgaSync_0_rout),
+        .rst(rst_mig_7series_0_100M_peripheral_aresetn),
+        .vs(vgaSync_0_vs),
+        .wdata(fifo_generator_0_m_axis_tdata),
+        .wlast(fifo_generator_0_m_axis_tlast),
+        .wready(vgaSync_0_wready),
+        .wvalid(fifo_generator_0_m_axis_tvalid));
 endmodule
 
 module cpu_system_microblaze_0_axi_periph_0
