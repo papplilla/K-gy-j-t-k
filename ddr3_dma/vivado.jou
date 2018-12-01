@@ -41,3 +41,33 @@ set_property location {4 1460 -37} [get_bd_cells vgaSync_0]
 set_property location {4 1510 75} [get_bd_cells vgaSync_0]
 set_property location {4 1558 33} [get_bd_cells vgaSync_0]
 save_bd_design
+connect_bd_net [get_bd_pins vgaSync_0/rst] [get_bd_pins rst_mig_7series_0_100M/peripheral_aresetn]
+connect_bd_net [get_bd_pins vgaSync_0/clk] [get_bd_pins mig_7series_0/ui_clk]
+connect_bd_net [get_bd_pins fifo_generator_0/m_axis_tdata] [get_bd_pins vgaSync_0/wdata]
+connect_bd_net [get_bd_pins fifo_generator_0/m_axis_tvalid] [get_bd_pins vgaSync_0/wvalid]
+connect_bd_net [get_bd_pins fifo_generator_0/m_axis_tlast] [get_bd_pins vgaSync_0/wlast]
+connect_bd_net [get_bd_pins fifo_generator_0/m_axis_tready] [get_bd_pins vgaSync_0/wready]
+startgroup
+make_bd_pins_external  [get_bd_pins vgaSync_0/rout]
+endgroup
+startgroup
+make_bd_pins_external  [get_bd_pins vgaSync_0/gout]
+endgroup
+startgroup
+make_bd_pins_external  [get_bd_pins vgaSync_0/bout]
+endgroup
+startgroup
+make_bd_pins_external  [get_bd_pins vgaSync_0/hs]
+endgroup
+startgroup
+make_bd_pins_external  [get_bd_pins vgaSync_0/vs]
+endgroup
+save_bd_design
+delete_bd_objs [get_bd_intf_nets axis_data_fifo_0_M_AXIS]
+startgroup
+set_property -dict [list CONFIG.TDATA_NUM_BYTES {1} CONFIG.TSTRB_WIDTH {1} CONFIG.TKEEP_WIDTH {1}] [get_bd_cells fifo_generator_0]
+endgroup
+startgroup
+set_property -dict [list CONFIG.c_m_axis_mm2s_tdata_width {8}] [get_bd_cells axi_dma_0]
+endgroup
+save_bd_design
