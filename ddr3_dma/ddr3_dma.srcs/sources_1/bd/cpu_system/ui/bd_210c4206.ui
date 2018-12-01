@@ -6,44 +6,44 @@ preplace port rst_in -pg 1 -y 630 -defaultsOSRD
 preplace port UART -pg 1 -y 670 -defaultsOSRD
 preplace port DDR3_0 -pg 1 -y 420 -defaultsOSRD
 preplace port clk100M_in -pg 1 -y 610 -defaultsOSRD
-preplace inst axi_dma_0 -pg 1 -lvl 4 -y 430 -defaultsOSRD
+preplace inst axi_dma_0 -pg 1 -lvl 4 -y 480 -defaultsOSRD
 preplace inst rst_mig_7series_0_100M -pg 1 -lvl 1 -y 750 -defaultsOSRD
 preplace inst mig_7series_0 -pg 1 -lvl 6 -y 470 -defaultsOSRD
 preplace inst axi_smc -pg 1 -lvl 5 -y 360 -defaultsOSRD
-preplace inst microblaze_0_axi_periph -pg 1 -lvl 3 -y 560 -defaultsOSRD
-preplace inst vgaSync_0 -pg 1 -lvl 1 -y -180 -defaultsOSRD
+preplace inst microblaze_0_axi_periph -pg 1 -lvl 3 -y 660 -defaultsOSRD
+preplace inst vgaSync_0 -pg 1 -lvl 4 -y 30 -defaultsOSRD
 preplace inst mdm_1 -pg 1 -lvl 1 -y 380 -defaultsOSRD
 preplace inst system_ila_0 -pg 1 -lvl 5 -y 180 -defaultsOSRD
 preplace inst axi_uartlite_0 -pg 1 -lvl 6 -y 680 -defaultsOSRD
 preplace inst microblaze_0 -pg 1 -lvl 2 -y 380 -defaultsOSRD
-preplace inst fifo_generator_0 -pg 1 -lvl 3 -y 140 -defaultsOSRD
-preplace inst microblaze_0_local_memory -pg 1 -lvl 3 -y 340 -defaultsOSRD
-preplace netloc axi_dma_0_M_AXI 1 4 1 1750
-preplace netloc mig_7series_0_mmcm_locked 1 0 7 10 850 NJ 850 890J 950 1400J 850 NJ 850 NJ 850 2360
+preplace inst fifo_generator_0 -pg 1 -lvl 3 -y 190 -defaultsOSRD
+preplace inst microblaze_0_local_memory -pg 1 -lvl 3 -y 440 -defaultsOSRD
+preplace netloc axi_dma_0_M_AXI 1 4 1 1780
+preplace netloc mig_7series_0_mmcm_locked 1 0 7 -50 640 340J 760 850J 860 1410J 760 NJ 760 NJ 760 2440
 preplace netloc mig_7series_0_DDR3 1 6 1 NJ
-preplace netloc mig_7series_0_ui_addn_clk_0 1 5 2 2090 580 2350
-preplace netloc microblaze_0_Clk 1 0 7 0 480 410 480 900 700 1340 680 1780 670 2090 590 2370
-preplace netloc axi_smc_M00_AXI 1 5 1 2080
-preplace netloc microblaze_0_axi_periph_M00_AXI 1 3 3 1350 660 NJ 660 NJ
-preplace netloc microblaze_0_M_AXI_DP 1 2 1 920
-preplace netloc microblaze_0_M_AXI_DC 1 2 3 910 420 1320J 320 NJ
-preplace netloc microblaze_0_ilmb_1 1 2 1 920
-preplace netloc rst_mig_7series_0_100M_interconnect_aresetn 1 1 2 400J 600 910
-preplace netloc rst_mig_7series_0_100M_peripheral_aresetn 1 1 5 410J 680 930 720 1360 670 1760 510 2080
-preplace netloc rst_mig_7series_0_100M_bus_struct_reset 1 1 2 360J 270 940
-preplace netloc sys_clk_i_0_1 1 0 6 NJ 610 NJ 610 920J 710 1370J 700 1800J 490 NJ
-preplace netloc microblaze_0_axi_periph_M01_AXI 1 3 1 1330
-preplace netloc microblaze_0_M_AXI_IC 1 2 3 890J 10 NJ 10 1770
+preplace netloc mig_7series_0_ui_addn_clk_0 1 5 2 2170 580 2430
+preplace netloc microblaze_0_Clk 1 0 7 -40 480 360 480 920 810 1340 300 1820 510 2150 590 2450
+preplace netloc axi_smc_M00_AXI 1 5 1 2170
+preplace netloc microblaze_0_axi_periph_M00_AXI 1 3 3 1360 660 NJ 660 NJ
+preplace netloc microblaze_0_M_AXI_DP 1 2 1 910
+preplace netloc microblaze_0_M_AXI_DC 1 2 3 880 800 1380J 700 1810J
+preplace netloc microblaze_0_ilmb_1 1 2 1 930
+preplace netloc rst_mig_7series_0_100M_interconnect_aresetn 1 1 2 310J 520 870
+preplace netloc rst_mig_7series_0_100M_peripheral_aresetn 1 1 5 NJ 790 900 830 1370 310 1840 500 2160
+preplace netloc rst_mig_7series_0_100M_bus_struct_reset 1 1 2 350J 510 870
+preplace netloc sys_clk_i_0_1 1 0 6 NJ 610 NJ 610 860J 840 1400J 740 1850J 490 NJ
+preplace netloc microblaze_0_axi_periph_M01_AXI 1 3 1 1350
+preplace netloc microblaze_0_M_AXI_IC 1 2 3 890J 520 1330J 320 1800
 preplace netloc axi_uartlite_0_UART 1 6 1 NJ
-preplace netloc rst_mig_7series_0_100M_mb_reset 1 1 1 370
-preplace netloc mig_7series_0_ui_clk_sync_rst 1 0 7 10 650 380J 760 900J 860 1390J 760 NJ 760 NJ 760 2380
-preplace netloc sys_rst_0_1 1 0 6 NJ 630 390J 690 910J 790 1380J 690 1790J 480 2080J
-preplace netloc axis_data_fifo_0_M_AXIS 1 3 2 1340 180 NJ
-preplace netloc microblaze_0_dlmb_1 1 2 1 910
-preplace netloc axi_dma_0_M_AXIS_MM2S 1 2 3 940 0 NJ 0 1740
+preplace netloc rst_mig_7series_0_100M_mb_reset 1 1 1 330
+preplace netloc mig_7series_0_ui_clk_sync_rst 1 0 7 -30 650 320J 770 840J 870 1420J 770 NJ 770 NJ 770 2460
+preplace netloc sys_rst_0_1 1 0 6 NJ 630 360J 720 870J 820 1390J 720 1830J 480 2150J
+preplace netloc axis_data_fifo_0_M_AXIS 1 3 2 1420 180 NJ
+preplace netloc microblaze_0_dlmb_1 1 2 1 940
+preplace netloc axi_dma_0_M_AXIS_MM2S 1 2 3 940 320 1320J 220 1790
 preplace netloc microblaze_0_debug 1 1 1 N
-preplace netloc mdm_1_debug_sys_rst 1 0 2 -10 450 350
-levelinfo -pg 1 -30 180 650 1130 1570 1940 2220 2400 -top -300 -bot 960
+preplace netloc mdm_1_debug_sys_rst 1 0 2 -60 310 330
+levelinfo -pg 1 -80 140 600 1130 1600 2010 2300 2480 -top -390 -bot 960
 ",
 }
 {

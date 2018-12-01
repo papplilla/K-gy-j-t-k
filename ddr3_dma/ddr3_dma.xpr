@@ -59,10 +59,10 @@
   <FileSets Version="1" Minor="31">
     <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
       <Filter Type="Srcs"/>
-      <File Path="$PSRCDIR/sources_1/imports/vga_jatekkal_teszt/VGA_Control.v">
+      <File Path="$PSRCDIR/sources_1/imports/K-gy-j-t-k/VGA_Control.v">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../vga_jatekkal/vga_jatekkal_teszt/VGA_Control.v"/>
-          <Attr Name="ImportTime" Val="1542721486"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../VGA_Control.v"/>
+          <Attr Name="ImportTime" Val="1543650706"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -74,50 +74,60 @@
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
+        <CompFileExtendedInfo CompFileName="cpu_system.bd" FileRelPathName="ip/cpu_system_mdm_1_0/cpu_system_mdm_1_0.xci">
+          <Proxy FileSetName="cpu_system_mdm_1_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="cpu_system.bd" FileRelPathName="ip/cpu_system_microblaze_0_0/cpu_system_microblaze_0_0.xci">
+          <Proxy FileSetName="cpu_system_microblaze_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="cpu_system.bd" FileRelPathName="ip/cpu_system_rst_mig_7series_0_100M_0/cpu_system_rst_mig_7series_0_100M_0.xci">
+          <Proxy FileSetName="cpu_system_rst_mig_7series_0_100M_0"/>
+        </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="cpu_system.bd" FileRelPathName="ip/cpu_system_axi_uartlite_0_0/cpu_system_axi_uartlite_0_0.xci">
           <Proxy FileSetName="cpu_system_axi_uartlite_0_0"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="cpu_system.bd" FileRelPathName="ip/cpu_system_dlmb_v10_0/cpu_system_dlmb_v10_0.xci">
           <Proxy FileSetName="cpu_system_dlmb_v10_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="cpu_system.bd" FileRelPathName="ip/cpu_system_dlmb_bram_if_cntlr_0/cpu_system_dlmb_bram_if_cntlr_0.xci">
-          <Proxy FileSetName="cpu_system_dlmb_bram_if_cntlr_0"/>
+        <CompFileExtendedInfo CompFileName="cpu_system.bd" FileRelPathName="ip/cpu_system_ilmb_bram_if_cntlr_0/cpu_system_ilmb_bram_if_cntlr_0.xci">
+          <Proxy FileSetName="cpu_system_ilmb_bram_if_cntlr_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="cpu_system.bd" FileRelPathName="ip/cpu_system_microblaze_0_0/cpu_system_microblaze_0_0.xci">
-          <Proxy FileSetName="cpu_system_microblaze_0_0"/>
+        <CompFileExtendedInfo CompFileName="cpu_system.bd" FileRelPathName="ip/cpu_system_lmb_bram_0/cpu_system_lmb_bram_0.xci">
+          <Proxy FileSetName="cpu_system_lmb_bram_0"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="cpu_system.bd" FileRelPathName="ip/cpu_system_system_ila_0_0/cpu_system_system_ila_0_0.xci">
           <Proxy FileSetName="cpu_system_system_ila_0_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="cpu_system.bd" FileRelPathName="ip/cpu_system_rst_mig_7series_0_100M_0/cpu_system_rst_mig_7series_0_100M_0.xci">
-          <Proxy FileSetName="cpu_system_rst_mig_7series_0_100M_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="cpu_system.bd" FileRelPathName="ip/cpu_system_ilmb_bram_if_cntlr_0/cpu_system_ilmb_bram_if_cntlr_0.xci">
-          <Proxy FileSetName="cpu_system_ilmb_bram_if_cntlr_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="cpu_system.bd" FileRelPathName="ip/cpu_system_ilmb_v10_0/cpu_system_ilmb_v10_0.xci">
-          <Proxy FileSetName="cpu_system_ilmb_v10_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="cpu_system.bd" FileRelPathName="ip/cpu_system_mdm_1_0/cpu_system_mdm_1_0.xci">
-          <Proxy FileSetName="cpu_system_mdm_1_0"/>
+        <CompFileExtendedInfo CompFileName="cpu_system.bd" FileRelPathName="ip/cpu_system_dlmb_bram_if_cntlr_0/cpu_system_dlmb_bram_if_cntlr_0.xci">
+          <Proxy FileSetName="cpu_system_dlmb_bram_if_cntlr_0"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="cpu_system.bd" FileRelPathName="ip/cpu_system_axi_smc_0/cpu_system_axi_smc_0.xci">
           <Proxy FileSetName="cpu_system_axi_smc_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="cpu_system.bd" FileRelPathName="ip/cpu_system_fifo_generator_0_0/cpu_system_fifo_generator_0_0.xci">
-          <Proxy FileSetName="cpu_system_fifo_generator_0_0"/>
-        </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="cpu_system.bd" FileRelPathName="ip/cpu_system_axi_dma_0_0/cpu_system_axi_dma_0_0.xci">
           <Proxy FileSetName="cpu_system_axi_dma_0_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="cpu_system.bd" FileRelPathName="ip/cpu_system_lmb_bram_0/cpu_system_lmb_bram_0.xci">
-          <Proxy FileSetName="cpu_system_lmb_bram_0"/>
+        <CompFileExtendedInfo CompFileName="cpu_system.bd" FileRelPathName="ip/cpu_system_ilmb_v10_0/cpu_system_ilmb_v10_0.xci">
+          <Proxy FileSetName="cpu_system_ilmb_v10_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="cpu_system.bd" FileRelPathName="ip/cpu_system_fifo_generator_0_0/cpu_system_fifo_generator_0_0.xci">
+          <Proxy FileSetName="cpu_system_fifo_generator_0_0"/>
         </CompFileExtendedInfo>
       </File>
       <File Path="$PSRCDIR/sources_1/imports/hdl/cpu_system_wrapper.v">
         <FileInfo>
           <Attr Name="ImportPath" Val="$PSRCDIR/sources_1/bd/cpu_system/hdl/cpu_system_wrapper.v"/>
           <Attr Name="ImportTime" Val="1541715608"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/vga_jatekkal_teszt/VGA_Control.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../vga_jatekkal/vga_jatekkal_teszt/VGA_Control.v"/>
+          <Attr Name="ImportTime" Val="1542721486"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>

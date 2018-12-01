@@ -227,7 +227,7 @@
         <spirit:instanceName>vgaSync_0</spirit:instanceName>
         <spirit:componentRef spirit:library="module_ref" spirit:name="vgaSync" spirit:vendor="xilinx.com" spirit:version="1.0"/>
         <spirit:configurableElementValues>
-          <spirit:configurableElementValue spirit:referenceId="bd:xciName">cpu_system_vgaSync_0_0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">cpu_system_vgaSync_0_4</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="bd:referenceName">vgaSync</spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="bd:subInstancePath"></spirit:configurableElementValue>
           <spirit:configurableElementValue spirit:referenceId="bd:referenceType">hdl</spirit:configurableElementValue>

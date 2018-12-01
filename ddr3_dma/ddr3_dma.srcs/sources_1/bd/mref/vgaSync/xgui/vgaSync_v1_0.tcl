@@ -12,9 +12,12 @@ proc init_gui { IPINST } {
   ipgui::add_param $IPINST -name "vactive" -parent ${Page_0}
   ipgui::add_param $IPINST -name "vbackporch" -parent ${Page_0}
   ipgui::add_param $IPINST -name "vfrontporch" -parent ${Page_0}
+  ipgui::add_param $IPINST -name "vga_write_pixels" -parent ${Page_0}
   ipgui::add_param $IPINST -name "vsyncpolarity" -parent ${Page_0}
   ipgui::add_param $IPINST -name "vsyncpulse" -parent ${Page_0}
   ipgui::add_param $IPINST -name "vtotal" -parent ${Page_0}
+  ipgui::add_param $IPINST -name "wait_for_origo" -parent ${Page_0}
+  ipgui::add_param $IPINST -name "wait_for_wlast" -parent ${Page_0}
 
 
 }
@@ -100,6 +103,15 @@ proc validate_PARAM_VALUE.vfrontporch { PARAM_VALUE.vfrontporch } {
 	return true
 }
 
+proc update_PARAM_VALUE.vga_write_pixels { PARAM_VALUE.vga_write_pixels } {
+	# Procedure called to update vga_write_pixels when any of the dependent parameters in the arguments change
+}
+
+proc validate_PARAM_VALUE.vga_write_pixels { PARAM_VALUE.vga_write_pixels } {
+	# Procedure called to validate vga_write_pixels
+	return true
+}
+
 proc update_PARAM_VALUE.vsyncpolarity { PARAM_VALUE.vsyncpolarity } {
 	# Procedure called to update vsyncpolarity when any of the dependent parameters in the arguments change
 }
@@ -124,6 +136,24 @@ proc update_PARAM_VALUE.vtotal { PARAM_VALUE.vtotal } {
 
 proc validate_PARAM_VALUE.vtotal { PARAM_VALUE.vtotal } {
 	# Procedure called to validate vtotal
+	return true
+}
+
+proc update_PARAM_VALUE.wait_for_origo { PARAM_VALUE.wait_for_origo } {
+	# Procedure called to update wait_for_origo when any of the dependent parameters in the arguments change
+}
+
+proc validate_PARAM_VALUE.wait_for_origo { PARAM_VALUE.wait_for_origo } {
+	# Procedure called to validate wait_for_origo
+	return true
+}
+
+proc update_PARAM_VALUE.wait_for_wlast { PARAM_VALUE.wait_for_wlast } {
+	# Procedure called to update wait_for_wlast when any of the dependent parameters in the arguments change
+}
+
+proc validate_PARAM_VALUE.wait_for_wlast { PARAM_VALUE.wait_for_wlast } {
+	# Procedure called to validate wait_for_wlast
 	return true
 }
 
@@ -186,5 +216,20 @@ proc update_MODELPARAM_VALUE.hsyncpolarity { MODELPARAM_VALUE.hsyncpolarity PARA
 proc update_MODELPARAM_VALUE.vsyncpolarity { MODELPARAM_VALUE.vsyncpolarity PARAM_VALUE.vsyncpolarity } {
 	# Procedure called to set VHDL generic/Verilog parameter value(s) based on TCL parameter value
 	set_property value [get_property value ${PARAM_VALUE.vsyncpolarity}] ${MODELPARAM_VALUE.vsyncpolarity}
+}
+
+proc update_MODELPARAM_VALUE.wait_for_wlast { MODELPARAM_VALUE.wait_for_wlast PARAM_VALUE.wait_for_wlast } {
+	# Procedure called to set VHDL generic/Verilog parameter value(s) based on TCL parameter value
+	set_property value [get_property value ${PARAM_VALUE.wait_for_wlast}] ${MODELPARAM_VALUE.wait_for_wlast}
+}
+
+proc update_MODELPARAM_VALUE.wait_for_origo { MODELPARAM_VALUE.wait_for_origo PARAM_VALUE.wait_for_origo } {
+	# Procedure called to set VHDL generic/Verilog parameter value(s) based on TCL parameter value
+	set_property value [get_property value ${PARAM_VALUE.wait_for_origo}] ${MODELPARAM_VALUE.wait_for_origo}
+}
+
+proc update_MODELPARAM_VALUE.vga_write_pixels { MODELPARAM_VALUE.vga_write_pixels PARAM_VALUE.vga_write_pixels } {
+	# Procedure called to set VHDL generic/Verilog parameter value(s) based on TCL parameter value
+	set_property value [get_property value ${PARAM_VALUE.vga_write_pixels}] ${MODELPARAM_VALUE.vga_write_pixels}
 }
 
