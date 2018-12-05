@@ -2,7 +2,7 @@
 
 module vgaSync (
    input wire clk,
-   input wire rst,
+   input wire rstn,
 
    input wire [7:0] wdata,
    input wire wvalid,
@@ -17,6 +17,7 @@ module vgaSync (
    output reg hs,
    output reg vs
    );
+   //wire rst = w
 
    // VGA 640x480@60Hz, 100MHz
    parameter htotal = 3200;                 // 4*800            
@@ -54,7 +55,7 @@ module vgaSync (
 
    always @(posedge clk)
 	begin
-	if(rst)
+	if(~rstn)
 	begin 
 	   hcont = 0;
 	   vcont = 0; 
@@ -129,9 +130,9 @@ module vgaSync (
                  wready <= 1'b1;                 // tudunk adatot fogadni
                  data <= wdata;
                  
-                 gout = data[1:0];
-                 rout = data[3:2];
-                 bout = data[5:4];
+                 gout <= data[1:0];
+                 rout <= data[3:2];
+                 bout <= data[5:4];
             end
             else
             begin                           // az aktív részen kívül vagyunk

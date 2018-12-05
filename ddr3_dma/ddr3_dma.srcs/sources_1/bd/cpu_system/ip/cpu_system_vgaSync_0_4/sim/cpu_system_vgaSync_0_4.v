@@ -56,7 +56,7 @@
 (* DowngradeIPIdentifiedWarnings = "yes" *)
 module cpu_system_vgaSync_0_4 (
   clk,
-  rst,
+  rstn,
   wdata,
   wvalid,
   wlast,
@@ -68,12 +68,12 @@ module cpu_system_vgaSync_0_4 (
   vs
 );
 
-(* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME clk, ASSOCIATED_RESET rst, FREQ_HZ 100000000, PHASE 0, CLK_DOMAIN cpu_system_mig_7series_0_0_ui_clk" *)
+(* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME clk, ASSOCIATED_RESET rstn, FREQ_HZ 100000000, PHASE 0, CLK_DOMAIN cpu_system_mig_7series_0_0_ui_clk" *)
 (* X_INTERFACE_INFO = "xilinx.com:signal:clock:1.0 clk CLK" *)
 input wire clk;
-(* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME rst, POLARITY ACTIVE_LOW" *)
-(* X_INTERFACE_INFO = "xilinx.com:signal:reset:1.0 rst RST" *)
-input wire rst;
+(* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME rstn, POLARITY ACTIVE_LOW" *)
+(* X_INTERFACE_INFO = "xilinx.com:signal:reset:1.0 rstn RST" *)
+input wire rstn;
 input wire [7 : 0] wdata;
 input wire wvalid;
 input wire wlast;
@@ -102,7 +102,7 @@ output wire vs;
     .vga_write_pixels(2)
   ) inst (
     .clk(clk),
-    .rst(rst),
+    .rstn(rstn),
     .wdata(wdata),
     .wvalid(wvalid),
     .wlast(wlast),

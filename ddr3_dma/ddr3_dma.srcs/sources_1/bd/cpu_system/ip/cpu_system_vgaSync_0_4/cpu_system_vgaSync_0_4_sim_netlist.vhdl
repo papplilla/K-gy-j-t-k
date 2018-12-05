@@ -1,10 +1,10 @@
 -- Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
--- Date        : Sat Dec  1 09:55:28 2018
+-- Date        : Wed Dec  5 12:45:31 2018
 -- Host        : DESKTOP-02M2VBV running 64-bit major release  (build 9200)
--- Command     : write_vhdl -force -mode funcsim {d:/D_Strabi/D
---               Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_vgaSync_0_4/cpu_system_vgaSync_0_4_sim_netlist.vhdl}
+-- Command     : write_vhdl -force -mode funcsim
+--               D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_vgaSync_0_4/cpu_system_vgaSync_0_4_sim_netlist.vhdl
 -- Design      : cpu_system_vgaSync_0_4
 -- Purpose     : This VHDL netlist is a functional simulation representation of the design and should not be modified or
 --               synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -23,7 +23,7 @@ entity cpu_system_vgaSync_0_4_vgaSync is
     wdata : in STD_LOGIC_VECTOR ( 5 downto 0 );
     wvalid : in STD_LOGIC;
     wlast : in STD_LOGIC;
-    rst : in STD_LOGIC;
+    rstn : in STD_LOGIC;
     clk : in STD_LOGIC
   );
   attribute ORIG_REF_NAME : string;
@@ -199,66 +199,66 @@ begin
     );
 \hcont[0]_i_1\: unisim.vcomponents.LUT2
     generic map(
-      INIT => X"1"
+      INIT => X"2"
     )
         port map (
-      I0 => rst,
+      I0 => rstn,
       I1 => hcont_reg(0),
       O => \hcont[0]_i_1_n_0\
     );
 \hcont[1]_i_1\: unisim.vcomponents.LUT3
     generic map(
-      INIT => X"14"
+      INIT => X"48"
     )
         port map (
-      I0 => rst,
-      I1 => hcont_reg(0),
+      I0 => hcont_reg(0),
+      I1 => rstn,
       I2 => hcont_reg(1),
       O => \hcont[1]_i_1_n_0\
     );
 \hcont[2]_i_1\: unisim.vcomponents.LUT4
     generic map(
-      INIT => X"0708"
+      INIT => X"7080"
     )
         port map (
       I0 => hcont_reg(1),
       I1 => hcont_reg(0),
-      I2 => rst,
+      I2 => rstn,
       I3 => hcont_reg(2),
       O => \hcont[2]_i_1_n_0\
     );
 \hcont[3]_i_1\: unisim.vcomponents.LUT5
     generic map(
-      INIT => X"007F0080"
+      INIT => X"7F008000"
     )
         port map (
       I0 => hcont_reg(2),
       I1 => hcont_reg(0),
       I2 => hcont_reg(1),
-      I3 => rst,
+      I3 => rstn,
       I4 => hcont_reg(3),
       O => \hcont[3]_i_1_n_0\
     );
 \hcont[4]_i_1\: unisim.vcomponents.LUT6
     generic map(
-      INIT => X"00007FFF00008000"
+      INIT => X"7FFF000080000000"
     )
         port map (
       I0 => hcont_reg(3),
       I1 => hcont_reg(1),
       I2 => hcont_reg(0),
       I3 => hcont_reg(2),
-      I4 => rst,
+      I4 => rstn,
       I5 => hcont_reg(4),
       O => \hcont[4]_i_1_n_0\
     );
 \hcont[5]_i_1\: unisim.vcomponents.LUT3
     generic map(
-      INIT => X"12"
+      INIT => X"48"
     )
         port map (
       I0 => \hcont[5]_i_2_n_0\,
-      I1 => rst,
+      I1 => rstn,
       I2 => hcont_reg(5),
       O => \hcont[5]_i_1_n_0\
     );
@@ -276,47 +276,47 @@ begin
     );
 \hcont[6]_i_1\: unisim.vcomponents.LUT3
     generic map(
-      INIT => X"21"
+      INIT => X"84"
     )
         port map (
       I0 => \hcont[9]_i_2_n_0\,
-      I1 => rst,
+      I1 => rstn,
       I2 => hcont_reg(6),
       O => \hcont[6]_i_1_n_0\
     );
 \hcont[7]_i_1\: unisim.vcomponents.LUT4
     generic map(
-      INIT => X"0D02"
+      INIT => X"D020"
     )
         port map (
       I0 => hcont_reg(6),
       I1 => \hcont[9]_i_2_n_0\,
-      I2 => rst,
+      I2 => rstn,
       I3 => hcont_reg(7),
       O => \hcont[7]_i_1_n_0\
     );
 \hcont[8]_i_1\: unisim.vcomponents.LUT5
     generic map(
-      INIT => X"00DF0020"
+      INIT => X"DF002000"
     )
         port map (
       I0 => hcont_reg(7),
       I1 => \hcont[9]_i_2_n_0\,
       I2 => hcont_reg(6),
-      I3 => rst,
+      I3 => rstn,
       I4 => hcont_reg(8),
       O => \hcont[8]_i_1_n_0\
     );
 \hcont[9]_i_1\: unisim.vcomponents.LUT6
     generic map(
-      INIT => X"0000DFFF00002000"
+      INIT => X"DFFF000020000000"
     )
         port map (
       I0 => hcont_reg(6),
       I1 => \hcont[9]_i_2_n_0\,
       I2 => hcont_reg(7),
       I3 => hcont_reg(8),
-      I4 => rst,
+      I4 => rstn,
       I5 => hcont_reg(9),
       O => \hcont[9]_i_1_n_0\
     );
@@ -612,7 +612,7 @@ use UNISIM.VCOMPONENTS.ALL;
 entity cpu_system_vgaSync_0_4 is
   port (
     clk : in STD_LOGIC;
-    rst : in STD_LOGIC;
+    rstn : in STD_LOGIC;
     wdata : in STD_LOGIC_VECTOR ( 7 downto 0 );
     wvalid : in STD_LOGIC;
     wlast : in STD_LOGIC;
@@ -640,9 +640,9 @@ architecture STRUCTURE of cpu_system_vgaSync_0_4 is
   attribute X_INTERFACE_INFO : string;
   attribute X_INTERFACE_INFO of clk : signal is "xilinx.com:signal:clock:1.0 clk CLK";
   attribute X_INTERFACE_PARAMETER : string;
-  attribute X_INTERFACE_PARAMETER of clk : signal is "XIL_INTERFACENAME clk, ASSOCIATED_RESET rst, FREQ_HZ 100000000, PHASE 0, CLK_DOMAIN cpu_system_mig_7series_0_0_ui_clk";
-  attribute X_INTERFACE_INFO of rst : signal is "xilinx.com:signal:reset:1.0 rst RST";
-  attribute X_INTERFACE_PARAMETER of rst : signal is "XIL_INTERFACENAME rst, POLARITY ACTIVE_LOW";
+  attribute X_INTERFACE_PARAMETER of clk : signal is "XIL_INTERFACENAME clk, ASSOCIATED_RESET rstn, FREQ_HZ 100000000, PHASE 0, CLK_DOMAIN cpu_system_mig_7series_0_0_ui_clk";
+  attribute X_INTERFACE_INFO of rstn : signal is "xilinx.com:signal:reset:1.0 rstn RST";
+  attribute X_INTERFACE_PARAMETER of rstn : signal is "XIL_INTERFACENAME rstn, POLARITY ACTIVE_LOW";
 begin
   hs <= \<const1>\;
   vs <= \<const1>\;
@@ -656,7 +656,7 @@ inst: entity work.cpu_system_vgaSync_0_4_vgaSync
       clk => clk,
       gout(1 downto 0) => gout(1 downto 0),
       rout(1 downto 0) => rout(1 downto 0),
-      rst => rst,
+      rstn => rstn,
       wdata(5 downto 0) => wdata(5 downto 0),
       wlast => wlast,
       wready => wready,

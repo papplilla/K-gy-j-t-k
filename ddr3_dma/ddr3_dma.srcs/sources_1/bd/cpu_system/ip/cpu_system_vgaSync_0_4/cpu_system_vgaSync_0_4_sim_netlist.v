@@ -1,10 +1,10 @@
 // Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
-// Date        : Sat Dec  1 09:55:28 2018
+// Date        : Wed Dec  5 12:45:31 2018
 // Host        : DESKTOP-02M2VBV running 64-bit major release  (build 9200)
-// Command     : write_verilog -force -mode funcsim {d:/D_Strabi/D
-//               Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_vgaSync_0_4/cpu_system_vgaSync_0_4_sim_netlist.v}
+// Command     : write_verilog -force -mode funcsim
+//               D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_vgaSync_0_4/cpu_system_vgaSync_0_4_sim_netlist.v
 // Design      : cpu_system_vgaSync_0_4
 // Purpose     : This verilog netlist is a functional simulation representation of the design and should not be modified
 //               or synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -17,7 +17,7 @@
 (* NotValidForBitStream *)
 module cpu_system_vgaSync_0_4
    (clk,
-    rst,
+    rstn,
     wdata,
     wvalid,
     wlast,
@@ -27,8 +27,8 @@ module cpu_system_vgaSync_0_4
     bout,
     hs,
     vs);
-  (* X_INTERFACE_INFO = "xilinx.com:signal:clock:1.0 clk CLK" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME clk, ASSOCIATED_RESET rst, FREQ_HZ 100000000, PHASE 0, CLK_DOMAIN cpu_system_mig_7series_0_0_ui_clk" *) input clk;
-  (* X_INTERFACE_INFO = "xilinx.com:signal:reset:1.0 rst RST" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME rst, POLARITY ACTIVE_LOW" *) input rst;
+  (* X_INTERFACE_INFO = "xilinx.com:signal:clock:1.0 clk CLK" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME clk, ASSOCIATED_RESET rstn, FREQ_HZ 100000000, PHASE 0, CLK_DOMAIN cpu_system_mig_7series_0_0_ui_clk" *) input clk;
+  (* X_INTERFACE_INFO = "xilinx.com:signal:reset:1.0 rstn RST" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME rstn, POLARITY ACTIVE_LOW" *) input rstn;
   input [7:0]wdata;
   input wvalid;
   input wlast;
@@ -44,7 +44,7 @@ module cpu_system_vgaSync_0_4
   wire clk;
   wire [1:0]gout;
   wire [1:0]rout;
-  wire rst;
+  wire rstn;
   wire [7:0]wdata;
   wire wlast;
   wire wready;
@@ -59,7 +59,7 @@ module cpu_system_vgaSync_0_4
         .clk(clk),
         .gout(gout),
         .rout(rout),
-        .rst(rst),
+        .rstn(rstn),
         .wdata(wdata[5:0]),
         .wlast(wlast),
         .wready(wready),
@@ -75,7 +75,7 @@ module cpu_system_vgaSync_0_4_vgaSync
     wdata,
     wvalid,
     wlast,
-    rst,
+    rstn,
     clk);
   output wready;
   output [1:0]rout;
@@ -84,7 +84,7 @@ module cpu_system_vgaSync_0_4_vgaSync
   input [5:0]wdata;
   input wvalid;
   input wlast;
-  input rst;
+  input rstn;
   input clk;
 
   wire [1:0]bout;
@@ -106,7 +106,7 @@ module cpu_system_vgaSync_0_4_vgaSync
   wire [9:0]hcont_reg;
   wire [1:0]rout;
   wire \rout_reg[1]_i_1_n_0 ;
-  wire rst;
+  wire rstn;
   wire [1:0]state;
   wire \state_reg[1]_i_1_n_0 ;
   wire \state_reg[1]_i_2_n_0 ;
@@ -214,54 +214,54 @@ module cpu_system_vgaSync_0_4_vgaSync
         .Q(gout[1]));
   (* SOFT_HLUTNM = "soft_lutpair5" *) 
   LUT2 #(
-    .INIT(4'h1)) 
+    .INIT(4'h2)) 
     \hcont[0]_i_1 
-       (.I0(rst),
+       (.I0(rstn),
         .I1(hcont_reg[0]),
         .O(\hcont[0]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair5" *) 
   LUT3 #(
-    .INIT(8'h14)) 
+    .INIT(8'h48)) 
     \hcont[1]_i_1 
-       (.I0(rst),
-        .I1(hcont_reg[0]),
+       (.I0(hcont_reg[0]),
+        .I1(rstn),
         .I2(hcont_reg[1]),
         .O(\hcont[1]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair0" *) 
   LUT4 #(
-    .INIT(16'h0708)) 
+    .INIT(16'h7080)) 
     \hcont[2]_i_1 
        (.I0(hcont_reg[1]),
         .I1(hcont_reg[0]),
-        .I2(rst),
+        .I2(rstn),
         .I3(hcont_reg[2]),
         .O(\hcont[2]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair0" *) 
   LUT5 #(
-    .INIT(32'h007F0080)) 
+    .INIT(32'h7F008000)) 
     \hcont[3]_i_1 
        (.I0(hcont_reg[2]),
         .I1(hcont_reg[0]),
         .I2(hcont_reg[1]),
-        .I3(rst),
+        .I3(rstn),
         .I4(hcont_reg[3]),
         .O(\hcont[3]_i_1_n_0 ));
   LUT6 #(
-    .INIT(64'h00007FFF00008000)) 
+    .INIT(64'h7FFF000080000000)) 
     \hcont[4]_i_1 
        (.I0(hcont_reg[3]),
         .I1(hcont_reg[1]),
         .I2(hcont_reg[0]),
         .I3(hcont_reg[2]),
-        .I4(rst),
+        .I4(rstn),
         .I5(hcont_reg[4]),
         .O(\hcont[4]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair4" *) 
   LUT3 #(
-    .INIT(8'h12)) 
+    .INIT(8'h48)) 
     \hcont[5]_i_1 
        (.I0(\hcont[5]_i_2_n_0 ),
-        .I1(rst),
+        .I1(rstn),
         .I2(hcont_reg[5]),
         .O(\hcont[5]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair3" *) 
@@ -276,39 +276,39 @@ module cpu_system_vgaSync_0_4_vgaSync
         .O(\hcont[5]_i_2_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair4" *) 
   LUT3 #(
-    .INIT(8'h21)) 
+    .INIT(8'h84)) 
     \hcont[6]_i_1 
        (.I0(\hcont[9]_i_2_n_0 ),
-        .I1(rst),
+        .I1(rstn),
         .I2(hcont_reg[6]),
         .O(\hcont[6]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair2" *) 
   LUT4 #(
-    .INIT(16'h0D02)) 
+    .INIT(16'hD020)) 
     \hcont[7]_i_1 
        (.I0(hcont_reg[6]),
         .I1(\hcont[9]_i_2_n_0 ),
-        .I2(rst),
+        .I2(rstn),
         .I3(hcont_reg[7]),
         .O(\hcont[7]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair2" *) 
   LUT5 #(
-    .INIT(32'h00DF0020)) 
+    .INIT(32'hDF002000)) 
     \hcont[8]_i_1 
        (.I0(hcont_reg[7]),
         .I1(\hcont[9]_i_2_n_0 ),
         .I2(hcont_reg[6]),
-        .I3(rst),
+        .I3(rstn),
         .I4(hcont_reg[8]),
         .O(\hcont[8]_i_1_n_0 ));
   LUT6 #(
-    .INIT(64'h0000DFFF00002000)) 
+    .INIT(64'hDFFF000020000000)) 
     \hcont[9]_i_1 
        (.I0(hcont_reg[6]),
         .I1(\hcont[9]_i_2_n_0 ),
         .I2(hcont_reg[7]),
         .I3(hcont_reg[8]),
-        .I4(rst),
+        .I4(rstn),
         .I5(hcont_reg[9]),
         .O(\hcont[9]_i_1_n_0 ));
   LUT6 #(

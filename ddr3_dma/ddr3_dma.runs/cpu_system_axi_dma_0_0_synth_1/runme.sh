@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='D:/D_Strabi/D Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/cpu_system_axi_dma_0_0_synth_1'
+HD_PWD='D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/cpu_system_axi_dma_0_0_synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
