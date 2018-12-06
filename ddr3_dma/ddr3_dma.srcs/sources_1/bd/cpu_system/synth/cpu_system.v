@@ -1,7 +1,7 @@
 //Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
 //Tool Version: Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
-//Date        : Wed Dec  5 15:00:00 2018
+//Date        : Thu Dec  6 10:11:57 2018
 //Host        : DESKTOP-02M2VBV running 64-bit major release  (build 9200)
 //Command     : generate_target cpu_system.bd
 //Design      : cpu_system
@@ -11,7 +11,8 @@
 
 (* CORE_GENERATION_INFO = "cpu_system,IP_Integrator,{x_ipVendor=xilinx.com,x_ipLibrary=BlockDiagram,x_ipName=cpu_system,x_ipVersion=1.00.a,x_ipLanguage=VERILOG,numBlks=23,numReposBlks=17,numNonXlnxBlks=0,numHierBlks=6,maxHierDepth=1,numSysgenBlks=0,numHlsBlks=0,numHdlrefBlks=1,numPkgbdBlks=0,bdsource=USER,da_axi4_cnt=6,da_clkrst_cnt=2,da_mb_cnt=1,synth_mode=OOC_per_IP}" *) (* HW_HANDOFF = "cpu_system.hwdef" *) 
 module cpu_system
-   (DDR3_0_addr,
+   (BTN_tri_i,
+    DDR3_0_addr,
     DDR3_0_ba,
     DDR3_0_cas_n,
     DDR3_0_ck_n,
@@ -26,7 +27,6 @@ module cpu_system
     DDR3_0_ras_n,
     DDR3_0_reset_n,
     DDR3_0_we_n,
-    GPIO_0_tri_i,
     UART_rxd,
     UART_txd,
     bout,
@@ -36,6 +36,7 @@ module cpu_system
     rout,
     rst_in,
     vs);
+  (* X_INTERFACE_INFO = "xilinx.com:interface:gpio:1.0 BTN " *) input [3:0]BTN_tri_i;
   (* X_INTERFACE_INFO = "xilinx.com:interface:ddrx:1.0 DDR3_0 ADDR" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME DDR3_0, AXI_ARBITRATION_SCHEME TDM, BURST_LENGTH 8, CAN_DEBUG false, CAS_LATENCY 11, CAS_WRITE_LATENCY 11, CS_ENABLED true, DATA_MASK_ENABLED true, DATA_WIDTH 8, MEMORY_TYPE COMPONENTS, MEM_ADDR_MAP ROW_COLUMN_BANK, SLOT Single, TIMEPERIOD_PS 1250" *) output [14:0]DDR3_0_addr;
   (* X_INTERFACE_INFO = "xilinx.com:interface:ddrx:1.0 DDR3_0 BA" *) output [2:0]DDR3_0_ba;
   (* X_INTERFACE_INFO = "xilinx.com:interface:ddrx:1.0 DDR3_0 CAS_N" *) output DDR3_0_cas_n;
@@ -51,7 +52,6 @@ module cpu_system
   (* X_INTERFACE_INFO = "xilinx.com:interface:ddrx:1.0 DDR3_0 RAS_N" *) output DDR3_0_ras_n;
   (* X_INTERFACE_INFO = "xilinx.com:interface:ddrx:1.0 DDR3_0 RESET_N" *) output DDR3_0_reset_n;
   (* X_INTERFACE_INFO = "xilinx.com:interface:ddrx:1.0 DDR3_0 WE_N" *) output DDR3_0_we_n;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:gpio:1.0 GPIO_0 TRI_I" *) input [3:0]GPIO_0_tri_i;
   (* X_INTERFACE_INFO = "xilinx.com:interface:uart:1.0 UART RxD" *) input UART_rxd;
   (* X_INTERFACE_INFO = "xilinx.com:interface:uart:1.0 UART TxD" *) output UART_txd;
   output [1:0]bout;
@@ -319,7 +319,7 @@ module cpu_system
   assign DDR3_0_reset_n = mig_7series_0_DDR3_RESET_N;
   assign DDR3_0_we_n = mig_7series_0_DDR3_WE_N;
   assign UART_txd = axi_uartlite_0_UART_TxD;
-  assign axi_gpio_0_GPIO_TRI_I = GPIO_0_tri_i[3:0];
+  assign axi_gpio_0_GPIO_TRI_I = BTN_tri_i[3:0];
   assign axi_uartlite_0_UART_RxD = UART_rxd;
   assign bout[1:0] = vgaSync_0_bout;
   assign gout[1:0] = vgaSync_0_gout;

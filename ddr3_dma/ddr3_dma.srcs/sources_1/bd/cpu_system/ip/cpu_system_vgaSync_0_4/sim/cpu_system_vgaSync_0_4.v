@@ -84,23 +84,7 @@ output wire [1 : 0] bout;
 output wire hs;
 output wire vs;
 
-  vgaSync #(
-    .htotal(3200),
-    .vtotal(521),
-    .hactive(2560),
-    .vactive(480),
-    .hfrontporch(64),
-    .hsyncpulse(384),
-    .hbackporch(192),
-    .vfrontporch(10),
-    .vsyncpulse(2),
-    .vbackporch(29),
-    .hsyncpolarity(0),
-    .vsyncpolarity(0),
-    .wait_for_wlast(0),
-    .wait_for_origo(1),
-    .vga_write_pixels(2)
-  ) inst (
+  vgaSync inst (
     .clk(clk),
     .rstn(rstn),
     .wdata(wdata),

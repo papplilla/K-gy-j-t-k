@@ -2,8 +2,8 @@
 # Vivado v2018.2 (64-bit)
 # SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
 # IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
-# Start of session at: Wed Dec  5 15:06:24 2018
-# Process ID: 14576
+# Start of session at: Thu Dec  6 10:14:18 2018
+# Process ID: 7412
 # Current directory: D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/cpu_system_vgaSync_0_4_synth_1
 # Command line: vivado.exe -log cpu_system_vgaSync_0_4.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source cpu_system_vgaSync_0_4.tcl
 # Log file: D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/cpu_system_vgaSync_0_4_synth_1/cpu_system_vgaSync_0_4.vds
@@ -15,22 +15,22 @@ Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7k70t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k70t'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 5812 
+INFO: Helper process launched with PID 10836 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 399.035 ; gain = 102.766
+Starting RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 400.188 ; gain = 103.660
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-6157] synthesizing module 'cpu_system_vgaSync_0_4' [d:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_vgaSync_0_4/synth/cpu_system_vgaSync_0_4.v:58]
 INFO: [Synth 8-6157] synthesizing module 'vgaSync' [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/imports/K-gy-j-t-k/VGA_Control.v:3]
-	Parameter htotal bound to: 3200 - type: integer 
-	Parameter vtotal bound to: 521 - type: integer 
 	Parameter hactive bound to: 2560 - type: integer 
-	Parameter vactive bound to: 480 - type: integer 
 	Parameter hfrontporch bound to: 64 - type: integer 
 	Parameter hsyncpulse bound to: 384 - type: integer 
 	Parameter hbackporch bound to: 192 - type: integer 
+	Parameter vactive bound to: 480 - type: integer 
 	Parameter vfrontporch bound to: 10 - type: integer 
 	Parameter vsyncpulse bound to: 2 - type: integer 
 	Parameter vbackporch bound to: 29 - type: integer 
+	Parameter htotal bound to: 3200 - type: integer 
+	Parameter vtotal bound to: 521 - type: integer 
 	Parameter hsyncpolarity bound to: 0 - type: integer 
 	Parameter vsyncpolarity bound to: 0 - type: integer 
 	Parameter wait_for_wlast bound to: 0 - type: integer 
@@ -39,7 +39,7 @@ INFO: [Synth 8-6157] synthesizing module 'vgaSync' [D:/D_Strabi/D_Dokumentumai/B
 INFO: [Synth 8-6155] done synthesizing module 'vgaSync' (1#1) [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/imports/K-gy-j-t-k/VGA_Control.v:3]
 INFO: [Synth 8-6155] done synthesizing module 'cpu_system_vgaSync_0_4' (2#1) [d:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_vgaSync_0_4/synth/cpu_system_vgaSync_0_4.v:58]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 454.262 ; gain = 157.992
+Finished RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 454.754 ; gain = 158.227
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -52,10 +52,10 @@ Report Check Netlist:
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 454.262 ; gain = 157.992
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 454.754 ; gain = 158.227
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 454.262 ; gain = 157.992
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 454.754 ; gain = 158.227
 ---------------------------------------------------------------------------------
 INFO: [Device 21-403] Loading part xc7k70tfbg676-1
 INFO: [Project 1-570] Preparing netlist for logic optimization
@@ -68,33 +68,36 @@ INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
 WARNING: [Constraints 18-5210] No constraint will be written out.
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.234 . Memory (MB): peak = 769.605 ; gain = 1.887
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.242 . Memory (MB): peak = 765.184 ; gain = 1.566
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:36 ; elapsed = 00:00:44 . Memory (MB): peak = 769.605 ; gain = 473.336
+Finished Constraint Validation : Time (s): cpu = 00:00:38 ; elapsed = 00:00:46 . Memory (MB): peak = 765.184 ; gain = 468.656
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7k70tfbg676-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:36 ; elapsed = 00:00:44 . Memory (MB): peak = 769.605 ; gain = 473.336
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:38 ; elapsed = 00:00:46 . Memory (MB): peak = 765.184 ; gain = 468.656
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:36 ; elapsed = 00:00:45 . Memory (MB): peak = 769.605 ; gain = 473.336
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:38 ; elapsed = 00:00:47 . Memory (MB): peak = 765.184 ; gain = 468.656
 ---------------------------------------------------------------------------------
-WARNING: [Synth 8-3936] Found unconnected internal register 'data_reg' and it is trimmed from '8' to '6' bits. [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/imports/K-gy-j-t-k/VGA_Control.v:131]
-INFO: [Synth 8-5544] ROM "wready" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
-WARNING: [Synth 8-327] inferring latch for variable 'wready_reg' [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/imports/K-gy-j-t-k/VGA_Control.v:107]
-WARNING: [Synth 8-327] inferring latch for variable 'rout_reg' [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/imports/K-gy-j-t-k/VGA_Control.v:134]
-WARNING: [Synth 8-327] inferring latch for variable 'gout_reg' [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/imports/K-gy-j-t-k/VGA_Control.v:133]
-WARNING: [Synth 8-327] inferring latch for variable 'bout_reg' [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/imports/K-gy-j-t-k/VGA_Control.v:135]
-WARNING: [Synth 8-327] inferring latch for variable 'state_reg' [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/imports/K-gy-j-t-k/VGA_Control.v:105]
-WARNING: [Synth 8-327] inferring latch for variable 'data_reg' [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/imports/K-gy-j-t-k/VGA_Control.v:131]
+WARNING: [Synth 8-3936] Found unconnected internal register 'data_reg' and it is trimmed from '8' to '6' bits. [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/imports/K-gy-j-t-k/VGA_Control.v:147]
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'vgaSync'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 iSTATE0 |                               00 |                               00
+                 iSTATE1 |                               01 |                               01
+                  iSTATE |                               10 |                               10
+*
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'vgaSync'
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:37 ; elapsed = 00:00:45 . Memory (MB): peak = 769.605 ; gain = 473.336
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:38 ; elapsed = 00:00:47 . Memory (MB): peak = 765.184 ; gain = 468.656
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -111,11 +114,14 @@ Detailed RTL Component Info :
 +---Registers : 
 	               12 Bit    Registers := 1     
 	               10 Bit    Registers := 1     
-	                1 Bit    Registers := 3     
+	                6 Bit    Registers := 1     
+	                2 Bit    Registers := 3     
+	                1 Bit    Registers := 4     
 +---Muxes : 
-	   2 Input      2 Bit        Muxes := 2     
-	   2 Input      1 Bit        Muxes := 6     
-	   4 Input      1 Bit        Muxes := 2     
+	   3 Input      2 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 3     
+	   3 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
 ---------------------------------------------------------------------------------
 Finished RTL Component Statistics 
 ---------------------------------------------------------------------------------
@@ -130,11 +136,14 @@ Detailed RTL Component Info :
 +---Registers : 
 	               12 Bit    Registers := 1     
 	               10 Bit    Registers := 1     
-	                1 Bit    Registers := 3     
+	                6 Bit    Registers := 1     
+	                2 Bit    Registers := 3     
+	                1 Bit    Registers := 4     
 +---Muxes : 
-	   2 Input      2 Bit        Muxes := 2     
-	   2 Input      1 Bit        Muxes := 6     
-	   4 Input      1 Bit        Muxes := 2     
+	   3 Input      2 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 3     
+	   3 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
 ---------------------------------------------------------------------------------
 Finished RTL Hierarchical Component Statistics
 ---------------------------------------------------------------------------------
@@ -151,33 +160,27 @@ Finished Part Resource Summary
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 Warning: Parallel synthesis criteria is not met 
-INFO: [Synth 8-3917] design cpu_system_vgaSync_0_4 has port hs driven by constant 1
 WARNING: [Synth 8-3331] design cpu_system_vgaSync_0_4 has unconnected port wdata[7]
 WARNING: [Synth 8-3331] design cpu_system_vgaSync_0_4 has unconnected port wdata[6]
 INFO: [Synth 8-3886] merging instance 'inst/vcont_reg[10]' (FDRE) to 'inst/vcont_reg[11]'
 INFO: [Synth 8-3886] merging instance 'inst/vcont_reg[11]' (FDRE) to 'inst/vcont_reg[9]'
 INFO: [Synth 8-3886] merging instance 'inst/vcont_reg[9]' (FDRE) to 'inst/vcont_reg[8]'
-INFO: [Synth 8-3886] merging instance 'inst/vcont_reg[4]' (FDRE) to 'inst/vcont_reg[8]'
-INFO: [Synth 8-3886] merging instance 'inst/vcont_reg[0]' (FDRE) to 'inst/vcont_reg[8]'
-INFO: [Synth 8-3886] merging instance 'inst/vcont_reg[1]' (FDRE) to 'inst/vcont_reg[8]'
-INFO: [Synth 8-3886] merging instance 'inst/vcont_reg[2]' (FDRE) to 'inst/vcont_reg[8]'
-INFO: [Synth 8-3886] merging instance 'inst/vcont_reg[3]' (FDRE) to 'inst/vcont_reg[8]'
-INFO: [Synth 8-3886] merging instance 'inst/vcont_reg[5]' (FDRE) to 'inst/vcont_reg[8]'
-INFO: [Synth 8-3886] merging instance 'inst/vcont_reg[7]' (FDRE) to 'inst/vcont_reg[8]'
-INFO: [Synth 8-3886] merging instance 'inst/vcont_reg[8]' (FDRE) to 'inst/vcont_reg[6]'
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst/vcont_reg[6] )
-INFO: [Synth 8-3332] Sequential element (inst/hs_reg) is unused and will be removed from module cpu_system_vgaSync_0_4.
-CRITICAL WARNING: [Synth 8-3352] multi-driven net hs_reg with 1st driver pin 'inst/hs_reg/Q' [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/imports/K-gy-j-t-k/VGA_Control.v:62]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net hs_reg with 2nd driver pin 'VCC' [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/imports/K-gy-j-t-k/VGA_Control.v:62]
-CRITICAL WARNING: [Synth 8-5559] multi-driven net hs_reg is connected to constant driver, other driver is ignored [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/imports/K-gy-j-t-k/VGA_Control.v:62]
-INFO: [Synth 8-3332] Sequential element (inst/vcont_reg[6]) is unused and will be removed from module cpu_system_vgaSync_0_4.
-INFO: [Synth 8-3332] Sequential element (inst/vs_reg) is unused and will be removed from module cpu_system_vgaSync_0_4.
-CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 1st driver pin 'inst/vs_reg/Q' [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/imports/K-gy-j-t-k/VGA_Control.v:63]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 2nd driver pin 'VCC' [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/imports/K-gy-j-t-k/VGA_Control.v:63]
-CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/imports/K-gy-j-t-k/VGA_Control.v:63]
+INFO: [Synth 8-3886] merging instance 'inst/vcont_reg[8]' (FDRE) to 'inst/vcont_reg[7]'
+INFO: [Synth 8-3886] merging instance 'inst/vcont_reg[7]' (FDRE) to 'inst/vcont_reg[6]'
+INFO: [Synth 8-3886] merging instance 'inst/vcont_reg[6]' (FDRE) to 'inst/vcont_reg[5]'
+INFO: [Synth 8-3886] merging instance 'inst/vcont_reg[5]' (FDRE) to 'inst/vcont_reg[4]'
+INFO: [Synth 8-3886] merging instance 'inst/vcont_reg[4]' (FDRE) to 'inst/vcont_reg[3]'
+INFO: [Synth 8-3886] merging instance 'inst/vcont_reg[3]' (FDRE) to 'inst/vcont_reg[2]'
+INFO: [Synth 8-3886] merging instance 'inst/vcont_reg[2]' (FDRE) to 'inst/vcont_reg[1]'
+INFO: [Synth 8-3886] merging instance 'inst/vcont_reg[1]' (FDRE) to 'inst/vcont_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst/vcont_reg[0] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\inst/hs_reg )
+INFO: [Synth 8-3332] Sequential element (inst/vcont_reg[0]) is unused and will be removed from module cpu_system_vgaSync_0_4.
 INFO: [Synth 8-3332] Sequential element (inst/active_area_reg) is unused and will be removed from module cpu_system_vgaSync_0_4.
+INFO: [Synth 8-3332] Sequential element (inst/hs_reg) is unused and will be removed from module cpu_system_vgaSync_0_4.
+INFO: [Synth 8-3332] Sequential element (inst/vs_reg) is unused and will be removed from module cpu_system_vgaSync_0_4.
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:39 ; elapsed = 00:00:48 . Memory (MB): peak = 769.605 ; gain = 473.336
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:41 ; elapsed = 00:00:50 . Memory (MB): peak = 765.184 ; gain = 468.656
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -189,13 +192,13 @@ Report RTL Partitions:
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:08 ; elapsed = 00:01:19 . Memory (MB): peak = 770.895 ; gain = 474.625
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:10 ; elapsed = 00:01:22 . Memory (MB): peak = 772.141 ; gain = 475.613
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:01:08 ; elapsed = 00:01:19 . Memory (MB): peak = 770.895 ; gain = 474.625
+Finished Timing Optimization : Time (s): cpu = 00:01:10 ; elapsed = 00:01:22 . Memory (MB): peak = 772.141 ; gain = 475.613
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -207,7 +210,7 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:01:08 ; elapsed = 00:01:19 . Memory (MB): peak = 781.191 ; gain = 484.922
+Finished Technology Mapping : Time (s): cpu = 00:01:10 ; elapsed = 00:01:22 . Memory (MB): peak = 782.180 ; gain = 485.652
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -231,7 +234,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:01:11 ; elapsed = 00:01:22 . Memory (MB): peak = 781.191 ; gain = 484.922
+Finished IO Insertion : Time (s): cpu = 00:01:14 ; elapsed = 00:01:25 . Memory (MB): peak = 782.180 ; gain = 485.652
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -244,7 +247,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:01:11 ; elapsed = 00:01:22 . Memory (MB): peak = 781.191 ; gain = 484.922
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:14 ; elapsed = 00:01:25 . Memory (MB): peak = 782.180 ; gain = 485.652
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -256,25 +259,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:11 ; elapsed = 00:01:22 . Memory (MB): peak = 781.191 ; gain = 484.922
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:14 ; elapsed = 00:01:25 . Memory (MB): peak = 782.180 ; gain = 485.652
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:01:11 ; elapsed = 00:01:22 . Memory (MB): peak = 781.191 ; gain = 484.922
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:14 ; elapsed = 00:01:25 . Memory (MB): peak = 782.180 ; gain = 485.652
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:01:11 ; elapsed = 00:01:22 . Memory (MB): peak = 781.191 ; gain = 484.922
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:14 ; elapsed = 00:01:25 . Memory (MB): peak = 782.180 ; gain = 485.652
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:01:11 ; elapsed = 00:01:22 . Memory (MB): peak = 781.191 ; gain = 484.922
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:14 ; elapsed = 00:01:25 . Memory (MB): peak = 782.180 ; gain = 485.652
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -290,47 +293,42 @@ Report Cell Usage:
 +------+-----+------+
 |      |Cell |Count |
 +------+-----+------+
-|1     |LUT2 |     4|
-|2     |LUT3 |     5|
-|3     |LUT4 |     3|
-|4     |LUT5 |     4|
-|5     |LUT6 |     6|
-|6     |FDRE |    10|
-|7     |LD   |    14|
-|8     |LDCP |     1|
+|1     |LUT1 |     2|
+|2     |LUT2 |     3|
+|3     |LUT3 |     3|
+|4     |LUT4 |     5|
+|5     |LUT5 |     4|
+|6     |LUT6 |     6|
+|7     |FDRE |    25|
 +------+-----+------+
 
 Report Instance Areas: 
 +------+---------+--------+------+
 |      |Instance |Module  |Cells |
 +------+---------+--------+------+
-|1     |top      |        |    47|
-|2     |  inst   |vgaSync |    47|
+|1     |top      |        |    48|
+|2     |  inst   |vgaSync |    48|
 +------+---------+--------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:01:11 ; elapsed = 00:01:22 . Memory (MB): peak = 781.191 ; gain = 484.922
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:14 ; elapsed = 00:01:25 . Memory (MB): peak = 782.180 ; gain = 485.652
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 6 critical warnings and 9 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:43 ; elapsed = 00:00:57 . Memory (MB): peak = 781.191 ; gain = 169.578
-Synthesis Optimization Complete : Time (s): cpu = 00:01:12 ; elapsed = 00:01:22 . Memory (MB): peak = 781.191 ; gain = 484.922
+Synthesis finished with 0 errors, 0 critical warnings and 3 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:44 ; elapsed = 00:00:59 . Memory (MB): peak = 782.180 ; gain = 175.223
+Synthesis Optimization Complete : Time (s): cpu = 00:01:14 ; elapsed = 00:01:26 . Memory (MB): peak = 782.180 ; gain = 485.652
 INFO: [Project 1-571] Translating synthesized netlist
-INFO: [Netlist 29-17] Analyzing 15 Unisim elements for replacement
-INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
 INFO: [Project 1-111] Unisim Transformation Summary:
-  A total of 15 instances were transformed.
-  LD => LDCE: 14 instances
-  LDCP => LDCP (GND, LUT3, LUT3, LDCE, VCC): 1 instances
+No Unisim elements were transformed.
 
 INFO: [Common 17-83] Releasing license: Synthesis
-33 Infos, 10 Warnings, 6 Critical Warnings and 0 Errors encountered.
+32 Infos, 4 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:01:16 ; elapsed = 00:01:28 . Memory (MB): peak = 791.891 ; gain = 508.016
+synth_design: Time (s): cpu = 00:01:18 ; elapsed = 00:01:32 . Memory (MB): peak = 795.359 ; gain = 510.820
 WARNING: [Constraints 18-5210] No constraint will be written out.
 INFO: [Common 17-1381] The checkpoint 'D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/cpu_system_vgaSync_0_4_synth_1/cpu_system_vgaSync_0_4.dcp' has been generated.
 WARNING: [Constraints 18-5210] No constraint will be written out.
 INFO: [Common 17-1381] The checkpoint 'D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/cpu_system_vgaSync_0_4_synth_1/cpu_system_vgaSync_0_4.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file cpu_system_vgaSync_0_4_utilization_synth.rpt -pb cpu_system_vgaSync_0_4_utilization_synth.pb
-report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.144 . Memory (MB): peak = 791.891 ; gain = 0.000
-INFO: [Common 17-206] Exiting Vivado at Wed Dec  5 15:08:21 2018...
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.189 . Memory (MB): peak = 795.359 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Thu Dec  6 10:16:24 2018...

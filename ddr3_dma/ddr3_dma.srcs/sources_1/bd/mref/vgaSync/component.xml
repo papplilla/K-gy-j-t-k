@@ -61,7 +61,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>00ea1f43</spirit:value>
+            <spirit:value>fbe354e9</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -74,7 +74,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>00ea1f43</spirit:value>
+            <spirit:value>fbe354e9</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -248,83 +248,6 @@
         </spirit:wire>
       </spirit:port>
     </spirit:ports>
-    <spirit:modelParameters>
-      <spirit:modelParameter xsi:type="spirit:nameValueTypeType" spirit:dataType="integer">
-        <spirit:name>htotal</spirit:name>
-        <spirit:displayName>Htotal</spirit:displayName>
-        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.htotal">3200</spirit:value>
-      </spirit:modelParameter>
-      <spirit:modelParameter spirit:dataType="integer">
-        <spirit:name>vtotal</spirit:name>
-        <spirit:displayName>Vtotal</spirit:displayName>
-        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.vtotal">521</spirit:value>
-      </spirit:modelParameter>
-      <spirit:modelParameter spirit:dataType="integer">
-        <spirit:name>hactive</spirit:name>
-        <spirit:displayName>Hactive</spirit:displayName>
-        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.hactive">2560</spirit:value>
-      </spirit:modelParameter>
-      <spirit:modelParameter spirit:dataType="integer">
-        <spirit:name>vactive</spirit:name>
-        <spirit:displayName>Vactive</spirit:displayName>
-        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.vactive">480</spirit:value>
-      </spirit:modelParameter>
-      <spirit:modelParameter spirit:dataType="integer">
-        <spirit:name>hfrontporch</spirit:name>
-        <spirit:displayName>Hfrontporch</spirit:displayName>
-        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.hfrontporch">64</spirit:value>
-      </spirit:modelParameter>
-      <spirit:modelParameter spirit:dataType="integer">
-        <spirit:name>hsyncpulse</spirit:name>
-        <spirit:displayName>Hsyncpulse</spirit:displayName>
-        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.hsyncpulse">384</spirit:value>
-      </spirit:modelParameter>
-      <spirit:modelParameter spirit:dataType="integer">
-        <spirit:name>hbackporch</spirit:name>
-        <spirit:displayName>Hbackporch</spirit:displayName>
-        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.hbackporch">192</spirit:value>
-      </spirit:modelParameter>
-      <spirit:modelParameter spirit:dataType="integer">
-        <spirit:name>vfrontporch</spirit:name>
-        <spirit:displayName>Vfrontporch</spirit:displayName>
-        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.vfrontporch">10</spirit:value>
-      </spirit:modelParameter>
-      <spirit:modelParameter spirit:dataType="integer">
-        <spirit:name>vsyncpulse</spirit:name>
-        <spirit:displayName>Vsyncpulse</spirit:displayName>
-        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.vsyncpulse">2</spirit:value>
-      </spirit:modelParameter>
-      <spirit:modelParameter spirit:dataType="integer">
-        <spirit:name>vbackporch</spirit:name>
-        <spirit:displayName>Vbackporch</spirit:displayName>
-        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.vbackporch">29</spirit:value>
-      </spirit:modelParameter>
-      <spirit:modelParameter spirit:dataType="integer">
-        <spirit:name>hsyncpolarity</spirit:name>
-        <spirit:displayName>Hsyncpolarity</spirit:displayName>
-        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.hsyncpolarity">0</spirit:value>
-      </spirit:modelParameter>
-      <spirit:modelParameter spirit:dataType="integer">
-        <spirit:name>vsyncpolarity</spirit:name>
-        <spirit:displayName>Vsyncpolarity</spirit:displayName>
-        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.vsyncpolarity">0</spirit:value>
-      </spirit:modelParameter>
-      <spirit:modelParameter spirit:dataType="integer">
-        <spirit:name>wait_for_wlast</spirit:name>
-        <spirit:displayName>Wait For Wlast</spirit:displayName>
-        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.wait_for_wlast">0</spirit:value>
-      </spirit:modelParameter>
-      <spirit:modelParameter spirit:dataType="integer">
-        <spirit:name>wait_for_origo</spirit:name>
-        <spirit:displayName>Wait For Origo</spirit:displayName>
-        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.wait_for_origo">1</spirit:value>
-      </spirit:modelParameter>
-      <spirit:modelParameter spirit:dataType="integer">
-        <spirit:name>vga_write_pixels</spirit:name>
-        <spirit:displayName>Vga Write Pixels</spirit:displayName>
-        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.vga_write_pixels">2</spirit:value>
-      </spirit:modelParameter>
-    </spirit:modelParameters>
   </spirit:model>
   <spirit:choices>
     <spirit:choice>
@@ -339,88 +262,13 @@
       <spirit:file>
         <spirit:name>xgui/vgaSync_v1_0.tcl</spirit:name>
         <spirit:fileType>tclSource</spirit:fileType>
-        <spirit:userFileType>CHECKSUM_70866b21</spirit:userFileType>
+        <spirit:userFileType>CHECKSUM_f64a5dae</spirit:userFileType>
         <spirit:userFileType>XGUI_VERSION_2</spirit:userFileType>
       </spirit:file>
     </spirit:fileSet>
   </spirit:fileSets>
   <spirit:description>xilinx.com:module_ref:vgaSync:1.0</spirit:description>
   <spirit:parameters>
-    <spirit:parameter>
-      <spirit:name>htotal</spirit:name>
-      <spirit:displayName>Htotal</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.htotal">3200</spirit:value>
-    </spirit:parameter>
-    <spirit:parameter>
-      <spirit:name>vtotal</spirit:name>
-      <spirit:displayName>Vtotal</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.vtotal">521</spirit:value>
-    </spirit:parameter>
-    <spirit:parameter>
-      <spirit:name>hactive</spirit:name>
-      <spirit:displayName>Hactive</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.hactive">2560</spirit:value>
-    </spirit:parameter>
-    <spirit:parameter>
-      <spirit:name>vactive</spirit:name>
-      <spirit:displayName>Vactive</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.vactive">480</spirit:value>
-    </spirit:parameter>
-    <spirit:parameter>
-      <spirit:name>hfrontporch</spirit:name>
-      <spirit:displayName>Hfrontporch</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.hfrontporch">64</spirit:value>
-    </spirit:parameter>
-    <spirit:parameter>
-      <spirit:name>hsyncpulse</spirit:name>
-      <spirit:displayName>Hsyncpulse</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.hsyncpulse">384</spirit:value>
-    </spirit:parameter>
-    <spirit:parameter>
-      <spirit:name>hbackporch</spirit:name>
-      <spirit:displayName>Hbackporch</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.hbackporch">192</spirit:value>
-    </spirit:parameter>
-    <spirit:parameter>
-      <spirit:name>vfrontporch</spirit:name>
-      <spirit:displayName>Vfrontporch</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.vfrontporch">10</spirit:value>
-    </spirit:parameter>
-    <spirit:parameter>
-      <spirit:name>vsyncpulse</spirit:name>
-      <spirit:displayName>Vsyncpulse</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.vsyncpulse">2</spirit:value>
-    </spirit:parameter>
-    <spirit:parameter>
-      <spirit:name>vbackporch</spirit:name>
-      <spirit:displayName>Vbackporch</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.vbackporch">29</spirit:value>
-    </spirit:parameter>
-    <spirit:parameter>
-      <spirit:name>hsyncpolarity</spirit:name>
-      <spirit:displayName>Hsyncpolarity</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.hsyncpolarity">0</spirit:value>
-    </spirit:parameter>
-    <spirit:parameter>
-      <spirit:name>vsyncpolarity</spirit:name>
-      <spirit:displayName>Vsyncpolarity</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.vsyncpolarity">0</spirit:value>
-    </spirit:parameter>
-    <spirit:parameter>
-      <spirit:name>wait_for_wlast</spirit:name>
-      <spirit:displayName>Wait For Wlast</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.wait_for_wlast">0</spirit:value>
-    </spirit:parameter>
-    <spirit:parameter>
-      <spirit:name>wait_for_origo</spirit:name>
-      <spirit:displayName>Wait For Origo</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.wait_for_origo">1</spirit:value>
-    </spirit:parameter>
-    <spirit:parameter>
-      <spirit:name>vga_write_pixels</spirit:name>
-      <spirit:displayName>Vga Write Pixels</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.vga_write_pixels">2</spirit:value>
-    </spirit:parameter>
     <spirit:parameter>
       <spirit:name>Component_Name</spirit:name>
       <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.Component_Name" spirit:order="1">vgaSync_v1_0</spirit:value>
@@ -441,7 +289,7 @@
         <xilinx:designToolContext>IPI</xilinx:designToolContext>
       </xilinx:designToolContexts>
       <xilinx:coreRevision>1</xilinx:coreRevision>
-      <xilinx:coreCreationDateTime>2018-12-05T11:18:26Z</xilinx:coreCreationDateTime>
+      <xilinx:coreCreationDateTime>2018-12-06T08:59:54Z</xilinx:coreCreationDateTime>
     </xilinx:coreExtensions>
     <xilinx:packagingInfo>
       <xilinx:xilinxVersion>2018.2</xilinx:xilinxVersion>

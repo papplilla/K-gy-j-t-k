@@ -2,8 +2,8 @@
 # Vivado v2018.2 (64-bit)
 # SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
 # IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
-# Start of session at: Wed Dec  5 15:08:28 2018
-# Process ID: 14580
+# Start of session at: Thu Dec  6 10:38:49 2018
+# Process ID: 7784
 # Current directory: D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/synth_1
 # Command line: vivado.exe -log cpu_system_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source cpu_system_wrapper.tcl
 # Log file: D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/synth_1/cpu_system_wrapper.vds
@@ -13,38 +13,38 @@ source cpu_system_wrapper.tcl -notrace
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ip_repo/myVGA_1.0'.
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'G:/Programok/Vivado2018.2/Vivado/2018.2/data/ip'.
-add_files: Time (s): cpu = 00:00:56 ; elapsed = 00:01:05 . Memory (MB): peak = 423.309 ; gain = 170.988
+add_files: Time (s): cpu = 00:00:56 ; elapsed = 00:01:06 . Memory (MB): peak = 424.066 ; gain = 170.305
 Command: synth_design -top cpu_system_wrapper -part xc7k70tfbg676-1
 Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7k70t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k70t'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 7960 
+INFO: Helper process launched with PID 2532 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 523.031 ; gain = 99.723
+Starting RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 524.430 ; gain = 100.363
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-6157] synthesizing module 'cpu_system_wrapper' [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/imports/hdl/cpu_system_wrapper.v:12]
 INFO: [Synth 8-6157] synthesizing module 'BUFG' [G:/Programok/Vivado2018.2/Vivado/2018.2/scripts/rt/data/unisim_comp.v:609]
 INFO: [Synth 8-6155] done synthesizing module 'BUFG' (1#1) [G:/Programok/Vivado2018.2/Vivado/2018.2/scripts/rt/data/unisim_comp.v:609]
 INFO: [Synth 8-6157] synthesizing module 'cpu_system' [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/synth/cpu_system.v:13]
-INFO: [Synth 8-6157] synthesizing module 'cpu_system_axi_dma_0_0' [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/synth_1/.Xil/Vivado-14580-DESKTOP-02M2VBV/realtime/cpu_system_axi_dma_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'cpu_system_axi_dma_0_0' (2#1) [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/synth_1/.Xil/Vivado-14580-DESKTOP-02M2VBV/realtime/cpu_system_axi_dma_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'cpu_system_axi_dma_0_0' [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/synth_1/.Xil/Vivado-7784-DESKTOP-02M2VBV/realtime/cpu_system_axi_dma_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'cpu_system_axi_dma_0_0' (2#1) [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/synth_1/.Xil/Vivado-7784-DESKTOP-02M2VBV/realtime/cpu_system_axi_dma_0_0_stub.v:6]
 WARNING: [Synth 8-350] instance 'axi_dma_0' of module 'cpu_system_axi_dma_0_0' requires 40 connections, but only 37 given [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/synth/cpu_system.v:331]
-INFO: [Synth 8-6157] synthesizing module 'cpu_system_axi_gpio_0_0' [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/synth_1/.Xil/Vivado-14580-DESKTOP-02M2VBV/realtime/cpu_system_axi_gpio_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'cpu_system_axi_gpio_0_0' (3#1) [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/synth_1/.Xil/Vivado-14580-DESKTOP-02M2VBV/realtime/cpu_system_axi_gpio_0_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'cpu_system_axi_smc_0' [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/synth_1/.Xil/Vivado-14580-DESKTOP-02M2VBV/realtime/cpu_system_axi_smc_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'cpu_system_axi_smc_0' (4#1) [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/synth_1/.Xil/Vivado-14580-DESKTOP-02M2VBV/realtime/cpu_system_axi_smc_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'cpu_system_axi_gpio_0_0' [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/synth_1/.Xil/Vivado-7784-DESKTOP-02M2VBV/realtime/cpu_system_axi_gpio_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'cpu_system_axi_gpio_0_0' (3#1) [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/synth_1/.Xil/Vivado-7784-DESKTOP-02M2VBV/realtime/cpu_system_axi_gpio_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'cpu_system_axi_smc_0' [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/synth_1/.Xil/Vivado-7784-DESKTOP-02M2VBV/realtime/cpu_system_axi_smc_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'cpu_system_axi_smc_0' (4#1) [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/synth_1/.Xil/Vivado-7784-DESKTOP-02M2VBV/realtime/cpu_system_axi_smc_0_stub.v:6]
 WARNING: [Synth 8-350] instance 'axi_smc' of module 'cpu_system_axi_smc_0' requires 143 connections, but only 139 given [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/synth/cpu_system.v:390]
-INFO: [Synth 8-6157] synthesizing module 'cpu_system_axi_uartlite_0_0' [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/synth_1/.Xil/Vivado-14580-DESKTOP-02M2VBV/realtime/cpu_system_axi_uartlite_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'cpu_system_axi_uartlite_0_0' (5#1) [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/synth_1/.Xil/Vivado-14580-DESKTOP-02M2VBV/realtime/cpu_system_axi_uartlite_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'cpu_system_axi_uartlite_0_0' [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/synth_1/.Xil/Vivado-7784-DESKTOP-02M2VBV/realtime/cpu_system_axi_uartlite_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'cpu_system_axi_uartlite_0_0' (5#1) [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/synth_1/.Xil/Vivado-7784-DESKTOP-02M2VBV/realtime/cpu_system_axi_uartlite_0_0_stub.v:6]
 WARNING: [Synth 8-350] instance 'axi_uartlite_0' of module 'cpu_system_axi_uartlite_0_0' requires 22 connections, but only 21 given [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/synth/cpu_system.v:530]
-INFO: [Synth 8-6157] synthesizing module 'cpu_system_fifo_generator_0_0' [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/synth_1/.Xil/Vivado-14580-DESKTOP-02M2VBV/realtime/cpu_system_fifo_generator_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'cpu_system_fifo_generator_0_0' (6#1) [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/synth_1/.Xil/Vivado-14580-DESKTOP-02M2VBV/realtime/cpu_system_fifo_generator_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'cpu_system_fifo_generator_0_0' [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/synth_1/.Xil/Vivado-7784-DESKTOP-02M2VBV/realtime/cpu_system_fifo_generator_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'cpu_system_fifo_generator_0_0' (6#1) [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/synth_1/.Xil/Vivado-7784-DESKTOP-02M2VBV/realtime/cpu_system_fifo_generator_0_0_stub.v:6]
 WARNING: [Synth 8-350] instance 'fifo_generator_0' of module 'cpu_system_fifo_generator_0_0' requires 14 connections, but only 11 given [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/synth/cpu_system.v:552]
-INFO: [Synth 8-6157] synthesizing module 'cpu_system_mdm_1_0' [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/synth_1/.Xil/Vivado-14580-DESKTOP-02M2VBV/realtime/cpu_system_mdm_1_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'cpu_system_mdm_1_0' (7#1) [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/synth_1/.Xil/Vivado-14580-DESKTOP-02M2VBV/realtime/cpu_system_mdm_1_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'cpu_system_microblaze_0_0' [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/synth_1/.Xil/Vivado-14580-DESKTOP-02M2VBV/realtime/cpu_system_microblaze_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'cpu_system_microblaze_0_0' (8#1) [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/synth_1/.Xil/Vivado-14580-DESKTOP-02M2VBV/realtime/cpu_system_microblaze_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'cpu_system_mdm_1_0' [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/synth_1/.Xil/Vivado-7784-DESKTOP-02M2VBV/realtime/cpu_system_mdm_1_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'cpu_system_mdm_1_0' (7#1) [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/synth_1/.Xil/Vivado-7784-DESKTOP-02M2VBV/realtime/cpu_system_mdm_1_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'cpu_system_microblaze_0_0' [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/synth_1/.Xil/Vivado-7784-DESKTOP-02M2VBV/realtime/cpu_system_microblaze_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'cpu_system_microblaze_0_0' (8#1) [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/synth_1/.Xil/Vivado-7784-DESKTOP-02M2VBV/realtime/cpu_system_microblaze_0_0_stub.v:6]
 WARNING: [Synth 8-350] instance 'microblaze_0' of module 'cpu_system_microblaze_0_0' requires 126 connections, but only 107 given [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/synth/cpu_system.v:577]
 INFO: [Synth 8-6157] synthesizing module 'cpu_system_microblaze_0_axi_periph_0' [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/synth/cpu_system.v:912]
 INFO: [Synth 8-6157] synthesizing module 'm00_couplers_imp_1DG9L6H' [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/synth/cpu_system.v:1500]
@@ -55,36 +55,36 @@ INFO: [Synth 8-6157] synthesizing module 'm02_couplers_imp_XK6AD1' [D:/D_Strabi/
 INFO: [Synth 8-6155] done synthesizing module 'm02_couplers_imp_XK6AD1' (11#1) [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/synth/cpu_system.v:1757]
 INFO: [Synth 8-6157] synthesizing module 's00_couplers_imp_1LUMK6W' [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/synth/cpu_system.v:2123]
 INFO: [Synth 8-6155] done synthesizing module 's00_couplers_imp_1LUMK6W' (12#1) [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/synth/cpu_system.v:2123]
-INFO: [Synth 8-6157] synthesizing module 'cpu_system_xbar_0' [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/synth_1/.Xil/Vivado-14580-DESKTOP-02M2VBV/realtime/cpu_system_xbar_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'cpu_system_xbar_0' (13#1) [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/synth_1/.Xil/Vivado-14580-DESKTOP-02M2VBV/realtime/cpu_system_xbar_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'cpu_system_xbar_0' [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/synth_1/.Xil/Vivado-7784-DESKTOP-02M2VBV/realtime/cpu_system_xbar_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'cpu_system_xbar_0' (13#1) [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/synth_1/.Xil/Vivado-7784-DESKTOP-02M2VBV/realtime/cpu_system_xbar_0_stub.v:6]
 WARNING: [Synth 8-350] instance 'xbar' of module 'cpu_system_xbar_0' requires 40 connections, but only 38 given [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/synth/cpu_system.v:1459]
 INFO: [Synth 8-6155] done synthesizing module 'cpu_system_microblaze_0_axi_periph_0' (14#1) [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/synth/cpu_system.v:912]
 INFO: [Synth 8-6157] synthesizing module 'microblaze_0_local_memory_imp_11QEPV7' [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/synth/cpu_system.v:1889]
-INFO: [Synth 8-6157] synthesizing module 'cpu_system_dlmb_bram_if_cntlr_0' [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/synth_1/.Xil/Vivado-14580-DESKTOP-02M2VBV/realtime/cpu_system_dlmb_bram_if_cntlr_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'cpu_system_dlmb_bram_if_cntlr_0' (15#1) [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/synth_1/.Xil/Vivado-14580-DESKTOP-02M2VBV/realtime/cpu_system_dlmb_bram_if_cntlr_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'cpu_system_dlmb_v10_0' [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/synth_1/.Xil/Vivado-14580-DESKTOP-02M2VBV/realtime/cpu_system_dlmb_v10_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'cpu_system_dlmb_v10_0' (16#1) [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/synth_1/.Xil/Vivado-14580-DESKTOP-02M2VBV/realtime/cpu_system_dlmb_v10_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'cpu_system_dlmb_bram_if_cntlr_0' [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/synth_1/.Xil/Vivado-7784-DESKTOP-02M2VBV/realtime/cpu_system_dlmb_bram_if_cntlr_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'cpu_system_dlmb_bram_if_cntlr_0' (15#1) [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/synth_1/.Xil/Vivado-7784-DESKTOP-02M2VBV/realtime/cpu_system_dlmb_bram_if_cntlr_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'cpu_system_dlmb_v10_0' [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/synth_1/.Xil/Vivado-7784-DESKTOP-02M2VBV/realtime/cpu_system_dlmb_v10_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'cpu_system_dlmb_v10_0' (16#1) [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/synth_1/.Xil/Vivado-7784-DESKTOP-02M2VBV/realtime/cpu_system_dlmb_v10_0_stub.v:6]
 WARNING: [Synth 8-350] instance 'dlmb_v10' of module 'cpu_system_dlmb_v10_0' requires 25 connections, but only 24 given [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/synth/cpu_system.v:2035]
-INFO: [Synth 8-6157] synthesizing module 'cpu_system_ilmb_bram_if_cntlr_0' [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/synth_1/.Xil/Vivado-14580-DESKTOP-02M2VBV/realtime/cpu_system_ilmb_bram_if_cntlr_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'cpu_system_ilmb_bram_if_cntlr_0' (17#1) [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/synth_1/.Xil/Vivado-14580-DESKTOP-02M2VBV/realtime/cpu_system_ilmb_bram_if_cntlr_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'cpu_system_ilmb_v10_0' [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/synth_1/.Xil/Vivado-14580-DESKTOP-02M2VBV/realtime/cpu_system_ilmb_v10_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'cpu_system_ilmb_v10_0' (18#1) [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/synth_1/.Xil/Vivado-14580-DESKTOP-02M2VBV/realtime/cpu_system_ilmb_v10_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'cpu_system_ilmb_bram_if_cntlr_0' [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/synth_1/.Xil/Vivado-7784-DESKTOP-02M2VBV/realtime/cpu_system_ilmb_bram_if_cntlr_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'cpu_system_ilmb_bram_if_cntlr_0' (17#1) [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/synth_1/.Xil/Vivado-7784-DESKTOP-02M2VBV/realtime/cpu_system_ilmb_bram_if_cntlr_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'cpu_system_ilmb_v10_0' [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/synth_1/.Xil/Vivado-7784-DESKTOP-02M2VBV/realtime/cpu_system_ilmb_v10_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'cpu_system_ilmb_v10_0' (18#1) [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/synth_1/.Xil/Vivado-7784-DESKTOP-02M2VBV/realtime/cpu_system_ilmb_v10_0_stub.v:6]
 WARNING: [Synth 8-350] instance 'ilmb_v10' of module 'cpu_system_ilmb_v10_0' requires 25 connections, but only 24 given [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/synth/cpu_system.v:2081]
-INFO: [Synth 8-6157] synthesizing module 'cpu_system_lmb_bram_0' [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/synth_1/.Xil/Vivado-14580-DESKTOP-02M2VBV/realtime/cpu_system_lmb_bram_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'cpu_system_lmb_bram_0' (19#1) [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/synth_1/.Xil/Vivado-14580-DESKTOP-02M2VBV/realtime/cpu_system_lmb_bram_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'cpu_system_lmb_bram_0' [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/synth_1/.Xil/Vivado-7784-DESKTOP-02M2VBV/realtime/cpu_system_lmb_bram_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'cpu_system_lmb_bram_0' (19#1) [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/synth_1/.Xil/Vivado-7784-DESKTOP-02M2VBV/realtime/cpu_system_lmb_bram_0_stub.v:6]
 WARNING: [Synth 8-350] instance 'lmb_bram' of module 'cpu_system_lmb_bram_0' requires 16 connections, but only 14 given [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/synth/cpu_system.v:2106]
 INFO: [Synth 8-6155] done synthesizing module 'microblaze_0_local_memory_imp_11QEPV7' (20#1) [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/synth/cpu_system.v:1889]
-INFO: [Synth 8-6157] synthesizing module 'cpu_system_mig_7series_0_0' [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/synth_1/.Xil/Vivado-14580-DESKTOP-02M2VBV/realtime/cpu_system_mig_7series_0_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'cpu_system_mig_7series_0_0' (21#1) [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/synth_1/.Xil/Vivado-14580-DESKTOP-02M2VBV/realtime/cpu_system_mig_7series_0_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'cpu_system_mig_7series_0_0' [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/synth_1/.Xil/Vivado-7784-DESKTOP-02M2VBV/realtime/cpu_system_mig_7series_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'cpu_system_mig_7series_0_0' (21#1) [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/synth_1/.Xil/Vivado-7784-DESKTOP-02M2VBV/realtime/cpu_system_mig_7series_0_0_stub.v:5]
 WARNING: [Synth 8-350] instance 'mig_7series_0' of module 'cpu_system_mig_7series_0_0' requires 69 connections, but only 58 given [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/synth/cpu_system.v:787]
-INFO: [Synth 8-6157] synthesizing module 'cpu_system_rst_mig_7series_0_100M_0' [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/synth_1/.Xil/Vivado-14580-DESKTOP-02M2VBV/realtime/cpu_system_rst_mig_7series_0_100M_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'cpu_system_rst_mig_7series_0_100M_0' (22#1) [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/synth_1/.Xil/Vivado-14580-DESKTOP-02M2VBV/realtime/cpu_system_rst_mig_7series_0_100M_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'cpu_system_rst_mig_7series_0_100M_0' [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/synth_1/.Xil/Vivado-7784-DESKTOP-02M2VBV/realtime/cpu_system_rst_mig_7series_0_100M_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'cpu_system_rst_mig_7series_0_100M_0' (22#1) [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/synth_1/.Xil/Vivado-7784-DESKTOP-02M2VBV/realtime/cpu_system_rst_mig_7series_0_100M_0_stub.v:6]
 WARNING: [Synth 8-350] instance 'rst_mig_7series_0_100M' of module 'cpu_system_rst_mig_7series_0_100M_0' requires 10 connections, but only 9 given [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/synth/cpu_system.v:846]
 WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/synth/cpu_system.v:856]
-INFO: [Synth 8-6157] synthesizing module 'cpu_system_system_ila_0_0' [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/synth_1/.Xil/Vivado-14580-DESKTOP-02M2VBV/realtime/cpu_system_system_ila_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'cpu_system_system_ila_0_0' (23#1) [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/synth_1/.Xil/Vivado-14580-DESKTOP-02M2VBV/realtime/cpu_system_system_ila_0_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'cpu_system_vgaSync_0_4' [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/synth_1/.Xil/Vivado-14580-DESKTOP-02M2VBV/realtime/cpu_system_vgaSync_0_4_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'cpu_system_vgaSync_0_4' (24#1) [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/synth_1/.Xil/Vivado-14580-DESKTOP-02M2VBV/realtime/cpu_system_vgaSync_0_4_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'cpu_system_system_ila_0_0' [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/synth_1/.Xil/Vivado-7784-DESKTOP-02M2VBV/realtime/cpu_system_system_ila_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'cpu_system_system_ila_0_0' (23#1) [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/synth_1/.Xil/Vivado-7784-DESKTOP-02M2VBV/realtime/cpu_system_system_ila_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'cpu_system_vgaSync_0_4' [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/synth_1/.Xil/Vivado-7784-DESKTOP-02M2VBV/realtime/cpu_system_vgaSync_0_4_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'cpu_system_vgaSync_0_4' (24#1) [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/synth_1/.Xil/Vivado-7784-DESKTOP-02M2VBV/realtime/cpu_system_vgaSync_0_4_stub.v:6]
 INFO: [Synth 8-6155] done synthesizing module 'cpu_system' (25#1) [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/synth/cpu_system.v:13]
 WARNING: [Synth 8-350] instance 'cpu_system_i' of module 'cpu_system' requires 25 connections, but only 19 given [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/imports/hdl/cpu_system_wrapper.v:76]
 INFO: [Synth 8-6155] done synthesizing module 'cpu_system_wrapper' (26#1) [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/imports/hdl/cpu_system_wrapper.v:12]
@@ -105,7 +105,7 @@ WARNING: [Synth 8-3331] design m00_couplers_imp_1DG9L6H has unconnected port M_A
 WARNING: [Synth 8-3331] design m00_couplers_imp_1DG9L6H has unconnected port S_ACLK
 WARNING: [Synth 8-3331] design m00_couplers_imp_1DG9L6H has unconnected port S_ARESETN
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 577.723 ; gain = 154.414
+Finished RTL Elaboration : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 579.039 ; gain = 154.973
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -114,18 +114,18 @@ Report Check Netlist:
 +------+------------------+-------+---------+-------+------------------+
 |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
 +------+------------------+-------+---------+-------+------------------+
-WARNING: [Synth 8-3295] tying undriven pin cpu_system_i:GPIO_0_tri_i[3] to constant 0 [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/imports/hdl/cpu_system_wrapper.v:76]
-WARNING: [Synth 8-3295] tying undriven pin cpu_system_i:GPIO_0_tri_i[2] to constant 0 [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/imports/hdl/cpu_system_wrapper.v:76]
-WARNING: [Synth 8-3295] tying undriven pin cpu_system_i:GPIO_0_tri_i[1] to constant 0 [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/imports/hdl/cpu_system_wrapper.v:76]
-WARNING: [Synth 8-3295] tying undriven pin cpu_system_i:GPIO_0_tri_i[0] to constant 0 [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/imports/hdl/cpu_system_wrapper.v:76]
+WARNING: [Synth 8-3295] tying undriven pin cpu_system_i:BTN_tri_i[3] to constant 0 [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/imports/hdl/cpu_system_wrapper.v:76]
+WARNING: [Synth 8-3295] tying undriven pin cpu_system_i:BTN_tri_i[2] to constant 0 [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/imports/hdl/cpu_system_wrapper.v:76]
+WARNING: [Synth 8-3295] tying undriven pin cpu_system_i:BTN_tri_i[1] to constant 0 [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/imports/hdl/cpu_system_wrapper.v:76]
+WARNING: [Synth 8-3295] tying undriven pin cpu_system_i:BTN_tri_i[0] to constant 0 [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/imports/hdl/cpu_system_wrapper.v:76]
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 577.723 ; gain = 154.414
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 579.039 ; gain = 154.973
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 577.723 ; gain = 154.414
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 579.039 ; gain = 154.973
 ---------------------------------------------------------------------------------
 INFO: [Device 21-403] Loading part xc7k70tfbg676-1
 INFO: [Project 1-570] Preparing netlist for logic optimization
@@ -177,17 +177,17 @@ Completed Processing XDC Constraints
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.047 . Memory (MB): peak = 868.242 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.069 . Memory (MB): peak = 867.777 ; gain = 0.000
 WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'cpu_system_i/microblaze_0_local_memory/lmb_bram' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:44 ; elapsed = 00:00:54 . Memory (MB): peak = 868.242 ; gain = 444.934
+Finished Constraint Validation : Time (s): cpu = 00:00:52 ; elapsed = 00:01:04 . Memory (MB): peak = 867.777 ; gain = 443.711
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7k70tfbg676-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:44 ; elapsed = 00:00:54 . Memory (MB): peak = 868.242 ; gain = 444.934
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:52 ; elapsed = 00:01:04 . Memory (MB): peak = 867.777 ; gain = 443.711
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
@@ -354,10 +354,10 @@ Applied set_property DONT_TOUCH = true for cpu_system_i/fifo_generator_0. (const
 Applied set_property DONT_TOUCH = true for cpu_system_i/vgaSync_0. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for cpu_system_i/axi_gpio_0. (constraint file  auto generated constraint, line ).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:45 ; elapsed = 00:00:55 . Memory (MB): peak = 868.242 ; gain = 444.934
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:54 ; elapsed = 00:01:05 . Memory (MB): peak = 867.777 ; gain = 443.711
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:46 ; elapsed = 00:00:56 . Memory (MB): peak = 868.242 ; gain = 444.934
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:55 ; elapsed = 00:01:06 . Memory (MB): peak = 867.777 ; gain = 443.711
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -401,7 +401,7 @@ WARNING: [Synth 8-3331] design cpu_system_microblaze_0_axi_periph_0 has unconnec
 WARNING: [Synth 8-3331] design cpu_system_microblaze_0_axi_periph_0 has unconnected port S00_ACLK
 WARNING: [Synth 8-3331] design cpu_system_microblaze_0_axi_periph_0 has unconnected port S00_ARESETN
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:48 ; elapsed = 00:00:59 . Memory (MB): peak = 868.242 ; gain = 444.934
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:58 ; elapsed = 00:01:09 . Memory (MB): peak = 867.777 ; gain = 443.711
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -424,13 +424,13 @@ INFO: [Synth 8-5578] Moved timing constraint from pin 'cpu_system_i/microblaze_0
 INFO: [Synth 8-5578] Moved timing constraint from pin 'cpu_system_i/microblaze_0_local_memory/ilmb_bram_if_cntlr/BRAM_Clk_A' to pin 'cpu_system_i/microblaze_0_local_memory/ilmb_bram_if_cntlr/bbstub_BRAM_Clk_A/O'
 INFO: [Synth 8-5819] Moved 10 constraints on hierarchical pins to their respective driving/loading pins
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:17 ; elapsed = 00:01:29 . Memory (MB): peak = 889.992 ; gain = 466.684
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:28 ; elapsed = 00:01:43 . Memory (MB): peak = 891.426 ; gain = 467.359
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:01:17 ; elapsed = 00:01:29 . Memory (MB): peak = 890.215 ; gain = 466.906
+Finished Timing Optimization : Time (s): cpu = 00:01:29 ; elapsed = 00:01:43 . Memory (MB): peak = 891.648 ; gain = 467.582
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -442,7 +442,7 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:01:17 ; elapsed = 00:01:30 . Memory (MB): peak = 892.117 ; gain = 468.809
+Finished Technology Mapping : Time (s): cpu = 00:01:29 ; elapsed = 00:01:43 . Memory (MB): peak = 894.195 ; gain = 470.129
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -465,12 +465,12 @@ Start Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
-WARNING: [Synth 8-3295] tying undriven pin cpu_system_i:GPIO_0_tri_i[3] to constant 0
-WARNING: [Synth 8-3295] tying undriven pin cpu_system_i:GPIO_0_tri_i[2] to constant 0
-WARNING: [Synth 8-3295] tying undriven pin cpu_system_i:GPIO_0_tri_i[1] to constant 0
-WARNING: [Synth 8-3295] tying undriven pin cpu_system_i:GPIO_0_tri_i[0] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin cpu_system_i:BTN_tri_i[3] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin cpu_system_i:BTN_tri_i[2] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin cpu_system_i:BTN_tri_i[1] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin cpu_system_i:BTN_tri_i[0] to constant 0
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:01:20 ; elapsed = 00:01:33 . Memory (MB): peak = 892.117 ; gain = 468.809
+Finished IO Insertion : Time (s): cpu = 00:01:32 ; elapsed = 00:01:47 . Memory (MB): peak = 894.195 ; gain = 470.129
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -483,7 +483,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:01:20 ; elapsed = 00:01:33 . Memory (MB): peak = 892.117 ; gain = 468.809
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:32 ; elapsed = 00:01:47 . Memory (MB): peak = 894.195 ; gain = 470.129
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -495,25 +495,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:20 ; elapsed = 00:01:33 . Memory (MB): peak = 892.117 ; gain = 468.809
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:32 ; elapsed = 00:01:47 . Memory (MB): peak = 894.195 ; gain = 470.129
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:01:20 ; elapsed = 00:01:33 . Memory (MB): peak = 892.117 ; gain = 468.809
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:32 ; elapsed = 00:01:47 . Memory (MB): peak = 894.195 ; gain = 470.129
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:01:20 ; elapsed = 00:01:33 . Memory (MB): peak = 892.117 ; gain = 468.809
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:32 ; elapsed = 00:01:47 . Memory (MB): peak = 894.195 ; gain = 470.129
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:01:20 ; elapsed = 00:01:33 . Memory (MB): peak = 892.117 ; gain = 468.809
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:32 ; elapsed = 00:01:47 . Memory (MB): peak = 894.195 ; gain = 470.129
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -578,14 +578,14 @@ Report Instance Areas:
 |4     |    microblaze_0_local_memory |microblaze_0_local_memory_imp_11QEPV7 |   496|
 +------+------------------------------+--------------------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:01:20 ; elapsed = 00:01:33 . Memory (MB): peak = 892.117 ; gain = 468.809
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:32 ; elapsed = 00:01:47 . Memory (MB): peak = 894.195 ; gain = 470.129
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 12 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:45 ; elapsed = 00:00:59 . Memory (MB): peak = 892.121 ; gain = 178.293
-Synthesis Optimization Complete : Time (s): cpu = 00:01:21 ; elapsed = 00:01:33 . Memory (MB): peak = 892.121 ; gain = 468.813
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:51 ; elapsed = 00:01:09 . Memory (MB): peak = 894.195 ; gain = 181.391
+Synthesis Optimization Complete : Time (s): cpu = 00:01:33 ; elapsed = 00:01:47 . Memory (MB): peak = 894.195 ; gain = 470.129
 INFO: [Project 1-571] Translating synthesized netlist
 INFO: [Netlist 29-17] Analyzing 3 Unisim elements for replacement
-INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
 INFO: [Project 1-111] Unisim Transformation Summary:
@@ -594,9 +594,9 @@ No Unisim elements were transformed.
 INFO: [Common 17-83] Releasing license: Synthesis
 78 Infos, 46 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:01:27 ; elapsed = 00:01:42 . Memory (MB): peak = 913.063 ; gain = 489.754
+synth_design: Time (s): cpu = 00:01:40 ; elapsed = 00:01:58 . Memory (MB): peak = 911.723 ; gain = 487.656
 WARNING: [Constraints 18-5210] No constraint will be written out.
 INFO: [Common 17-1381] The checkpoint 'D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/synth_1/cpu_system_wrapper.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file cpu_system_wrapper_utilization_synth.rpt -pb cpu_system_wrapper_utilization_synth.pb
-report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.140 . Memory (MB): peak = 913.063 ; gain = 0.000
-INFO: [Common 17-206] Exiting Vivado at Wed Dec  5 15:11:32 2018...
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.219 . Memory (MB): peak = 912.008 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Thu Dec  6 10:42:14 2018...

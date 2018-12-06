@@ -2,10 +2,10 @@
 <Root MajorVersion="0" MinorVersion="36">
   <CompositeFile CompositeFileTopName="cpu_system" CanBeSetAsTop="false" CanDisplayChildGraph="true">
     <Description>Composite Fileset</Description>
-    <Generation Name="SYNTHESIS" State="GENERATED" Timestamp="1544018486"/>
-    <Generation Name="IMPLEMENTATION" State="GENERATED" Timestamp="1544018486"/>
-    <Generation Name="SIMULATION" State="GENERATED" Timestamp="1544018486"/>
-    <Generation Name="HW_HANDOFF" State="GENERATED" Timestamp="1544018486"/>
+    <Generation Name="SYNTHESIS" State="GENERATED" Timestamp="1544087612"/>
+    <Generation Name="IMPLEMENTATION" State="GENERATED" Timestamp="1544087612"/>
+    <Generation Name="SIMULATION" State="GENERATED" Timestamp="1544087612"/>
+    <Generation Name="HW_HANDOFF" State="GENERATED" Timestamp="1544087612"/>
     <FileCollection Name="SOURCES" Type="SOURCES">
       <File Name="ip\cpu_system_microblaze_0_0\cpu_system_microblaze_0_0.xci" Type="IP">
         <Instance HierarchyPath="microblaze_0"/>
