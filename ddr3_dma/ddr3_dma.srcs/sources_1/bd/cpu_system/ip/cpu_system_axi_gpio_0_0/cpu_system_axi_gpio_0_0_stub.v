@@ -1,10 +1,10 @@
 // Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
-// Date        : Wed Dec  5 15:04:33 2018
+// Date        : Wed Dec  5 15:04:31 2018
 // Host        : DESKTOP-02M2VBV running 64-bit major release  (build 9200)
-// Command     : write_verilog -force -mode synth_stub
-//               D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_axi_gpio_0_0/cpu_system_axi_gpio_0_0_stub.v
+// Command     : write_verilog -force -mode synth_stub -rename_top cpu_system_axi_gpio_0_0 -prefix
+//               cpu_system_axi_gpio_0_0_ cpu_system_axi_gpio_0_0_stub.v
 // Design      : cpu_system_axi_gpio_0_0
 // Purpose     : Stub declaration of top-level module interface
 // Device      : xc7k70tfbg676-1

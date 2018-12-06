@@ -1,10 +1,10 @@
 // Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
-// Date        : Sat Dec  1 09:58:19 2018
+// Date        : Sat Dec  1 09:58:18 2018
 // Host        : DESKTOP-02M2VBV running 64-bit major release  (build 9200)
-// Command     : write_verilog -force -mode funcsim {D:/D_Strabi/D
-//               Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_fifo_generator_0_0/cpu_system_fifo_generator_0_0_sim_netlist.v}
+// Command     : write_verilog -force -mode funcsim -rename_top cpu_system_fifo_generator_0_0 -prefix
+//               cpu_system_fifo_generator_0_0_ cpu_system_fifo_generator_0_0_sim_netlist.v
 // Design      : cpu_system_fifo_generator_0_0
 // Purpose     : This verilog netlist is a functional simulation representation of the design and should not be modified
 //               or synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -615,8 +615,8 @@ module cpu_system_fifo_generator_0_0
 endmodule
 
 (* DEF_VAL = "1'b1" *) (* DEST_SYNC_FF = "5" *) (* INIT = "1" *) 
-(* INIT_SYNC_FF = "0" *) (* ORIG_REF_NAME = "xpm_cdc_sync_rst" *) (* SIM_ASSERT_CHK = "0" *) 
-(* VERSION = "0" *) (* XPM_MODULE = "TRUE" *) (* xpm_cdc = "SYNC_RST" *) 
+(* INIT_SYNC_FF = "0" *) (* SIM_ASSERT_CHK = "0" *) (* VERSION = "0" *) 
+(* XPM_MODULE = "TRUE" *) (* xpm_cdc = "SYNC_RST" *) 
 module cpu_system_fifo_generator_0_0_xpm_cdc_sync_rst
    (src_rst,
     dest_clk,
@@ -687,7 +687,6 @@ module cpu_system_fifo_generator_0_0_xpm_cdc_sync_rst
         .R(1'b0));
 endmodule
 
-(* ORIG_REF_NAME = "blk_mem_gen_generic_cstr" *) 
 module cpu_system_fifo_generator_0_0_blk_mem_gen_generic_cstr
    (D,
     ENB_dly_D,
@@ -738,7 +737,6 @@ module cpu_system_fifo_generator_0_0_blk_mem_gen_generic_cstr
         .s_axis_tvalid(s_axis_tvalid));
 endmodule
 
-(* ORIG_REF_NAME = "blk_mem_gen_prim_width" *) 
 module cpu_system_fifo_generator_0_0_blk_mem_gen_prim_width
    (D,
     ENB_dly_D,
@@ -854,7 +852,6 @@ module cpu_system_fifo_generator_0_0_blk_mem_gen_prim_width
         .s_axis_tvalid(s_axis_tvalid));
 endmodule
 
-(* ORIG_REF_NAME = "blk_mem_gen_prim_wrapper" *) 
 module cpu_system_fifo_generator_0_0_blk_mem_gen_prim_wrapper
    (D,
     s_aclk,
@@ -1054,7 +1051,6 @@ module cpu_system_fifo_generator_0_0_blk_mem_gen_prim_wrapper
         .O(ENA_I));
 endmodule
 
-(* ORIG_REF_NAME = "blk_mem_gen_top" *) 
 module cpu_system_fifo_generator_0_0_blk_mem_gen_top
    (D,
     ENB_dly_D,
@@ -1105,7 +1101,6 @@ module cpu_system_fifo_generator_0_0_blk_mem_gen_top
         .s_axis_tvalid(s_axis_tvalid));
 endmodule
 
-(* ORIG_REF_NAME = "blk_mem_gen_v8_4_1" *) 
 module cpu_system_fifo_generator_0_0_blk_mem_gen_v8_4_1
    (D,
     ENB_dly_D,
@@ -1156,7 +1151,6 @@ module cpu_system_fifo_generator_0_0_blk_mem_gen_v8_4_1
         .s_axis_tvalid(s_axis_tvalid));
 endmodule
 
-(* ORIG_REF_NAME = "blk_mem_gen_v8_4_1_synth" *) 
 module cpu_system_fifo_generator_0_0_blk_mem_gen_v8_4_1_synth
    (D,
     ENB_dly_D,
@@ -1207,7 +1201,6 @@ module cpu_system_fifo_generator_0_0_blk_mem_gen_v8_4_1_synth
         .s_axis_tvalid(s_axis_tvalid));
 endmodule
 
-(* ORIG_REF_NAME = "compare" *) 
 module cpu_system_fifo_generator_0_0_compare
    (comp0,
     \gc0.count_d1_reg[6] ,
@@ -1436,7 +1429,6 @@ module cpu_system_fifo_generator_0_0_compare_2
         .O(ram_empty_i_reg));
 endmodule
 
-(* ORIG_REF_NAME = "fifo_generator_ramfifo" *) 
 module cpu_system_fifo_generator_0_0_fifo_generator_ramfifo
    (wr_rst_busy,
     Q,
@@ -1546,7 +1538,6 @@ module cpu_system_fifo_generator_0_0_fifo_generator_ramfifo
         .wr_rst_busy(wr_rst_busy));
 endmodule
 
-(* ORIG_REF_NAME = "fifo_generator_top" *) 
 module cpu_system_fifo_generator_0_0_fifo_generator_top
    (wr_rst_busy,
     Q,
@@ -1660,7 +1651,7 @@ endmodule
 (* C_WR_DEPTH_WRCH = "16" *) (* C_WR_FREQ = "1" *) (* C_WR_PNTR_WIDTH = "10" *) 
 (* C_WR_PNTR_WIDTH_AXIS = "9" *) (* C_WR_PNTR_WIDTH_RACH = "4" *) (* C_WR_PNTR_WIDTH_RDCH = "10" *) 
 (* C_WR_PNTR_WIDTH_WACH = "4" *) (* C_WR_PNTR_WIDTH_WDCH = "10" *) (* C_WR_PNTR_WIDTH_WRCH = "4" *) 
-(* C_WR_RESPONSE_LATENCY = "1" *) (* ORIG_REF_NAME = "fifo_generator_v13_2_2" *) 
+(* C_WR_RESPONSE_LATENCY = "1" *) 
 module cpu_system_fifo_generator_0_0_fifo_generator_v13_2_2
    (backup,
     backup_marker,
@@ -2684,7 +2675,6 @@ module cpu_system_fifo_generator_0_0_fifo_generator_v13_2_2
         .wr_rst_busy(wr_rst_busy));
 endmodule
 
-(* ORIG_REF_NAME = "fifo_generator_v13_2_2_synth" *) 
 module cpu_system_fifo_generator_0_0_fifo_generator_v13_2_2_synth
    (wr_rst_busy,
     Q,
@@ -2731,7 +2721,6 @@ module cpu_system_fifo_generator_0_0_fifo_generator_v13_2_2_synth
         .wr_rst_busy(wr_rst_busy));
 endmodule
 
-(* ORIG_REF_NAME = "memory" *) 
 module cpu_system_fifo_generator_0_0_memory
    (ENB_dly_D,
     Q,
@@ -2866,7 +2855,6 @@ module cpu_system_fifo_generator_0_0_memory
         .R(1'b0));
 endmodule
 
-(* ORIG_REF_NAME = "rd_bin_cntr" *) 
 module cpu_system_fifo_generator_0_0_rd_bin_cntr
    (\gc0.count_d1_reg[8]_0 ,
     v1_reg,
@@ -3271,7 +3259,6 @@ module cpu_system_fifo_generator_0_0_rd_bin_cntr
         .O(ram_empty_i_reg_2));
 endmodule
 
-(* ORIG_REF_NAME = "rd_fwft" *) 
 module cpu_system_fifo_generator_0_0_rd_fwft
    (ENB_I,
     E,
@@ -3478,7 +3465,6 @@ module cpu_system_fifo_generator_0_0_rd_fwft
         .O(m_axis_tvalid));
 endmodule
 
-(* ORIG_REF_NAME = "rd_logic" *) 
 module cpu_system_fifo_generator_0_0_rd_logic
    (ENB_I,
     E,
@@ -3587,7 +3573,6 @@ module cpu_system_fifo_generator_0_0_rd_logic
         .v1_reg_1(\c2/v1_reg ));
 endmodule
 
-(* ORIG_REF_NAME = "rd_status_flags_ss" *) 
 module cpu_system_fifo_generator_0_0_rd_status_flags_ss
    (out,
     \gc0.count_d1_reg[0] ,
@@ -3674,7 +3659,6 @@ module cpu_system_fifo_generator_0_0_rd_status_flags_ss
         .S(\ngwrdrst.grst.g7serrst.gsckt_wrst.gcc_rst.sckt_wr_rst_cc_reg[0] ));
 endmodule
 
-(* ORIG_REF_NAME = "reset_blk_ramfifo" *) 
 module cpu_system_fifo_generator_0_0_reset_blk_ramfifo
    (wr_rst_busy,
     out,
@@ -3801,7 +3785,6 @@ module cpu_system_fifo_generator_0_0_reset_blk_ramfifo
         .O(wr_rst_busy_i));
 endmodule
 
-(* ORIG_REF_NAME = "wr_bin_cntr" *) 
 module cpu_system_fifo_generator_0_0_wr_bin_cntr
    (Q,
     v1_reg,
@@ -4093,7 +4076,6 @@ module cpu_system_fifo_generator_0_0_wr_bin_cntr
         .O(ram_empty_i_reg_0));
 endmodule
 
-(* ORIG_REF_NAME = "wr_logic" *) 
 module cpu_system_fifo_generator_0_0_wr_logic
    (out,
     E,
@@ -4174,7 +4156,6 @@ module cpu_system_fifo_generator_0_0_wr_logic
         .v1_reg_0(\c1/v1_reg ));
 endmodule
 
-(* ORIG_REF_NAME = "wr_status_flags_ss" *) 
 module cpu_system_fifo_generator_0_0_wr_status_flags_ss
    (out,
     E,

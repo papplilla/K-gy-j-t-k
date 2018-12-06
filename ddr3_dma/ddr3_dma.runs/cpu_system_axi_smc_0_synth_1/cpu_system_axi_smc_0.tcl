@@ -35,7 +35,6 @@ set_property ip_repo_paths d:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezes
 set_property ip_output_repo d:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 read_ip -quiet D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_axi_smc_0/cpu_system_axi_smc_0.xci
-set_property used_in_implementation false [get_files -all d:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_axi_smc_0/ooc.xdc]
 set_property used_in_implementation false [get_files -all d:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_axi_smc_0/bd_0/ip/ip_10/bd_e077_s00a2s_0_ooc.xdc]
 set_property used_in_implementation false [get_files -all d:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_axi_smc_0/bd_0/ip/ip_19/bd_e077_s01a2s_0_ooc.xdc]
 set_property used_in_implementation false [get_files -all d:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_axi_smc_0/bd_0/ip/ip_25/bd_e077_s03a2s_0_ooc.xdc]
@@ -61,6 +60,7 @@ set_property used_in_implementation false [get_files -all d:/D_Strabi/D_Dokument
 set_property used_in_implementation false [get_files -all d:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_axi_smc_0/bd_0/ip/ip_6/bd_e077_bsw_0_ooc.xdc]
 set_property used_in_implementation false [get_files -all d:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_axi_smc_0/bd_0/ip/ip_1/bd_e077_psr_aclk_0_board.xdc]
 set_property used_in_implementation false [get_files -all d:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_axi_smc_0/bd_0/ip/ip_1/bd_e077_psr_aclk_0.xdc]
+set_property used_in_implementation false [get_files -all d:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_axi_smc_0/ooc.xdc]
 
 # Mark all dcp files as not used in implementation to prevent them from being
 # stitched into the results of this synthesis run. Any black boxes in the

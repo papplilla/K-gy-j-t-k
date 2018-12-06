@@ -112,10 +112,6 @@
 # IP: d:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_axi_smc_0/bd_0/ip/ip_1/bd_e077_psr_aclk_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# XDC: d:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_axi_smc_0/ooc.xdc
-# XDC: The top module name and the constraint reference have the same name: 'cpu_system_axi_smc_0'. Do not add the DONT_TOUCH constraint.
-set_property DONT_TOUCH TRUE [get_cells inst -quiet] -quiet
-
 # XDC: d:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_axi_smc_0/bd_0/ip/ip_10/bd_e077_s00a2s_0_ooc.xdc
 
 # XDC: d:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_axi_smc_0/bd_0/ip/ip_19/bd_e077_s01a2s_0_ooc.xdc
@@ -167,6 +163,10 @@ set_property DONT_TOUCH TRUE [get_cells inst -quiet] -quiet
 
 # XDC: d:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_axi_smc_0/bd_0/ip/ip_1/bd_e077_psr_aclk_0.xdc
 # DONT_TOUCH constraint suppressed by parent sub-design file.
+
+# XDC: d:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_axi_smc_0/ooc.xdc
+# XDC: The top module name and the constraint reference have the same name: 'cpu_system_axi_smc_0'. Do not add the DONT_TOUCH constraint.
+set_property DONT_TOUCH TRUE [get_cells inst -quiet] -quiet
 
 # IP: D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_axi_smc_0/cpu_system_axi_smc_0.xci
 # IP: The module: 'cpu_system_axi_smc_0' is the root of the design. Do not add the DONT_TOUCH constraint.
@@ -279,10 +279,6 @@ set_property DONT_TOUCH TRUE [get_cells inst -quiet] -quiet
 # IP: d:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_axi_smc_0/bd_0/ip/ip_1/bd_e077_psr_aclk_0.xci
 # DONT_TOUCH constraint suppressed by (parent) sub-design file.
 
-# XDC: d:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_axi_smc_0/ooc.xdc
-# XDC: The top module name and the constraint reference have the same name: 'cpu_system_axi_smc_0'. Do not add the DONT_TOUCH constraint.
-#dup# set_property DONT_TOUCH TRUE [get_cells inst -quiet] -quiet
-
 # XDC: d:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_axi_smc_0/bd_0/ip/ip_10/bd_e077_s00a2s_0_ooc.xdc
 
 # XDC: d:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_axi_smc_0/bd_0/ip/ip_19/bd_e077_s01a2s_0_ooc.xdc
@@ -334,3 +330,7 @@ set_property DONT_TOUCH TRUE [get_cells inst -quiet] -quiet
 
 # XDC: d:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_axi_smc_0/bd_0/ip/ip_1/bd_e077_psr_aclk_0.xdc
 # DONT_TOUCH constraint suppressed by parent sub-design file.
+
+# XDC: d:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_axi_smc_0/ooc.xdc
+# XDC: The top module name and the constraint reference have the same name: 'cpu_system_axi_smc_0'. Do not add the DONT_TOUCH constraint.
+#dup# set_property DONT_TOUCH TRUE [get_cells inst -quiet] -quiet

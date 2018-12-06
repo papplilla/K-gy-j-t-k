@@ -3,8 +3,8 @@
 -- Tool Version: Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
 -- Date        : Thu Nov  8 23:09:04 2018
 -- Host        : rtpc running 64-bit major release  (build 9200)
--- Command     : write_vhdl -force -mode funcsim
---               f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_lmb_bram_0/cpu_system_lmb_bram_0_sim_netlist.vhdl
+-- Command     : write_vhdl -force -mode funcsim -rename_top cpu_system_lmb_bram_0 -prefix
+--               cpu_system_lmb_bram_0_ cpu_system_lmb_bram_0_sim_netlist.vhdl
 -- Design      : cpu_system_lmb_bram_0
 -- Purpose     : This VHDL netlist is a functional simulation representation of the design and should not be modified or
 --               synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -31,8 +31,6 @@ entity cpu_system_lmb_bram_0_blk_mem_gen_prim_wrapper is
     wea : in STD_LOGIC_VECTOR ( 0 to 0 );
     web : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of cpu_system_lmb_bram_0_blk_mem_gen_prim_wrapper : entity is "blk_mem_gen_prim_wrapper";
 end cpu_system_lmb_bram_0_blk_mem_gen_prim_wrapper;
 
 architecture STRUCTURE of cpu_system_lmb_bram_0_blk_mem_gen_prim_wrapper is
@@ -4387,8 +4385,6 @@ entity cpu_system_lmb_bram_0_blk_mem_gen_prim_width is
     wea : in STD_LOGIC_VECTOR ( 0 to 0 );
     web : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of cpu_system_lmb_bram_0_blk_mem_gen_prim_width : entity is "blk_mem_gen_prim_width";
 end cpu_system_lmb_bram_0_blk_mem_gen_prim_width;
 
 architecture STRUCTURE of cpu_system_lmb_bram_0_blk_mem_gen_prim_width is
@@ -5343,8 +5339,6 @@ entity cpu_system_lmb_bram_0_blk_mem_gen_generic_cstr is
     rstb : in STD_LOGIC;
     enb : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of cpu_system_lmb_bram_0_blk_mem_gen_generic_cstr : entity is "blk_mem_gen_generic_cstr";
 end cpu_system_lmb_bram_0_blk_mem_gen_generic_cstr;
 
 architecture STRUCTURE of cpu_system_lmb_bram_0_blk_mem_gen_generic_cstr is
@@ -5655,8 +5649,6 @@ entity cpu_system_lmb_bram_0_blk_mem_gen_top is
     rstb : in STD_LOGIC;
     enb : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of cpu_system_lmb_bram_0_blk_mem_gen_top : entity is "blk_mem_gen_top";
 end cpu_system_lmb_bram_0_blk_mem_gen_top;
 
 architecture STRUCTURE of cpu_system_lmb_bram_0_blk_mem_gen_top is
@@ -5704,8 +5696,6 @@ entity cpu_system_lmb_bram_0_blk_mem_gen_v8_4_1_synth is
     rstb : in STD_LOGIC;
     enb : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of cpu_system_lmb_bram_0_blk_mem_gen_v8_4_1_synth : entity is "blk_mem_gen_v8_4_1_synth";
 end cpu_system_lmb_bram_0_blk_mem_gen_v8_4_1_synth;
 
 architecture STRUCTURE of cpu_system_lmb_bram_0_blk_mem_gen_v8_4_1_synth is
@@ -5946,8 +5936,6 @@ entity cpu_system_lmb_bram_0_blk_mem_gen_v8_4_1 is
   attribute C_WRITE_WIDTH_B of cpu_system_lmb_bram_0_blk_mem_gen_v8_4_1 : entity is 32;
   attribute C_XDEVICEFAMILY : string;
   attribute C_XDEVICEFAMILY of cpu_system_lmb_bram_0_blk_mem_gen_v8_4_1 : entity is "kintex7";
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of cpu_system_lmb_bram_0_blk_mem_gen_v8_4_1 : entity is "blk_mem_gen_v8_4_1";
   attribute downgradeipidentifiedwarnings : string;
   attribute downgradeipidentifiedwarnings of cpu_system_lmb_bram_0_blk_mem_gen_v8_4_1 : entity is "yes";
 end cpu_system_lmb_bram_0_blk_mem_gen_v8_4_1;

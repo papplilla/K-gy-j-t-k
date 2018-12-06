@@ -1,10 +1,10 @@
 // Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
-// Date        : Thu Nov  8 23:06:57 2018
+// Date        : Thu Nov  8 23:06:56 2018
 // Host        : rtpc running 64-bit major release  (build 9200)
-// Command     : write_verilog -force -mode synth_stub
-//               f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_dlmb_bram_if_cntlr_0/cpu_system_dlmb_bram_if_cntlr_0_stub.v
+// Command     : write_verilog -force -mode synth_stub -rename_top cpu_system_dlmb_bram_if_cntlr_0 -prefix
+//               cpu_system_dlmb_bram_if_cntlr_0_ cpu_system_dlmb_bram_if_cntlr_0_stub.v
 // Design      : cpu_system_dlmb_bram_if_cntlr_0
 // Purpose     : Stub declaration of top-level module interface
 // Device      : xc7k70tfbg676-1

@@ -3,8 +3,8 @@
 // Tool Version: Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
 // Date        : Thu Nov  8 23:06:22 2018
 // Host        : rtpc running 64-bit major release  (build 9200)
-// Command     : write_verilog -force -mode funcsim
-//               f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_ilmb_v10_0/cpu_system_ilmb_v10_0_sim_netlist.v
+// Command     : write_verilog -force -mode funcsim -rename_top cpu_system_ilmb_v10_0 -prefix
+//               cpu_system_ilmb_v10_0_ cpu_system_ilmb_v10_0_sim_netlist.v
 // Design      : cpu_system_ilmb_v10_0
 // Purpose     : This verilog netlist is a functional simulation representation of the design and should not be modified
 //               or synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -125,7 +125,7 @@ module cpu_system_ilmb_v10_0
 endmodule
 
 (* C_EXT_RESET_HIGH = "1" *) (* C_LMB_AWIDTH = "32" *) (* C_LMB_DWIDTH = "32" *) 
-(* C_LMB_NUM_SLAVES = "1" *) (* ORIG_REF_NAME = "lmb_v10" *) 
+(* C_LMB_NUM_SLAVES = "1" *) 
 module cpu_system_ilmb_v10_0_lmb_v10
    (LMB_Clk,
     SYS_Rst,

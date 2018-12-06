@@ -1,10 +1,10 @@
 -- Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
--- Date        : Thu Nov  8 23:09:37 2018
+-- Date        : Thu Nov  8 23:09:36 2018
 -- Host        : rtpc running 64-bit major release  (build 9200)
--- Command     : write_vhdl -force -mode funcsim
---               f:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/ip/cpu_system_rst_mig_7series_0_100M_0/cpu_system_rst_mig_7series_0_100M_0_sim_netlist.vhdl
+-- Command     : write_vhdl -force -mode funcsim -rename_top cpu_system_rst_mig_7series_0_100M_0 -prefix
+--               cpu_system_rst_mig_7series_0_100M_0_ cpu_system_rst_mig_7series_0_100M_0_sim_netlist.vhdl
 -- Design      : cpu_system_rst_mig_7series_0_100M_0
 -- Purpose     : This VHDL netlist is a functional simulation representation of the design and should not be modified or
 --               synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -24,8 +24,6 @@ entity cpu_system_rst_mig_7series_0_100M_0_cdc_sync is
     mb_debug_sys_rst : in STD_LOGIC;
     slowest_sync_clk : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of cpu_system_rst_mig_7series_0_100M_0_cdc_sync : entity is "cdc_sync";
 end cpu_system_rst_mig_7series_0_100M_0_cdc_sync;
 
 architecture STRUCTURE of cpu_system_rst_mig_7series_0_100M_0_cdc_sync is
@@ -235,8 +233,6 @@ entity cpu_system_rst_mig_7series_0_100M_0_upcnt_n is
     seq_cnt_en : in STD_LOGIC;
     slowest_sync_clk : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of cpu_system_rst_mig_7series_0_100M_0_upcnt_n : entity is "upcnt_n";
 end cpu_system_rst_mig_7series_0_100M_0_upcnt_n;
 
 architecture STRUCTURE of cpu_system_rst_mig_7series_0_100M_0_upcnt_n is
@@ -401,8 +397,6 @@ entity cpu_system_rst_mig_7series_0_100M_0_lpf is
     mb_debug_sys_rst : in STD_LOGIC;
     aux_reset_in : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of cpu_system_rst_mig_7series_0_100M_0_lpf : entity is "lpf";
 end cpu_system_rst_mig_7series_0_100M_0_lpf;
 
 architecture STRUCTURE of cpu_system_rst_mig_7series_0_100M_0_lpf is
@@ -584,8 +578,6 @@ entity cpu_system_rst_mig_7series_0_100M_0_sequence_psr is
     lpf_int : in STD_LOGIC;
     slowest_sync_clk : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of cpu_system_rst_mig_7series_0_100M_0_sequence_psr : entity is "sequence_psr";
 end cpu_system_rst_mig_7series_0_100M_0_sequence_psr;
 
 architecture STRUCTURE of cpu_system_rst_mig_7series_0_100M_0_sequence_psr is
@@ -924,8 +916,6 @@ entity cpu_system_rst_mig_7series_0_100M_0_proc_sys_reset is
   attribute C_NUM_PERP_ARESETN of cpu_system_rst_mig_7series_0_100M_0_proc_sys_reset : entity is 1;
   attribute C_NUM_PERP_RST : integer;
   attribute C_NUM_PERP_RST of cpu_system_rst_mig_7series_0_100M_0_proc_sys_reset : entity is 1;
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of cpu_system_rst_mig_7series_0_100M_0_proc_sys_reset : entity is "proc_sys_reset";
 end cpu_system_rst_mig_7series_0_100M_0_proc_sys_reset;
 
 architecture STRUCTURE of cpu_system_rst_mig_7series_0_100M_0_proc_sys_reset is
