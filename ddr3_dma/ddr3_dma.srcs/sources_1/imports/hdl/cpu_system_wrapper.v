@@ -87,7 +87,9 @@ module cpu_system_wrapper
   wire rst_in;
   wire vs;
   
-
+//SB
+  wire clk100M_bufg_out;
+  BUFG clk100M_bufg(.I(clk100M_in), .O(clk100M_bufg_out));
 
   cpu_system cpu_system_i
        (.BTN_tri_i(BTN_tri_i),
@@ -109,7 +111,7 @@ module cpu_system_wrapper
         .UART_rxd(UART_rxd),
         .UART_txd(UART_txd),
         .bout(bout),
-        .clk100M_in(clk100M_in),
+        .clk100M_in(clk100M_bufg_out),
         .gout(gout),
         .hs(hs),
         .rout(rout),

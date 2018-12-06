@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Thu Dec  6 13:22:51 2018
+# Process ID: 5152
+# Current directory: D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/impl_1
+# Command line: vivado.exe -log cpu_system_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source cpu_system_wrapper.tcl -notrace
+# Log file: D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/impl_1/cpu_system_wrapper.vdi
+# Journal file: D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source cpu_system_wrapper.tcl -notrace

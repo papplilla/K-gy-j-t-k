@@ -1,0 +1,244 @@
+/*
+
+Xilinx Vivado v2018.2 (64-bit) [Major: 2018, Minor: 2]
+SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+
+Process ID: 11224
+License: Customer
+
+Current time: 	Thu Dec 06 13:09:03 CET 2018
+Time zone: 	Central European Time (Europe/Prague)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 2560x1080
+Screen resolution (DPI): 96
+Available screens: 2
+Available disk space: 71 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	G:/Programok/Vivado2018.2/Vivado/2018.2/tps/win64/jre
+Java executable location: 	G:/Programok/Vivado2018.2/Vivado/2018.2/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	Strabi
+User home directory: C:/Users/Strabi
+User working directory: D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma
+User country: 	HU
+User language: 	hu
+User locale: 	hu_HU
+
+RDI_BASEROOT: G:/Programok/Vivado2018.2/Vivado
+HDI_APPROOT: G:/Programok/Vivado2018.2/Vivado/2018.2
+RDI_DATADIR: G:/Programok/Vivado2018.2/Vivado/2018.2/data
+RDI_BINDIR: G:/Programok/Vivado2018.2/Vivado/2018.2/bin
+
+Vivado preferences file location: C:/Users/Strabi/AppData/Roaming/Xilinx/Vivado/2018.2/vivado.xml
+Vivado preferences directory: C:/Users/Strabi/AppData/Roaming/Xilinx/Vivado/2018.2/
+Vivado layouts directory: C:/Users/Strabi/AppData/Roaming/Xilinx/Vivado/2018.2/layouts
+PlanAhead jar file location: 	G:/Programok/Vivado2018.2/Vivado/2018.2/lib/classes/planAhead.jar
+Vivado log file location: 	D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/vivado.log
+Vivado journal file location: 	D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/vivado.jou
+Engine tmp dir: 	D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/.Xil/Vivado-11224-DESKTOP-02M2VBV
+
+Xilinx Environment Variables
+----------------------------
+NO_XILINX_DATA_LICENSE: HIDDEN
+XILINX: G:/Programok/Vivado2018.2/Vivado/2018.2/ids_lite/ISE
+XILINXD_LICENSE_FILE: C:\.Xilinx
+XILINX_DSP: G:/Programok/Vivado2018.2/Vivado/2018.2/ids_lite/ISE
+XILINX_PLANAHEAD: G:/Programok/Vivado2018.2/Vivado/2018.2
+XILINX_SDK: G:/Programok/Vivado2018.2/SDK/2018.2
+XILINX_VIVADO: G:/Programok/Vivado2018.2/Vivado/2018.2
+XILINX_VIVADO_HLS: G:/Programok/Vivado2018.2/Vivado/2018.2
+
+
+GUI allocated memory:	203 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 483 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// [GUI Memory]: 65 MB (+65471kb) [00:00:26]
+// [Engine Memory]: 480 MB (+351607kb) [00:00:26]
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bx (ck):  Open Project : addNotify
+// Opening Vivado Project: D:\D_Strabi\D_Dokumentumai\BME\MikrorendszerekTevezese\HF\K-gy-j-t-k\ddr3_dma\ddr3_dma.xpr. Version: Vivado v2018.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.xpr 
+// HMemoryUtils.trashcanNow. Engine heap size: 483 MB. GUI used memory: 40 MB. Current time: 12/6/18 1:09:05 PM CET
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// [Engine Memory]: 543 MB (+40949kb) [00:00:43]
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 543 MB. GUI used memory: 38 MB. Current time: 12/6/18 1:09:21 PM CET
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 575 MB (+5141kb) [00:01:18]
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 601 MB. GUI used memory: 38 MB. Current time: 12/6/18 1:10:00 PM CET
+// [Engine Memory]: 617 MB (+13769kb) [00:01:28]
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 654 MB. GUI used memory: 38 MB. Current time: 12/6/18 1:10:15 PM CET
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 654 MB (+6636kb) [00:01:43]
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 707 MB (+21103kb) [00:01:53]
+// Tcl Message: open_project D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ip_repo/myVGA_1.0'. INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'G:/Programok/Vivado2018.2/Vivado/2018.2/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 734 MB. GUI used memory: 45 MB. Current time: 12/6/18 1:10:41 PM CET
+// Tcl Message: open_project: Time (s): cpu = 00:01:45 ; elapsed = 00:01:37 . Memory (MB): peak = 973.824 ; gain = 229.492 
+// Project name: ddr3_dma; location: D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma; part: xc7k70tfbg676-1
+dismissDialog("Open Project"); // bx (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 221ms to process. Increasing delay to 2000 ms.
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking 461ms to process. Increasing delay to 3000 ms.
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [Engine Memory]: 748 MB (+5532kb) [00:02:21]
+// TclEventType: DG_GRAPH_GENERATED
+// [GUI Memory]: 74 MB (+6340kb) [00:02:28]
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 69 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 17, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// 'c' command handler elapsed time: 4 seconds
+// [GUI Memory]: 78 MB (+124kb) [00:03:44]
+// [GUI Memory]: 83 MB (+927kb) [00:04:54]
+// Elapsed time: 350 seconds
+selectTab((HResource) null, (HResource) null, "Log", 2); // aE (Q, ck)
+// [GUI Memory]: 88 MB (+1156kb) [00:09:09]
+selectTab((HResource) null, (HResource) null, "Tcl Console", 0); // aE (Q, ck)
+// Elapsed time: 256 seconds
+selectButton(PAResourceQtoS.SyntheticaStateMonitor_CANCEL, "Cancel"); // h (Q, ck)
+// aS (ck): Cancel Implementation: addNotify
+selectButton(PAResourceQtoS.StateMonitor_RESET_RUN, "Reset Run"); // a (aS)
+// bx (ck):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Cancel Implementation"); // aS (ck)
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run impl_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Resetting Runs"); // bx (ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 17, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// bx (ck):  Resetting Runs : addNotify
+// f (ck): Launch Runs: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 756 MB. GUI used memory: 45 MB. Current time: 12/6/18 1:22:26 PM CET
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bx (ck):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ck)
+// Tcl Message: launch_runs impl_1 -jobs 6 
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Dec  6 13:22:29 2018] Launched impl_1... Run output will be captured here: D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/impl_1/runme.log 
+// 'c' command handler elapsed time: 7 seconds
+dismissDialog("Starting Design Runs"); // bx (ck)
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 429ms to process. Increasing delay to 2000 ms.
+// Elapsed time: 62 seconds
+selectButton(PAResourceQtoS.RunGadget_SHOW_ERROR_AND_CRITICAL_WARNING_MESSAGES, "10 critical warnings"); // h (Q, ck)
+selectButton(PAResourceQtoS.RunGadget_SHOW_ERROR_AND_CRITICAL_WARNING_MESSAGES, "10 critical warnings"); // h (Q, ck)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+// [GUI Memory]: 93 MB (+901kb) [00:17:06]
+// Elapsed time: 128 seconds
+selectTab((HResource) null, (HResource) null, "Log", 2); // aE (Q, ck)
+// [GUI Memory]: 99 MB (+935kb) [00:21:33]
+// TclEventType: RUN_STEP_COMPLETED
+// [GUI Memory]: 105 MB (+1150kb) [00:24:04]
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 1212 ms. Increasing delay to 3000 ms.
+// [GUI Memory]: 111 MB (+725kb) [00:26:34]
+// [GUI Memory]: 117 MB (+395kb) [00:28:34]
+// [GUI Memory]: 123 MB (+435kb) [00:30:54]
+// HMemoryUtils.trashcanNow. Engine heap size: 786 MB. GUI used memory: 48 MB. Current time: 12/6/18 1:39:36 PM CET
+// [Engine Memory]: 786 MB (+735kb) [00:31:04]
+// Elapsed time: 977 seconds
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aE (Q, ck)
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Opt Design, [Common 17-1548] Command failed: can't read wr_clk_period: no such variable.  [d:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/impl_1/.Xil/Vivado-5152-DESKTOP-02M2VBV/dbg_hub_CV.0/out/xsdbm.xdc:13]. ]", 2); // ah (O, ck)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Opt Design, [Common 17-1548] Command failed: can't read wr_clk_period: no such variable.  [d:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/impl_1/.Xil/Vivado-5152-DESKTOP-02M2VBV/dbg_hub_CV.0/out/xsdbm.xdc:13]. ]", 2, true); // ah (O, ck) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Opt Design, [Common 17-1548] Command failed: can't read wr_clk_period: no such variable.  [d:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/impl_1/.Xil/Vivado-5152-DESKTOP-02M2VBV/dbg_hub_CV.0/out/xsdbm.xdc:13]. ]", 2, true, false, false, false, false, true); // ah (O, ck) - Double Click - Node
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Opt Design, [Common 17-55] 'get_property' expects at least one object. [d:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/impl_1/.Xil/Vivado-5152-DESKTOP-02M2VBV/dbg_hub_CV.0/out/xsdbm.xdc:11]. ]", 3); // ah (O, ck)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Opt Design, [Common 17-55] 'get_property' expects at least one object. [d:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/impl_1/.Xil/Vivado-5152-DESKTOP-02M2VBV/dbg_hub_CV.0/out/xsdbm.xdc:11]. , [Common 17-55] 'get_property' expects at least one object. [d:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/impl_1/.Xil/Vivado-5152-DESKTOP-02M2VBV/dbg_hub_CV.0/out/xsdbm.xdc:20]. ]", 4, false); // ah (O, ck)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Opt Design, [Common 17-55] 'get_property' expects at least one object. [d:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/impl_1/.Xil/Vivado-5152-DESKTOP-02M2VBV/dbg_hub_CV.0/out/xsdbm.xdc:11]. , [Common 17-55] 'get_property' expects at least one object. [d:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/impl_1/.Xil/Vivado-5152-DESKTOP-02M2VBV/dbg_hub_CV.0/out/xsdbm.xdc:20]. ]", 4, false, false, false, false, false, true); // ah (O, ck) - Double Click
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Opt Design, [Common 17-55] 'get_property' expects at least one object. [d:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/impl_1/.Xil/Vivado-5152-DESKTOP-02M2VBV/dbg_hub_CV.0/out/xsdbm.xdc:11]. , [Common 17-55] 'get_property' expects at least one object. [d:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/impl_1/.Xil/Vivado-5152-DESKTOP-02M2VBV/dbg_hub_CV.0/out/xsdbm.xdc:20]. ]", 4, false); // ah (O, ck)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;d:\D_Strabi\D_Dokumentumai\BME\MikrorendszerekTevezese\HF\K-gy-j-t-k\ddr3_dma\ddr3_dma.runs\impl_1\.Xil\Vivado-5152-DESKTOP-02M2VBV\dbg_hub_CV.0\out\xsdbm.xdc;-;;-;16;-;line;-;20;-;;-;16;-;"); // ah (O, ck)
+// Elapsed time: 174 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Opt Design, [Common 17-55] 'get_property' expects at least one object. [d:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/impl_1/.Xil/Vivado-5152-DESKTOP-02M2VBV/dbg_hub_CV.0/out/xsdbm.xdc:11]. , [Common 17-55] 'get_property' expects at least one object. [d:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/impl_1/.Xil/Vivado-5152-DESKTOP-02M2VBV/dbg_hub_CV.0/out/xsdbm.xdc:25]. ]", 5, false); // ah (O, ck)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;d:\D_Strabi\D_Dokumentumai\BME\MikrorendszerekTevezese\HF\K-gy-j-t-k\ddr3_dma\ddr3_dma.runs\impl_1\.Xil\Vivado-5152-DESKTOP-02M2VBV\dbg_hub_CV.0\out\xsdbm.xdc;-;;-;16;-;line;-;25;-;;-;16;-;"); // ah (O, ck)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Opt Design, [Common 17-55] 'get_property' expects at least one object. [d:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/impl_1/.Xil/Vivado-5152-DESKTOP-02M2VBV/dbg_hub_CV.0/out/xsdbm.xdc:11]. , [Common 17-55] 'get_property' expects at least one object. [d:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/impl_1/.Xil/Vivado-5152-DESKTOP-02M2VBV/dbg_hub_CV.0/out/xsdbm.xdc:33]. ]", 6, false); // ah (O, ck)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;d:\D_Strabi\D_Dokumentumai\BME\MikrorendszerekTevezese\HF\K-gy-j-t-k\ddr3_dma\ddr3_dma.runs\impl_1\.Xil\Vivado-5152-DESKTOP-02M2VBV\dbg_hub_CV.0\out\xsdbm.xdc;-;;-;16;-;line;-;33;-;;-;16;-;"); // ah (O, ck)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Opt Design, [Common 17-1548] Command failed: can't read wr_clk_period: no such variable.  [d:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/impl_1/.Xil/Vivado-5152-DESKTOP-02M2VBV/dbg_hub_CV.0/out/xsdbm.xdc:13]. ]", 2, true); // ah (O, ck) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Opt Design, [Common 17-1548] Command failed: can't read wr_clk_period: no such variable.  [d:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/impl_1/.Xil/Vivado-5152-DESKTOP-02M2VBV/dbg_hub_CV.0/out/xsdbm.xdc:13]. , [Common 17-1548] Command failed: can't read skew_value: no such variable.  [d:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/impl_1/.Xil/Vivado-5152-DESKTOP-02M2VBV/dbg_hub_CV.0/out/xsdbm.xdc:18]. ]", 3, false, false, false, false, false, true); // ah (O, ck) - Double Click
+// Elapsed time: 91 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Opt Design, [Common 17-1548] Command failed: can't read wr_clk_period: no such variable.  [d:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/impl_1/.Xil/Vivado-5152-DESKTOP-02M2VBV/dbg_hub_CV.0/out/xsdbm.xdc:13]. ]", 2, true); // ah (O, ck) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Opt Design, [Common 17-1548] Command failed: can't read wr_clk_period: no such variable.  [d:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/impl_1/.Xil/Vivado-5152-DESKTOP-02M2VBV/dbg_hub_CV.0/out/xsdbm.xdc:13]. ]", 2, true, false, false, false, false, true); // ah (O, ck) - Double Click - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Opt Design, [Common 17-1548] Command failed: can't read wr_clk_period: no such variable.  [d:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/impl_1/.Xil/Vivado-5152-DESKTOP-02M2VBV/dbg_hub_CV.0/out/xsdbm.xdc:13]. ]", 2, true); // ah (O, ck) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;d:\D_Strabi\D_Dokumentumai\BME\MikrorendszerekTevezese\HF\K-gy-j-t-k\ddr3_dma\ddr3_dma.runs\impl_1\.Xil\Vivado-5152-DESKTOP-02M2VBV\dbg_hub_CV.0\out\xsdbm.xdc;-;;-;16;-;line;-;13;-;;-;16;-;"); // ah (O, ck)
+// Elapsed time: 173 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 4); // B (D, ck)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 7); // B (D, ck)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 8); // B (D, ck)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, cpu_system_wrapper (cpu_system_wrapper.v)]", 9); // B (D, ck)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, cpu_system_wrapper (cpu_system_wrapper.v), cpu_system_i : cpu_system (cpu_system.bd), cpu_system (cpu_system.v)]", 11); // B (D, ck)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "xsdbm.xdc", 1, true, false); // k (j, ck) - Popup Trigger
+selectCodeEditor("xsdbm.xdc", 603, 99); // ce (w, ck)
+// Elapsed time: 10 seconds
+collapseTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Opt Design, [Common 17-55] 'get_property' expects at least one object. [d:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/impl_1/.Xil/Vivado-5152-DESKTOP-02M2VBV/dbg_hub_CV.0/out/xsdbm.xdc:11]. ]", 3); // ah (O, ck)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Opt Design, [Common 17-55] 'get_property' expects at least one object. [d:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/impl_1/.Xil/Vivado-5152-DESKTOP-02M2VBV/dbg_hub_CV.0/out/xsdbm.xdc:11]. ]", 3, true); // ah (O, ck) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;d:\D_Strabi\D_Dokumentumai\BME\MikrorendszerekTevezese\HF\K-gy-j-t-k\ddr3_dma\ddr3_dma.runs\impl_1\.Xil\Vivado-5152-DESKTOP-02M2VBV\dbg_hub_CV.0\out\xsdbm.xdc;-;;-;16;-;line;-;11;-;;-;16;-;"); // ah (O, ck)
+// Elapsed time: 13 seconds
+selectTab((HResource) null, (HResource) null, "Log", 2); // aE (Q, ck)
+selectTab((HResource) null, (HResource) null, "Reports", 3); // aE (Q, ck)
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 398ms to process. Increasing delay to 2000 ms.
+// WARNING: HTimer (ExpRunMgr Pending Runs Timer) is taking 1052ms to process. Increasing delay to 3000 ms.
+// ah (ck): Implementation Completed: addNotify
+// Elapsed time: 182 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "Generate Bitstream"); // a (Q, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// f (ck): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+dismissDialog("Launch Runs"); // f (ck)
+// bx (ck):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 6 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Dec  6 13:54:01 2018] Launched impl_1... Run output will be captured here: D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bx (ck)
+// Elapsed time: 17 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // V (q, ck)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // V (q, ck)
+selectMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // V (q, ck)
+selectMenu(PAResourceItoN.MainMenuMgr_SETTINGS, "Settings"); // aa (ck)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_BLOCK_DESIGN, "Open Block Design"); // aa (ck)
+dismissMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // V (q, ck)
+selectCodeEditor("xsdbm.xdc", 259, 481); // ce (w, ck)
