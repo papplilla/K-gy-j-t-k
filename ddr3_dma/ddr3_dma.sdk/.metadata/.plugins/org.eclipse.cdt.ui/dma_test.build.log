@@ -1,4 +1,4 @@
-23:33:52 **** Incremental Build of configuration Debug for project dma_test ****
+14:09:28 **** Build of configuration Debug for project dma_test ****
 make all 
 'Building file: ../src/main.c'
 'Invoking: MicroBlaze gcc compiler'
@@ -17,5 +17,5 @@ mb-size dma_test.elf  |tee "dma_test.elf.size"
 'Finished building: dma_test.elf.size'
 ' '
 
-23:33:52 Build Finished (took 478ms)
+14:09:33 Build Finished (took 4s.413ms)
 

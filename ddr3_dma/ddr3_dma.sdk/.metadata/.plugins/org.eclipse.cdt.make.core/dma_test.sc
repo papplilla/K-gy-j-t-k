@@ -2,6 +2,9 @@
 <?scdStore version="2"?><scannerInfo id="org.eclipse.cdt.make.core.discoveredScannerInfo">
 <instance id="xilinx.gnu.mb.exe.debug.785619818;xilinx.gnu.mb.exe.debug.785619818.">
 <collector id="org.eclipse.cdt.make.core.PerProjectSICollector">
+<includePath path="g:\programok\vivado2018.2\sdk\2018.2\gnu\microblaze\nt\bin\../lib/gcc/microblaze-xilinx-elf/7.2.0/include"/>
+<includePath path="g:\programok\vivado2018.2\sdk\2018.2\gnu\microblaze\nt\bin\../lib/gcc/microblaze-xilinx-elf/7.2.0/include-fixed"/>
+<includePath path="g:\programok\vivado2018.2\sdk\2018.2\gnu\microblaze\nt\bin\../lib/gcc/microblaze-xilinx-elf/7.2.0/../../../../microblaze-xilinx-elf/include"/>
 <includePath path="e:\xilinx\sdk\2018.2\gnu\microblaze\nt\bin\../lib/gcc/microblaze-xilinx-elf/7.2.0/include"/>
 <includePath path="e:\xilinx\sdk\2018.2\gnu\microblaze\nt\bin\../lib/gcc/microblaze-xilinx-elf/7.2.0/include-fixed"/>
 <includePath path="e:\xilinx\sdk\2018.2\gnu\microblaze\nt\bin\../lib/gcc/microblaze-xilinx-elf/7.2.0/../../../../microblaze-xilinx-elf/include"/>
@@ -572,6 +575,9 @@
 </instance>
 <instance id="xilinx.gnu.mb.exe.debug.785619818;xilinx.gnu.mb.exe.debug.785619818.;xilinx.gnu.mb.c.toolchain.compiler.debug.385159571;xilinx.gnu.compiler.input.719300800">
 <collector id="org.eclipse.cdt.make.core.PerProjectSICollector">
+<includePath path="g:\programok\vivado2018.2\sdk\2018.2\gnu\microblaze\nt\bin\../lib/gcc/microblaze-xilinx-elf/7.2.0/include"/>
+<includePath path="g:\programok\vivado2018.2\sdk\2018.2\gnu\microblaze\nt\bin\../lib/gcc/microblaze-xilinx-elf/7.2.0/include-fixed"/>
+<includePath path="g:\programok\vivado2018.2\sdk\2018.2\gnu\microblaze\nt\bin\../lib/gcc/microblaze-xilinx-elf/7.2.0/../../../../microblaze-xilinx-elf/include"/>
 <includePath path="e:\xilinx\sdk\2018.2\gnu\microblaze\nt\bin\../lib/gcc/microblaze-xilinx-elf/7.2.0/include"/>
 <includePath path="e:\xilinx\sdk\2018.2\gnu\microblaze\nt\bin\../lib/gcc/microblaze-xilinx-elf/7.2.0/include-fixed"/>
 <includePath path="e:\xilinx\sdk\2018.2\gnu\microblaze\nt\bin\../lib/gcc/microblaze-xilinx-elf/7.2.0/../../../../microblaze-xilinx-elf/include"/>

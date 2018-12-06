@@ -2,11 +2,11 @@
 # Webtalk v2018.2 (64-bit)
 # SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
 # 
-# Start of session at: Fri Nov  9 23:37:36 2018
-# Process ID: 7676
-# Current directory: F:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.sdk/webtalk
+# Start of session at: Thu Dec  6 14:03:06 2018
+# Process ID: 7036
+# Current directory: D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.sdk/webtalk
 # Command line: wbtcv.exe -mode batch -source sdk_webtalk.tcl
-# Log file: F:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.sdk/webtalk/webtalk.log
-# Journal file: F:/Egyetem/mikrorendszerek/ddr3_dma/ddr3_dma.sdk/webtalk\webtalk.jou
+# Log file: D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.sdk/webtalk/webtalk.log
+# Journal file: D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.sdk/webtalk\webtalk.jou
 #-----------------------------------------------------------
 source sdk_webtalk.tcl
