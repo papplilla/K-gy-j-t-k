@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="cpu_system_axi_smc_0_synth_1" LaunchPart="xc7k70tfbg676-1" LaunchTime="1544010178">
   <File Type="PA-TCL" Name="cpu_system_axi_smc_0.tcl"/>
-  <File Type="RDS-PROPCONSTRS" Name="cpu_system_axi_smc_0_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="cpu_system_axi_smc_0_reports.tcl"/>
   <File Type="RDS-RDS" Name="cpu_system_axi_smc_0.vds"/>
   <File Type="RDS-UTIL" Name="cpu_system_axi_smc_0_utilization_synth.rpt"/>
   <File Type="RDS-UTIL-PB" Name="cpu_system_axi_smc_0_utilization_synth.pb"/>
   <File Type="RDS-DCP" Name="cpu_system_axi_smc_0.dcp"/>
-  <File Type="VDS-TIMINGSUMMARY" Name="cpu_system_axi_smc_0_timing_summary_synth.rpt"/>
-  <File Type="VDS-TIMING-PB" Name="cpu_system_axi_smc_0_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/cpu_system_axi_smc_0">
     <File Path="$PSRCDIR/sources_1/bd/cpu_system/ip/cpu_system_axi_smc_0/cpu_system_axi_smc_0.xci">
       <FileInfo>

@@ -1,7 +1,7 @@
 //Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
 //Tool Version: Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
-//Date        : Wed Dec  5 12:41:01 2018
+//Date        : Wed Dec  5 15:00:01 2018
 //Host        : DESKTOP-02M2VBV running 64-bit major release  (build 9200)
 //Command     : generate_target cpu_system_wrapper.bd
 //Design      : cpu_system_wrapper
@@ -25,6 +25,7 @@ module cpu_system_wrapper
     DDR3_0_ras_n,
     DDR3_0_reset_n,
     DDR3_0_we_n,
+    GPIO_0_tri_i,
     UART_rxd,
     UART_txd,
     bout,
@@ -49,6 +50,7 @@ module cpu_system_wrapper
   output DDR3_0_ras_n;
   output DDR3_0_reset_n;
   output DDR3_0_we_n;
+  input [3:0]GPIO_0_tri_i;
   input UART_rxd;
   output UART_txd;
   output [1:0]bout;
@@ -74,6 +76,7 @@ module cpu_system_wrapper
   wire DDR3_0_ras_n;
   wire DDR3_0_reset_n;
   wire DDR3_0_we_n;
+  wire [3:0]GPIO_0_tri_i;
   wire UART_rxd;
   wire UART_txd;
   wire [1:0]bout;
@@ -100,6 +103,7 @@ module cpu_system_wrapper
         .DDR3_0_ras_n(DDR3_0_ras_n),
         .DDR3_0_reset_n(DDR3_0_reset_n),
         .DDR3_0_we_n(DDR3_0_we_n),
+        .GPIO_0_tri_i(GPIO_0_tri_i),
         .UART_rxd(UART_rxd),
         .UART_txd(UART_txd),
         .bout(bout),

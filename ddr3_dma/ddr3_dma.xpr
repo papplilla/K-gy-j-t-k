@@ -60,6 +60,13 @@
   <FileSets Version="1" Minor="31">
     <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
       <Filter Type="Srcs"/>
+      <File Path="$PSRCDIR/sources_1/imports/K-gy-j-t-k/VGA_Control.v">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
       <File Path="$PSRCDIR/sources_1/bd/cpu_system/cpu_system.bd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -68,6 +75,9 @@
         </FileInfo>
         <CompFileExtendedInfo CompFileName="cpu_system.bd" FileRelPathName="ip/cpu_system_axi_dma_0_0/cpu_system_axi_dma_0_0.xci">
           <Proxy FileSetName="cpu_system_axi_dma_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="cpu_system.bd" FileRelPathName="ip/cpu_system_axi_gpio_0_0/cpu_system_axi_gpio_0_0.xci">
+          <Proxy FileSetName="cpu_system_axi_gpio_0_0"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="cpu_system.bd" FileRelPathName="ip/cpu_system_fifo_generator_0_0/cpu_system_fifo_generator_0_0.xci">
           <Proxy FileSetName="cpu_system_fifo_generator_0_0"/>
@@ -92,6 +102,9 @@
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="cpu_system.bd" FileRelPathName="ip/cpu_system_axi_smc_0/cpu_system_axi_smc_0.xci">
           <Proxy FileSetName="cpu_system_axi_smc_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="cpu_system.bd" FileRelPathName="ip/cpu_system_xbar_0/cpu_system_xbar_0.xci">
+          <Proxy FileSetName="cpu_system_xbar_0"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="cpu_system.bd" FileRelPathName="ip/cpu_system_ilmb_v10_0/cpu_system_ilmb_v10_0.xci">
           <Proxy FileSetName="cpu_system_ilmb_v10_0"/>
@@ -239,6 +252,18 @@
         <Option Name="UseBlackboxStub" Val="1"/>
       </Config>
     </FileSet>
+    <FileSet Name="cpu_system_axi_gpio_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/cpu_system_axi_gpio_0_0">
+      <Config>
+        <Option Name="TopModule" Val="cpu_system_axi_gpio_0_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="cpu_system_xbar_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/cpu_system_xbar_0">
+      <Config>
+        <Option Name="TopModule" Val="cpu_system_xbar_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
   </FileSets>
   <Simulators>
     <Simulator Name="XSim">
@@ -259,11 +284,12 @@
     </Simulator>
   </Simulators>
   <Runs Version="1" Minor="10">
-    <Run Id="synth_1" Type="Ft3:Synth" SrcSet="sources_1" Part="xc7k70tfbg676-1" ConstrsSet="constrs_1" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" State="current" IncludeInArchive="true">
+    <Run Id="synth_1" Type="Ft3:Synth" SrcSet="sources_1" Part="xc7k70tfbg676-1" ConstrsSet="constrs_1" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" State="current" Dir="$PRUNDIR/synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
         <Step Id="synth_design"/>
       </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
       <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
     </Run>
@@ -384,11 +410,34 @@
       <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
     </Run>
-    <Run Id="cpu_system_vgaSync_0_4_synth_1" Type="Ft3:Synth" SrcSet="cpu_system_vgaSync_0_4" Part="xc7k70tfbg676-1" ConstrsSet="cpu_system_vgaSync_0_4" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" IncludeInArchive="true">
+    <Run Id="cpu_system_vgaSync_0_4_synth_1" Type="Ft3:Synth" SrcSet="cpu_system_vgaSync_0_4" Part="xc7k70tfbg676-1" ConstrsSet="cpu_system_vgaSync_0_4" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/cpu_system_vgaSync_0_4_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
         <Step Id="synth_design"/>
       </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="cpu_system_axi_gpio_0_0_synth_1" Type="Ft3:Synth" SrcSet="cpu_system_axi_gpio_0_0" Part="xc7k70tfbg676-1" ConstrsSet="cpu_system_axi_gpio_0_0" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/cpu_system_axi_gpio_0_0_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018">
+          <Desc>Vivado Synthesis Defaults</Desc>
+        </StratHandle>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="cpu_system_xbar_0_synth_1" Type="Ft3:Synth" SrcSet="cpu_system_xbar_0" Part="xc7k70tfbg676-1" ConstrsSet="cpu_system_xbar_0" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/cpu_system_xbar_0_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018">
+          <Desc>Vivado Synthesis Defaults</Desc>
+        </StratHandle>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
       <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
     </Run>
@@ -619,6 +668,42 @@
     <Run Id="cpu_system_vgaSync_0_4_impl_1" Type="Ft2:EntireDesign" Part="xc7k70tfbg676-1" ConstrsSet="cpu_system_vgaSync_0_4" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="cpu_system_vgaSync_0_4_synth_1" IncludeInArchive="false" GenFullBitstream="true">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="cpu_system_axi_gpio_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7k70tfbg676-1" ConstrsSet="cpu_system_axi_gpio_0_0" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="cpu_system_axi_gpio_0_0_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018">
+          <Desc>Default settings for Implementation.</Desc>
+        </StratHandle>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="cpu_system_xbar_0_impl_1" Type="Ft2:EntireDesign" Part="xc7k70tfbg676-1" ConstrsSet="cpu_system_xbar_0" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="cpu_system_xbar_0_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018">
+          <Desc>Default settings for Implementation.</Desc>
+        </StratHandle>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>

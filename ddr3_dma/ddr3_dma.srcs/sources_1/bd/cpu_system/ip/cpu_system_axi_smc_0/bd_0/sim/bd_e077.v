@@ -6,7 +6,7 @@
 //--------------------------------------------------------------------------------
 `timescale 1 ps / 1 ps
 
-(* CORE_GENERATION_INFO = "bd_e077,IP_Integrator,{x_ipVendor=xilinx.com,x_ipLibrary=BlockDiagram,x_ipName=bd_e077,x_ipVersion=1.00.a,x_ipLanguage=VERILOG,numBlks=45,numReposBlks=35,numNonXlnxBlks=0,numHierBlks=10,maxHierDepth=1,numSysgenBlks=0,numHlsBlks=0,numHdlrefBlks=0,numPkgbdBlks=0,bdsource=SBD,synth_mode=OOC_per_IP}" *) (* HW_HANDOFF = "cpu_system_axi_smc_0.hwdef" *) 
+(* CORE_GENERATION_INFO = "bd_e077,IP_Integrator,{x_ipVendor=xilinx.com,x_ipLibrary=BlockDiagram,x_ipName=bd_e077,x_ipVersion=1.00.a,x_ipLanguage=VERILOG,numBlks=45,numReposBlks=35,numNonXlnxBlks=0,numHierBlks=10,maxHierDepth=1,numSysgenBlks=0,numHlsBlks=0,numHdlrefBlks=0,numPkgbdBlks=0,bdsource=SBD,synth_mode=Global}" *) (* HW_HANDOFF = "cpu_system_axi_smc_0.hwdef" *) 
 module bd_e077
    (M00_AXI_araddr,
     M00_AXI_arburst,
