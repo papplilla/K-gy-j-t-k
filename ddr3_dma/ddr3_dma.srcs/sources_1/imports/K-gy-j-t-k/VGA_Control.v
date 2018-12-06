@@ -20,21 +20,25 @@ module vgaSync (
    //wire rst = w
 
    // VGA 640x480@60Hz, 100MHz
-   parameter htotal = 3200;                 // 4*800            
-   parameter vtotal = 521;            
-   parameter hactive = 2560;                // 4*640          
-   parameter vactive = 480;          	  
-   
-   parameter hfrontporch = 64;              // 4*16	  
-   parameter hsyncpulse = 384;                // 4*96
-   parameter hbackporch = 192;                 //4*48
+  
+	  
+   localparam  hactive = 2560;                  // 4*640          
+   localparam hfrontporch = 64;                 // 4*16	  
+   localparam hsyncpulse = 384;                 // 4*96
+   localparam hbackporch = 192;                 //4*48
        
-   parameter vfrontporch = 10;	
-   parameter vsyncpulse = 2;		
-   parameter vbackporch = 29;	
+   localparam vactive = 480;      
+   localparam vfrontporch = 10;	
+   localparam vsyncpulse = 2;		
+   localparam vbackporch = 29;	
    
-   parameter hsyncpolarity = 0;	
-   parameter vsyncpolarity = 0;
+   //localparam htotal = 3200;                 // 4*800            
+   //localparam  vtotal = 521;
+   localparam htotal = hactive+hfrontporch+hsyncpulse+hbackporch;                 // 4*800
+   localparam  vtotal = vactive+vfrontporch+vsyncpulse+vbackporch;           
+   
+   localparam hsyncpolarity = 0;	
+   localparam vsyncpolarity = 0;
    reg [9:0] hcont = 0;
    reg [11:0] vcont = 0;
    reg active_area;
@@ -43,9 +47,9 @@ module vgaSync (
    reg [1:0] state=0;
    reg [7:0] data;
    
-   parameter wait_for_wlast=0;
-   parameter wait_for_origo=1;
-   parameter vga_write_pixels=2;
+   localparam wait_for_wlast=0;
+   localparam wait_for_origo=1;
+   localparam vga_write_pixels=2;
 
     //assign hc = hcont;
    // assign vc = vcont;
@@ -59,9 +63,9 @@ module vgaSync (
 	begin 
 	   hcont = 0;
 	   vcont = 0; 
-	   hs = ~hsyncpolarity;
-	   vs = ~vsyncpolarity;
-	   active_area = 1'b1;
+	  // hs = ~hsyncpolarity;
+	   //vs = ~vsyncpolarity;
+	   //active_area = 1'b1;
 	end	
     else  if (hcont == htotal-1)  
 		begin
@@ -81,9 +85,16 @@ module vgaSync (
       end
    end
 
-   always @*
+   always @(posedge clk)
+   if(~rstn)
+       begin
+        hs <= ~hsyncpolarity;
+        vs <= ~vsyncpolarity;
+        active_area <= 1'b1;
+       end
+   else
 	begin
-      if (hcont <= hactive && vcont <= vactive)
+      if (hcont <= hactive-1 && vcont <= vactive-1)
          active_area = 1'b1;
       else
          active_area = 1'b0;
@@ -100,7 +111,12 @@ module vgaSync (
     end
 
 // Állapotgép
-   always @*
+   always @(posedge clk)
+   if(~rstn)
+    begin
+        state <= wait_for_wlast;
+    end 
+   else
    begin
     if(state == wait_for_wlast)
     begin
