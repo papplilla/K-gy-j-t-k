@@ -1,0 +1,6 @@
+10:30:40 **** Incremental Build of configuration Debug for project Snake ****
+make all 
+make: Nothing to be done for `all'.
+
+10:30:41 Build Finished (took 1s.206ms)
+

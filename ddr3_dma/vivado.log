@@ -2,10 +2,10 @@
 # Vivado v2018.2 (64-bit)
 # SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
 # IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
-# Start of session at: Thu Dec  6 13:08:08 2018
-# Process ID: 11224
+# Start of session at: Mon Dec 10 11:05:42 2018
+# Process ID: 12160
 # Current directory: D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7312 D:\D_Strabi\D_Dokumentumai\BME\MikrorendszerekTevezese\HF\K-gy-j-t-k\ddr3_dma\ddr3_dma.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1728 D:\D_Strabi\D_Dokumentumai\BME\MikrorendszerekTevezese\HF\K-gy-j-t-k\ddr3_dma\ddr3_dma.xpr
 # Log file: D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/vivado.log
 # Journal file: D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma\vivado.jou
 #-----------------------------------------------------------
@@ -16,29 +16,82 @@ Finished scanning sources
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ip_repo/myVGA_1.0'.
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'G:/Programok/Vivado2018.2/Vivado/2018.2/data/ip'.
-open_project: Time (s): cpu = 00:01:45 ; elapsed = 00:01:37 . Memory (MB): peak = 973.824 ; gain = 229.492
+open_project: Time (s): cpu = 00:01:36 ; elapsed = 00:01:19 . Memory (MB): peak = 972.102 ; gain = 237.754
+open_bd_design {D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/cpu_system.bd}
+Adding cell -- xilinx.com:ip:microblaze:10.0 - microblaze_0
+Adding cell -- xilinx.com:ip:mig_7series:4.1 - mig_7series_0
+Adding cell -- xilinx.com:ip:axi_uartlite:2.0 - axi_uartlite_0
+Adding cell -- xilinx.com:ip:mdm:3.2 - mdm_1
+Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - rst_mig_7series_0_100M
+Adding cell -- xilinx.com:ip:smartconnect:1.0 - axi_smc
+Adding cell -- xilinx.com:ip:axi_dma:7.1 - axi_dma_0
+Adding cell -- xilinx.com:ip:system_ila:1.1 - system_ila_0
+Adding cell -- xilinx.com:ip:fifo_generator:13.2 - fifo_generator_0
+INFO: [xilinx.com:ip:fifo_generator:13.2-5968] /fifo_generator_0Executing the post_config_ip from bd
+Adding cell -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_0
+Adding cell -- xilinx.com:module_ref:vgaSync:1.0 - vgaSync_0
+Adding cell -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding cell -- xilinx.com:ip:lmb_v10:3.0 - dlmb_v10
+Adding cell -- xilinx.com:ip:lmb_v10:3.0 - ilmb_v10
+Adding cell -- xilinx.com:ip:lmb_bram_if_cntlr:4.0 - dlmb_bram_if_cntlr
+Adding cell -- xilinx.com:ip:lmb_bram_if_cntlr:4.0 - ilmb_bram_if_cntlr
+Adding cell -- xilinx.com:ip:blk_mem_gen:8.4 - lmb_bram
+Successfully read diagram <cpu_system> from BD file <D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/cpu_system.bd>
+open_bd_design: Time (s): cpu = 00:00:19 ; elapsed = 00:00:18 . Memory (MB): peak = 1015.445 ; gain = 41.016
 update_compile_order -fileset sources_1
-reset_run impl_1
-WARNING: [Vivado 12-1017] Problems encountered:
-1. Couldn't access process for termination
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
 
-launch_runs impl_1 -jobs 6
-[Thu Dec  6 13:22:29 2018] Launched impl_1...
-Run output will be captured here: D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/impl_1/runme.log
-launch_runs impl_1 -to_step write_bitstream -jobs 6
-[Thu Dec  6 13:54:01 2018] Launched impl_1...
-Run output will be captured here: D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/impl_1/runme.log
+****** Xilinx hw_server v2018.2
+  **** Build date : Jun 14 2018-20:42:52
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+
+connect_hw_server: Time (s): cpu = 00:00:02 ; elapsed = 00:00:08 . Memory (MB): peak = 1044.113 ; gain = 2.453
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210319754849A
+open_hw_target: Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1713.734 ; gain = 669.488
+set_property PROGRAM.FILE {D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/impl_1/cpu_system_wrapper.bit} [get_hw_devices xc7k70t_0]
+set_property PROBES.FILE {D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/impl_1/cpu_system_wrapper.ltx} [get_hw_devices xc7k70t_0]
+set_property FULL_PROBES.FILE {D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/impl_1/cpu_system_wrapper.ltx} [get_hw_devices xc7k70t_0]
+current_hw_device [get_hw_devices xc7k70t_0]
+refresh_hw_device [lindex [get_hw_devices xc7k70t_0] 0]
+INFO: [Labtools 27-2302] Device xc7k70t (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+refresh_hw_device: Time (s): cpu = 00:00:21 ; elapsed = 00:00:11 . Memory (MB): peak = 1722.566 ; gain = 8.188
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7k70t_0] -filter {CELL_NAME=~"cpu_system_i/system_ila_0/inst/ila_lib"}]]
+Processed interface axi_dma_0_M_AXI_ila1_slot0
+Processed interface axi_dma_0_M_AXIS_MM2S_ila1_slot1
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
 INFO: [Vivado 12-4158] Exported Hardware file is out of date. Exported hardware information may be inconsistent with respect to the current state of the design. It is recommended that you re-export the design and launch SDK otherwise SDK is launched with out of date hardware system file.
 launch_sdk -workspace D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.sdk -hwspec D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.sdk/cpu_system_wrapper.hdf
 INFO: [Vivado 12-393] Launching SDK...
 INFO: [Vivado 12-417] Running xsdk -workspace D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.sdk -hwspec D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.sdk/cpu_system_wrapper.hdf
 INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
-file copy -force D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/impl_1/cpu_system_wrapper.sysdef D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.sdk/cpu_system_wrapper.hdf
-
-file copy -force D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/impl_1/cpu_system_wrapper.bit D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/hdl/myBit.bit
-file copy -force D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/impl_1/cpu_system_wrapper.sysdef D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.sdk/cpu_system_wrapper.hdf
-
-launch_sdk -workspace D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.sdk -hwspec D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.sdk/cpu_system_wrapper.hdf
-INFO: [Vivado 12-393] Launching SDK...
-INFO: [Vivado 12-417] Running xsdk -workspace D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.sdk -hwspec D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.sdk/cpu_system_wrapper.hdf
-INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+open_bd_design {D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/cpu_system.bd}
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+WARNING: [HDL 9-2994] overwriting previous definition of module cpu_system_wrapper [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/imports/hdl/cpu_system_wrapper.v:12]
+WARNING: [filemgmt 20-736] The current top specification, "cpu_system_wrapper", does not uniquely identify a single design element. Using "cpu_system_wrapper" (Library: xil_defaultlib, File: D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/imports/hdl/cpu_system_wrapper.v).
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'cpu_system_wrapper()' found in library 'xil_defaultlib'
+Duplicate found at line 12 of file D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/hdl/cpu_system_wrapper.v
+	(Active) Duplicate found at line 12 of file D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/imports/hdl/cpu_system_wrapper.v
+[Mon Dec 10 11:19:53 2018] Launched synth_1...
+Run output will be captured here: D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+WARNING: [HDL 9-2994] overwriting previous definition of module cpu_system_wrapper [D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/imports/hdl/cpu_system_wrapper.v:12]
+WARNING: [filemgmt 20-736] The current top specification, "cpu_system_wrapper", does not uniquely identify a single design element. Using "cpu_system_wrapper" (Library: xil_defaultlib, File: D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/imports/hdl/cpu_system_wrapper.v).
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'cpu_system_wrapper()' found in library 'xil_defaultlib'
+Duplicate found at line 12 of file D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/bd/cpu_system/hdl/cpu_system_wrapper.v
+	(Active) Duplicate found at line 12 of file D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.srcs/sources_1/imports/hdl/cpu_system_wrapper.v
+[Mon Dec 10 11:35:08 2018] Launched synth_1...
+Run output will be captured here: D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 6
+[Mon Dec 10 11:41:12 2018] Launched impl_1...
+Run output will be captured here: D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Mon Dec 10 12:10:10 2018] Launched impl_1...
+Run output will be captured here: D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.runs/impl_1/runme.log

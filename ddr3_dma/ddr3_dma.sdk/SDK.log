@@ -117,3 +117,10 @@ con
 14:07:11 INFO  : Clearing existing target manager status.
 14:07:11 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
 14:07:11 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+11:11:13 INFO  : Registering command handlers for SDK TCF services
+11:11:15 INFO  : Launching XSCT server: xsct.bat -interactive D:\D_Strabi\D_Dokumentumai\BME\MikrorendszerekTevezese\HF\K-gy-j-t-k\ddr3_dma\ddr3_dma.sdk\temp_xsdb_launch_script.tcl
+11:11:25 INFO  : XSCT server has started successfully.
+11:11:25 INFO  : Successfully done setting XSCT server connection channel  
+11:11:37 INFO  : Successfully done setting SDK workspace  
+11:11:37 INFO  : Processing command line option -hwspec D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/K-gy-j-t-k/ddr3_dma/ddr3_dma.sdk/cpu_system_wrapper.hdf.
+11:11:39 INFO  : Checking for hwspec changes in the project cpu_system_wrapper_hw_platform_1.

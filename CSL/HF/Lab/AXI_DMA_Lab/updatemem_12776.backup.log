@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# updatemem v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# 
+# Start of session at: Fri Dec  7 18:05:12 2018
+# Process ID: 12776
+# Current directory: D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/CSL/HF/Lab/AXI_DMA_Lab
+# Command line: updatemem.exe -mode batch -source G:/Programok/Vivado2018.2/SDK/2018.2/scripts/updatemem/main.tcl -notrace -tclargs -meminfo D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/CSL/HF/Lab/AXI_DMA_Lab/AXI_DMA_Lab.sdk/design_1_wrapper_hw_platform_1/design_1_wrapper.mmi -data G:/Programok/Vivado2018.2/SDK/2018.2/data/embeddedsw/lib/microblaze/mb_bootloop_le.elf -proc design_1_i/microblaze_0 -bit D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/CSL/HF/Lab/AXI_DMA_Lab/AXI_DMA_Lab.sdk/design_1_wrapper_hw_platform_1/design_1_wrapper.bit -out D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/CSL/HF/Lab/AXI_DMA_Lab/AXI_DMA_Lab.sdk/design_1_wrapper_hw_platform_1/download.bit -force
+# Log file: D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/CSL/HF/Lab/AXI_DMA_Lab/updatemem.log
+# Journal file: D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/CSL/HF/Lab/AXI_DMA_Lab\updatemem.jou
+#-----------------------------------------------------------
+source G:/Programok/Vivado2018.2/SDK/2018.2/scripts/updatemem/main.tcl -notrace
+ Loading bitfile D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/CSL/HF/Lab/AXI_DMA_Lab/AXI_DMA_Lab.sdk/design_1_wrapper_hw_platform_1/design_1_wrapper.bit
+Loading data files...
+Updating memory content...
+Creating bitstream...
+Writing bitstream D:/D_Strabi/D_Dokumentumai/BME/MikrorendszerekTevezese/HF/CSL/HF/Lab/AXI_DMA_Lab/AXI_DMA_Lab.sdk/design_1_wrapper_hw_platform_1/download.bit...
+  update_mem: Time (s): cpu = 00:00:36 ; elapsed = 00:00:40 . Memory (MB): peak = 518.340 ; gain = 457.359
+INFO: [Common 17-206] Exiting updatemem at Fri Dec  7 18:05:52 2018...

@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Sun Nov 25 16:54:06 2018
+# Process ID: 4420
+# Current directory: C:/Egyetem/MSc/2. félév/Mikrorendszerek/HF/Lab/AXI_DMA_Lab
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5660 C:\Egyetem\MSc\2. félév\Mikrorendszerek\HF\Lab\AXI_DMA_Lab\AXI_DMA_Lab.xpr
+# Log file: C:/Egyetem/MSc/2. félév/Mikrorendszerek/HF/Lab/AXI_DMA_Lab/vivado.log
+# Journal file: C:/Egyetem/MSc/2. félév/Mikrorendszerek/HF/Lab/AXI_DMA_Lab\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Egyetem/MSc/2. félév/Mikrorendszerek/HF/Lab/AXI_DMA_Lab/AXI_DMA_Lab.xpr}
+update_compile_order -fileset sources_1
+launch_sdk -workspace {C:/Egyetem/MSc/2. félév/Mikrorendszerek/HF/Lab/AXI_DMA_Lab/AXI_DMA_Lab.sdk} -hwspec {C:/Egyetem/MSc/2. félév/Mikrorendszerek/HF/Lab/AXI_DMA_Lab/AXI_DMA_Lab.sdk/design_1_wrapper.hdf}

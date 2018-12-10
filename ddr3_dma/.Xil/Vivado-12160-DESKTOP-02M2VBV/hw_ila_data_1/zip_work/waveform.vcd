@@ -1,0 +1,71 @@
+$date
+        2018-Dec-10 11:10:04
+$end
+$version
+        Vivado v2018.2 (64-bit)
+$end
+$timescale
+        1ps
+$end
+$scope module dut $end
+$var reg 2 " cpu_system_i/system_ila_0/inst/net_slot_0_axi_ar_cnt [1:0] $end
+$var reg 32 $ cpu_system_i/system_ila_0/inst/net_slot_0_axi_araddr [31:0] $end
+$var reg 2 D cpu_system_i/system_ila_0/inst/net_slot_0_axi_arburst [1:0] $end
+$var reg 4 F cpu_system_i/system_ila_0/inst/net_slot_0_axi_arcache [3:0] $end
+$var reg 8 J cpu_system_i/system_ila_0/inst/net_slot_0_axi_arlen [7:0] $end
+$var reg 3 R cpu_system_i/system_ila_0/inst/net_slot_0_axi_arprot [2:0] $end
+$var reg 3 U cpu_system_i/system_ila_0/inst/net_slot_0_axi_arsize [2:0] $end
+$var reg 2 X cpu_system_i/system_ila_0/inst/net_slot_0_axi_aw_cnt [1:0] $end
+$var reg 32 Z cpu_system_i/system_ila_0/inst/net_slot_0_axi_awaddr [31:0] $end
+$var reg 2 z cpu_system_i/system_ila_0/inst/net_slot_0_axi_awburst [1:0] $end
+$var reg 4 | cpu_system_i/system_ila_0/inst/net_slot_0_axi_awcache [3:0] $end
+$var reg 8 "" cpu_system_i/system_ila_0/inst/net_slot_0_axi_awlen [7:0] $end
+$var reg 3 *" cpu_system_i/system_ila_0/inst/net_slot_0_axi_awprot [2:0] $end
+$var reg 3 -" cpu_system_i/system_ila_0/inst/net_slot_0_axi_awsize [2:0] $end
+$var reg 2 0" cpu_system_i/system_ila_0/inst/net_slot_0_axi_b_cnt [1:0] $end
+$var reg 2 2" cpu_system_i/system_ila_0/inst/net_slot_0_axi_bresp [1:0] $end
+$var reg 2 4" cpu_system_i/system_ila_0/inst/net_slot_0_axi_r_cnt [1:0] $end
+$var reg 32 6" cpu_system_i/system_ila_0/inst/net_slot_0_axi_rdata [31:0] $end
+$var reg 2 V" cpu_system_i/system_ila_0/inst/net_slot_0_axi_rresp [1:0] $end
+$var reg 32 X" cpu_system_i/system_ila_0/inst/net_slot_0_axi_wdata [31:0] $end
+$var reg 4 x" cpu_system_i/system_ila_0/inst/net_slot_0_axi_wstrb [3:0] $end
+$var reg 2 |" cpu_system_i/system_ila_0/inst/net_slot_0_axi_aw_ctrl [1:0] $end
+$var reg 1 ~" cpu_system_i/system_ila_0/inst/net_slot_0_axi_awvalid $end
+$var reg 1 !# cpu_system_i/system_ila_0/inst/net_slot_0_axi_awready $end
+$var reg 3 "# cpu_system_i/system_ila_0/inst/net_slot_0_axi_w_ctrl [2:0] $end
+$var reg 1 %# cpu_system_i/system_ila_0/inst/net_slot_0_axi_wvalid $end
+$var reg 1 &# cpu_system_i/system_ila_0/inst/net_slot_0_axi_wready $end
+$var reg 1 '# cpu_system_i/system_ila_0/inst/net_slot_0_axi_wlast $end
+$var reg 2 (# cpu_system_i/system_ila_0/inst/net_slot_0_axi_b_ctrl [1:0] $end
+$var reg 1 *# cpu_system_i/system_ila_0/inst/net_slot_0_axi_bvalid $end
+$var reg 1 +# cpu_system_i/system_ila_0/inst/net_slot_0_axi_bready $end
+$var reg 2 ,# cpu_system_i/system_ila_0/inst/net_slot_0_axi_ar_ctrl [1:0] $end
+$var reg 1 .# cpu_system_i/system_ila_0/inst/net_slot_0_axi_arvalid $end
+$var reg 1 /# cpu_system_i/system_ila_0/inst/net_slot_0_axi_arready $end
+$var reg 3 0# cpu_system_i/system_ila_0/inst/net_slot_0_axi_r_ctrl [2:0] $end
+$var reg 1 3# cpu_system_i/system_ila_0/inst/net_slot_0_axi_rvalid $end
+$var reg 1 4# cpu_system_i/system_ila_0/inst/net_slot_0_axi_rready $end
+$var reg 1 5# cpu_system_i/system_ila_0/inst/net_slot_0_axi_rlast $end
+$var reg 32 6# cpu_system_i/system_ila_0/inst/net_slot_1_axis_tdata [31:0] $end
+$var reg 4 V# cpu_system_i/system_ila_0/inst/net_slot_1_axis_tkeep [3:0] $end
+$var reg 1 Z# cpu_system_i/system_ila_0/inst/net_slot_1_axis_tvalid $end
+$var reg 1 [# cpu_system_i/system_ila_0/inst/net_slot_1_axis_tready $end
+$var reg 1 \# cpu_system_i/system_ila_0/inst/net_slot_1_axis_tlast $end
+$var reg 32 ]# cpu_system_i/system_ila_0/inst/net_slot_2_axis_tdata [31:0] $end
+$var reg 4 }# cpu_system_i/system_ila_0/inst/net_slot_2_axis_tkeep [3:0] $end
+$var reg 1 #$ cpu_system_i/system_ila_0/inst/net_slot_2_axis_tvalid $end
+$var reg 1 $$ cpu_system_i/system_ila_0/inst/net_slot_2_axis_tready $end
+$var reg 1 %$ cpu_system_i/system_ila_0/inst/net_slot_2_axis_tlast $end
+$var reg 3 &$ AR_Channel__i1_s0___axi_dma_0_M_AXI_ [2:0] $end
+$var reg 3 )$ AW_Channel__i1_s0___axi_dma_0_M_AXI_ [2:0] $end
+$var reg 3 ,$ B_Channel__i1_s0___axi_dma_0_M_AXI_ [2:0] $end
+$var reg 3 /$ Interface__i1_s0___axi_dma_0_M_AXI_ [2:0] $end
+$var reg 3 2$ Interface__i1_s1___axi_dma_0_M_AXIS_MM2S_ [2:0] $end
+$var reg 3 5$ R_Channel__i1_s0___axi_dma_0_M_AXI_ [2:0] $end
+$var reg 3 8$ T_Channel__i1_s1___axi_dma_0_M_AXIS_MM2S_ [2:0] $end
+$var reg 3 ;$ W_Channel__i1_s0___axi_dma_0_M_AXI_ [2:0] $end
+$var reg 1 >$ _TRIGGER $end
+$var reg 1 ?$ _WINDOW $end
+$var reg 1 @$ _GAP $end
+$upscope $end
+$enddefinitions $end

@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Sun Nov 25 20:39:28 2018
+# Process ID: 8724
+# Current directory: C:/Egyetem/MSc/2. félév/Mikrorendszerek/HF/Lab/AXI_DMA_Lab
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10588 C:\Egyetem\MSc\2. félév\Mikrorendszerek\HF\Lab\AXI_DMA_Lab\AXI_DMA_Lab.xpr
+# Log file: C:/Egyetem/MSc/2. félév/Mikrorendszerek/HF/Lab/AXI_DMA_Lab/vivado.log
+# Journal file: C:/Egyetem/MSc/2. félév/Mikrorendszerek/HF/Lab/AXI_DMA_Lab\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Egyetem/MSc/2. félév/Mikrorendszerek/HF/Lab/AXI_DMA_Lab/AXI_DMA_Lab.xpr}
+update_compile_order -fileset sources_1
+open_bd_design {C:/Egyetem/MSc/2. félév/Mikrorendszerek/HF/Lab/AXI_DMA_Lab/AXI_DMA_Lab.srcs/sources_1/bd/design_1/design_1.bd}
+update_compile_order -fileset sources_1
+ipx::edit_ip_in_project -upgrade true -name SevenSegmentDriver_v1_0_project -directory {C:/Egyetem/MSc/2.\ flv/Mikrorendszerek/HF/Lab/AXI_DMA_Lab/AXI_DMA_Lab.tmp/SevenSegmentDriver_v1_0_project} {c:/Egyetem/MSc/2. fÃ©lÃ©v/Mikrorendszerek/HF/Lab/ip_repo/SevenSegmentDriver_1.0/component.xml}
+ipx::unload_core {c:/Egyetem/MSc/2. félév/Mikrorendszerek/HF/Lab/ip_repo/SevenSegmentDriver_1.0/component.xml}
+close_project
